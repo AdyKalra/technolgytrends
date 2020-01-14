@@ -75,4 +75,4 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
-
+- [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/13_Micro%20Frontends.md)
