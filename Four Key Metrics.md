@@ -2,7 +2,7 @@
 
 Indeed, we've found that these four key metrics are a simple and yet powerful tool to help leaders and teams focus on measuring and improving what matters. A good place to start is to instrument the build pipelines so you can capture the four key metrics and make the software delivery value stream visible.
 
-``` [GoCD pipelines](https://www.gocd.org/)```, for example, provide the ability to measure these four key metrics as a first-class citizen of the``` [GoCD analytics.](https://www.gocd.org/analytics.html)
+[GoCD pipelines](https://www.gocd.org/), for example, provide the ability to measure these four key metrics as a first-class citizen of the``` [GoCD analytics.](https://www.gocd.org/analytics.html)
 
 The State of DevOps report, first published in 2014, states that high-performing teams create high-performing organizations. Recently, the team behind the report released Accelerate, which describes the scientific method they've used in the report. 
 
