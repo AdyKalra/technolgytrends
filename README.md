@@ -73,7 +73,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 
 
-
+- [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/13_Micro%20Frontends.md)
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/15_Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
