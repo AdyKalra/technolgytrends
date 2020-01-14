@@ -72,5 +72,5 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 
 
-### The Four Quadrants 
+- [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
 
