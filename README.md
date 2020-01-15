@@ -70,7 +70,12 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
   </a>
 </div>
 
-
+### [Trends](#trends-1)
+|     |     |     |     |     |     |     |     |     |
+|:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
+| [#](#-trends) 	| [A](#a-trends) 	| [B](#b-trends) 	| [C](#c-trends) 	| [D](#d-trends) 	| [E](#e-trends) 	| [F](#f-trends) 	| [G](#g-trends) 	| [H](#h-trends) 	|
+| [I](#i-trends) 	| [J](#j-trends) 	| [K](#k-trends) 	| [L](#l-trends) 	| [M](#m-trends) 	| [N](#n-trends) 	| [O](#o-trends) 	| [P](#p-trends) 	| [Q](#q-trends) 	|
+| [R](#r-trends) 	| [S](#s-trends) 	| [T](#t-trends) 	| [U](#u-trends) 	| [V](#v-trends) 	| [W](#w-trends) 	| [X](#x-trends) 	| [Y](#y-trends) 	| [Z](#z-trends)  	|
 
 
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
