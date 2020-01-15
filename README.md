@@ -78,8 +78,84 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 | [R](#r-trends) 	| [S](#s-trends) 	| [T](#t-trends) 	| [U](#u-trends) 	| [V](#v-trends) 	| [W](#w-trends) 	| [X](#x-trends) 	| [Y](#y-trends) 	| [Z](#z-trends)  	|
 
 
+#### A trends
+
+
+#### B trends
+
+
+#### C trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
+
+
+#### D trends
+
+
+#### E trends
+
+
+#### F trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
+
+
+#### G trends
+
+
+#### H trends
+
+
+#### I trends
+
+
+#### J trends
+
+
+#### K trends
+
+
+#### L trends
+
+
+#### M trends
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/13_Micro%20Frontends.md)
+
+
+#### N trends
+
+
+#### O trends
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/15_Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
+
+
+#### P trends
+
+
+#### Q trends
+
+
+#### R trends
+
+
+#### S trends
 - [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/19_Secrets%20as%20a%20service.md)
+
+
+#### T trends
+
+
+#### U trends
+
+
+#### V trends
+
+
+#### W trends
+
+
+#### X trends
+
+
+#### Y trends
+
+
+  #### Z trends
