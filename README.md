@@ -115,7 +115,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 
 #### L trends
-
+- [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/12_LocalStack.md)
 
 #### M trends
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/13_Micro%20Frontends.md)
