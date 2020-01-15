@@ -138,7 +138,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 #### S trends
 - [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/19_Secrets%20as%20a%20service.md)
-
+- [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/19_Service%20mesh.md)
 
 #### T trends
 
