@@ -109,7 +109,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/09_Infrastructure%20configuration%20scanner.md)
 
 #### J trends
-
+- [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/10_Jupyter.md)
 
 #### K trends
 
