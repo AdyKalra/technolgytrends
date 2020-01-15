@@ -105,7 +105,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 
 #### I trends
-
+- [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/09_Infrastructure%20configuration%20scanner.md)
 
 #### J trends
 
