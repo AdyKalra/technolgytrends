@@ -87,6 +87,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 #### C trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
 - [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/03_Crypto%20shredding.md)
+- [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/03_Cypress.md)
 
 #### D trends
 
