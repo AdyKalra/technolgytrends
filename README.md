@@ -71,14 +71,16 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 </div>
 
 ### [Trends](#trends-1)
-|     |     |     |     |     |     |     |     |     |
-|:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
+|     |     |     |   
+|:-:  |:-:  |:-:  |
 | [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [EngineeringPractices](#EngineeringPractices-trends) |
 | [Development](#Development-trends) 	| [Testing](#c-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
 | [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	| 
 
 
 #### Architecture trends
+
+#### EngineeringPractices trends
 
 
 #### Development trends
