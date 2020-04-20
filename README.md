@@ -79,13 +79,14 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 
 #### Architecture trends
+- [Microservices Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Microservice%20Architecture.md)
+- [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/Micro%20Frontends.md)
 
 #### EngineeringPractices trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
 
 #### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/Jupyter.md)
-- [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/Micro%20Frontends.md)
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
 
 #### Testing trends
