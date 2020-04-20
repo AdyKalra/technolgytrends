@@ -3,3 +3,5 @@
   * Loosely coupled. 
   * Independently deployable. 
   * Organized around business capabilities.
+
+* https://microservices.io/patterns/microservices.html
