@@ -81,46 +81,24 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 #### Architecture trends
 
 #### EngineeringPractices trends
-
-
-#### Development trends
-
-
-#### Testing trends
-- [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
-- [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/03_Crypto%20shredding.md)
-- [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/03_Cypress.md)
-
-#### NonFunctional trends
-
-
-#### CloudPlatform trends
-
-
-#### PostProduction trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
 
-
-
-
-
-
-- [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/09_Infrastructure%20configuration%20scanner.md)
-
-
+#### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/10_Jupyter.md)
-
-
-- [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/12_LocalStack.md)
-
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/13_Micro%20Frontends.md)
-
-
-
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/15_Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
 
+#### Testing trends
+- [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/03_Cypress.md)
+- [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/12_LocalStack.md)
 
+#### NonFunctional trends
+- [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/03_Crypto%20shredding.md)
+
+#### CloudPlatform trends
+- [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/09_Infrastructure%20configuration%20scanner.md)
 - [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/19_Secrets%20as%20a%20service.md)
 - [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/19_Service%20mesh.md)
 
-
+#### PostProduction trends
+- [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
