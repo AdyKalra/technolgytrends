@@ -73,90 +73,52 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 ### [Trends](#trends-1)
 |     |     |     |     |     |     |     |     |     |
 |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
-| [#](#-trends) 	| [A](#a-trends) 	| [B](#b-trends) 	| [C](#c-trends) 	| [D](#d-trends) 	| [E](#e-trends) 	| [F](#f-trends) 	| [G](#g-trends) 	| [H](#h-trends) 	|
-| [I](#i-trends) 	| [J](#j-trends) 	| [K](#k-trends) 	| [L](#l-trends) 	| [M](#m-trends) 	| [N](#n-trends) 	| [O](#o-trends) 	| [P](#p-trends) 	| [Q](#q-trends) 	|
-| [R](#r-trends) 	| [S](#s-trends) 	| [T](#t-trends) 	| [U](#u-trends) 	| [V](#v-trends) 	| [W](#w-trends) 	| [X](#x-trends) 	| [Y](#y-trends) 	| [Z](#z-trends)  	|
+| [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [EngineeringPractices](#EngineeringPractices-trends) |
+| [Development](#Development-trends) 	| [Testing](#c-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
+| [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	| 
 
 
-#### A trends
+#### Architecture trends
 
 
-#### B trends
+#### Development trends
 
 
-#### C trends
+#### Testing trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/03_Chaos%20Engineering.md)
 - [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/03_Crypto%20shredding.md)
 - [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/03_Cypress.md)
 
-#### D trends
+#### NonFunctional trends
 
 
-#### E trends
+#### CloudPlatform trends
 
 
-#### F trends
+#### PostProduction trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
 
 
-#### G trends
 
 
-#### H trends
 
 
-#### I trends
 - [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/09_Infrastructure%20configuration%20scanner.md)
 
-#### J trends
+
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/10_Jupyter.md)
 
-#### K trends
 
-
-#### L trends
 - [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/12_LocalStack.md)
 
-#### M trends
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/13_Micro%20Frontends.md)
 
 
-#### N trends
 
-
-#### O trends
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/15_Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
 
 
-#### P trends
-
-
-#### Q trends
-
-
-#### R trends
-
-
-#### S trends
 - [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/19_Secrets%20as%20a%20service.md)
 - [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/19_Service%20mesh.md)
 
-#### T trends
 
-
-#### U trends
-
-
-#### V trends
-
-
-#### W trends
-
-
-#### X trends
-
-
-#### Y trends
-
-
-  #### Z trends
