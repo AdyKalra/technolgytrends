@@ -9,3 +9,9 @@
 * When you can lose messages in Kafka. Kafka is speedy and fault-tolerant distributed streaming platform. However, there are some situations when messages can disappear. It can happen due to misconfiguration or misunderstanding Kafka's internals.
 * What happens when a Kafka broker goes down?
 Kafka does not create a new replica when a broker goes down. ... If the offline broker was a follower, it will be marked a out of sync by the leader. When restarting the broker, it will try to get back in sync. Once done, whether it stays a follower or becomes the leader depends if it is the prefered replica.
+* There are four major APIs in Kafka, namely:
+  * The **Producer API**: sends streams of data to topics in the Kafka cluster
+  * The **Consumer API**: reads streams of data from topics in the Kafka cluster
+  * The **Streams API**: transforms streams of data from input topics to output topics
+  * The **Connect API**: implements connectors that consistently pulls from some source system or app into Kafka or push from Kafka into others
+  ![Kafka Brokers](https://www.softkraft.co/uploads/apache-kafka-architecture.png)
