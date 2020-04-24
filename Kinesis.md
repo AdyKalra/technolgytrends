@@ -1,0 +1,3 @@
+* **Amazon Kinesis** is a managed, scalable, cloud-based service that allows real-time processing of streaming large amount of data per second. ... It is used to capture, store, and process data from large, distributed streams such as event logs and social media feeds.
+* **Kinesis Analytics allows you to perform SQL like queries on data. Kafka Streaming allows you to perform functional aggregations and mutations.** Kafka is more flexible than Kinesis but you have to manage your own clusters, and requires some dedicated DevOps resources to keep it going
+![Kinesis Architecture](https://www.softkraft.co/uploads/aws-kinesis-architecture.png)
