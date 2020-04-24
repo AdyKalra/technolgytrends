@@ -89,6 +89,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 #### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/Jupyter.md)
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
+- [Kafka](https://github.com/AdyKalra/technolgytrends/blob/master/Kafka.md)
+- [Kinesis](https://github.com/AdyKalra/technolgytrends/blob/master/Kinesis.md)
 
 #### Testing trends
 - [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
