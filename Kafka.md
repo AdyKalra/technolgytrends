@@ -2,6 +2,9 @@
 * Kafka is used for fault tolerant storage. 
 * Kafka replicates topic log partitions to multiple servers. 
 * Kafka is designed to allow your apps to process records as they occur
+
+* Kafka offers much higher performance than message brokers like **RabbitMQ**. It uses sequential disk I/O to boost performance, making it a suitable option for implementing queues. It can achieve high throughput (millions of messages per second) with limited resources, a necessity for big data use cases.
+
 * Kafka itself is completely free and open source. Confluent is the for profit company by the creators of Kafka.
 * Netflix embraces Apache Kafka® as the de-facto standard for its eventing, messaging, and stream processing needs. ... It provides us with the high durability and linearly scalable, multi-tenant architecture required for operating systems at Netflix.
 * **topics in Kafka are retention based**: messages are retained for some configurable amount of time. ... It's worth noting that this is an **asynchronous process**, so a compacted topic may contain some superseded messages, which are waiting to be compacted away. Compacted topics let us make a couple of optimisations.
