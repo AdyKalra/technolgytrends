@@ -92,6 +92,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Kafka](https://github.com/AdyKalra/technolgytrends/blob/master/Kafka.md)
 - [Kinesis](https://github.com/AdyKalra/technolgytrends/blob/master/Kinesis.md)
 - [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
+- [GraphQL](https://github.com/AdyKalra/technolgytrends/blob/master/GraphQL.md)
+- [Contentful](https://github.com/AdyKalra/technolgytrends/blob/master/Contentful.md)
 
 #### Testing trends
 - [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
