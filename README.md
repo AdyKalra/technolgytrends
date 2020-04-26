@@ -95,7 +95,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [GraphQL](https://github.com/AdyKalra/technolgytrends/blob/master/GraphQL.md)
 - [Contentful](https://github.com/AdyKalra/technolgytrends/blob/master/Contentful.md)
 - [Redis MongoDB Postgres](https://github.com/AdyKalra/technolgytrends/blob/master/Redis%20MongoDB%20Postgres.md)
-- [Kibana]()
+- [Kibana Logstash](https://github.com/AdyKalra/technolgytrends/blob/master/Kibana%20Logstash.md)
 
 #### Testing trends
 - [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
