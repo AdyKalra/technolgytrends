@@ -91,7 +91,6 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
 - [Kafka](https://github.com/AdyKalra/technolgytrends/blob/master/Kafka.md)
 - [Kinesis](https://github.com/AdyKalra/technolgytrends/blob/master/Kinesis.md)
-- [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
 - [GraphQL](https://github.com/AdyKalra/technolgytrends/blob/master/GraphQL.md)
 - [Contentful](https://github.com/AdyKalra/technolgytrends/blob/master/Contentful.md)
 - [Redis MongoDB Postgres](https://github.com/AdyKalra/technolgytrends/blob/master/Redis%20MongoDB%20Postgres.md)
@@ -109,6 +108,9 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/Infrastructure%20configuration%20scanner.md)
 - [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/Secrets%20as%20a%20service.md)
 - [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/Service%20mesh.md)
+- [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/Nginx.md)
+- [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
+
 
 #### PostProduction trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/Chaos%20Engineering.md)
