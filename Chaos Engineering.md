@@ -9,3 +9,6 @@ The approach is definitely not for everyone, and to be effective and safe, it re
 **Chaos Katas** ```is a technique that our teams have developed to train and upskill infrastructure and platform engineers. It combines Chaos Engineering techniques—that is, creating failures and outages in a controlled environment—with the systematic teaching and training approach of Kata.```
 
 Here, [Kata](https://en.wikipedia.org/wiki/Kata) refers to code patterns that trigger controlled failures, allowing engineers to discover the problem, recover from the failure, run postmortem and find the root cause. Repeated execution of Katas helps engineers to internalize their new skills.
+![Experiment](https://miro.medium.com/max/5460/1*wdrHw9NmGHE38TkaeiOMJw.png)
+
+![break it to make it better](https://slideplayer.com/slide/13619930/83/images/87/Chaos+Engineering+Team.jpg)
