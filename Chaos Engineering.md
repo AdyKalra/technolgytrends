@@ -1,3 +1,5 @@
+**creating failures and outages in a controlled environment**
+
 ## Chaos Engineering
 ```accepted, mainstream approach to improving and assuring distributed system resilience. As organizations large and small begin to implement Chaos Engineering as an operational process, we're learning how to apply these techniques safely at scale.``` 
 
