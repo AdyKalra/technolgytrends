@@ -110,6 +110,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/Service%20mesh.md)
 - [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/Nginx.md)
 - [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
+- [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20-%20Why.md)
 
 
 #### PostProduction trends
