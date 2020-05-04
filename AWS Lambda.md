@@ -13,6 +13,8 @@
   
 ![How it works](https://d1.awsstatic.com/product-marketing/Lambda/Diagrams/product-page-diagram_Lambda-HowItWorks.68a0bcacfcf46fccf04b97f16b686ea44494303f.png)
 
+![UC](https://d1.awsstatic.com/product-marketing/Lambda/Diagrams/product-page-diagram_Lambda-WebApplications%202.c7f8cf38e12cb1daae9965ca048e10d676094dc1.png)
+
 ![Lambda Use case](https://d1.awsstatic.com/product-marketing/Lambda/Diagrams/product-page-diagram_Lambda-IoTBackends.3440c7f50a9b73e6a084a242d44009dc0fbe5fab.png)
 
 ![Lambda working](https://image.slidesharecdn.com/awslambda-event-drivencodeinthecloud-tew-150618172126-lva1-app6891/95/a-walk-in-the-cloud-with-aws-lambda-10-638.jpg?cb=1434648341)
