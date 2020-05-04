@@ -98,6 +98,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Splunk](https://github.com/AdyKalra/technolgytrends/blob/master/Splunk.md)
 - [AWS Lambda](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20Lambda.md)
 - [AWS SQS and SNS](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20SQS%20and%20SNS.md)
+- [AWS Cloudformation](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20Cloudformation.md)
 
 #### Testing trends
 - [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
