@@ -109,6 +109,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/Infrastructure%20configuration%20scanner.md)
 - [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/Secrets%20as%20a%20service.md)
 - [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/Service%20mesh.md)
+- [API Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20API%20Gateway.md)
 - [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/Nginx.md)
 - [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
 - [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20-%20Why.md)
