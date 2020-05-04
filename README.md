@@ -115,6 +115,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/Nginx.md)
 - [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
 - [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20-%20Why.md)
+- [AWS SAM](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20SAM.md)
 
 
 #### PostProduction trends
