@@ -103,7 +103,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [ReactJS](https://github.com/AdyKalra/technolgytrends/blob/master/ReactJS.md)
 
 #### Testing trends
-- [Cypress](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
+- [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
 - [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/LocalStack.md)
 
 #### NonFunctional trends
