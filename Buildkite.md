@@ -1,0 +1,3 @@
+* **Buildkite is a platform for running fast, secure, and scalable continuous integration pipelines on your own infrastructure**
+* The buildkite agent is a small, reliable and cross-platform build runner that makes it easy to **run automated builds on your own infrastructure.** Its main responsibilities are polling buildkite.com for work, running build jobs, reporting back the status code and output log of the job, and uploading the job's artifacts.
+* In a nutshell **Jenkins CI is the leading open-source continuous integration server. Built with Java, it provides over 300 plugins to support building and testing virtually any project.** Buildkite and Jenkins can be primarily classified as "Continuous Integration" tools.
