@@ -1,0 +1,6 @@
+* Node. js is a **platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications.** Node. js uses an **event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.**
+* Node. js is a runtime environment, which let users choose how to use, whether frontend or backend, and one common language can be used as backend and front end. ... so you can even use it as front –end environment, which will enhance development of software. .**In short, it can be used for both!.**
+* Java uses the concept of multithreading with ease whereas Node JS does not use the concept of multi-threading like Java does. For large scale projects that involved concurrency, Java is highly recommended whereas Node JS does not handle the thread as well as Java does, which is the weakest point of this framework.
+* **Not Suitable for Heavy-Computing Apps** Node. js doesn't support multi-threaded programming yet. It is able to serve way more complicated applications than Ruby, but it's not suitable for performing long-running calculations. Heavy computations block the incoming requests, which can lead to decrease of performance .
+
+![nodejs](https://i.stack.imgur.com/QRePV.jpg)
