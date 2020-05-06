@@ -82,6 +82,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Microservices Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Microservice%20Architecture.md)
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/Micro%20Frontends.md)
 - [Decompose by business capability](https://github.com/AdyKalra/technolgytrends/blob/master/Pattern%20:%20Decompose%20by%20business%20capability.md)
+- [Backend for Frontend](https://github.com/AdyKalra/technolgytrends/blob/master/BFF.md)
 
 #### EngineeringPractices trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/Four%20Key%20Metrics.md)
