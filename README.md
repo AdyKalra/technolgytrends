@@ -101,6 +101,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [AWS Cloudformation](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20Cloudformation.md)
 - [NodeJS](https://github.com/AdyKalra/technolgytrends/blob/master/NodeJs.md)
 - [ReactJS](https://github.com/AdyKalra/technolgytrends/blob/master/ReactJS.md)
+- [DynamoDB and DDB Streams](https://github.com/AdyKalra/technolgytrends/blob/master/Dynamodb%20and%20Dynamodb%20streams.md)
 
 #### Testing trends
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
