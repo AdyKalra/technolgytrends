@@ -111,39 +111,66 @@ This is a **non-blocking request**. A service can invoke (or trigger) another se
 ![Router](https://www.jeremydaly.com/wp-content/uploads/2018/08/router-1200x469.png)
 
 ## The Robust API
-*
+* The Router pattern works great when clients don’t know how to split the requests across separate endpoints. 
+* However, often the client will know how to do this, like in the case of a REST API. Using API Gateway, and its ability to route requests based on methods and endpoints, we can let the client decide which “backend” service it wants to interact with. The example below uses a synchronous request from a client, but this would be just as effective for asynchronous requests as well.
+* While this is somewhat similar to the Simple Web Service pattern, I consider this the Robust API pattern since we are adding more complexity by interacting with additional services within our overall application. It’s possible, as illustrated below, that several functions may share the same datasource, functions could make asynchronous calls to other services, and functions could make synchronous calls to other services or external APIs and require a response. Also important to note, if we build services using the Internal API pattern, we can frontend them using API Gateway if we ever want to expose them to the public.
 
-![Robust API]()
+![Robust API](https://www.jeremydaly.com/wp-content/uploads/2018/08/robust-api-1200x386.png)
 
 ## The Frugal Consumer
-*
+* SQS triggers for Lambda functions now work correctly with throttling, so it is no longer necessary to manage your own redrive policy.
 
-![Frugal Consumer]()
+![Frugal Consumer](https://www.jeremydaly.com/wp-content/uploads/2018/08/frugal-consumer-1200x333.png)
 
 ## The Read Heavy Reporting Engine
-*
+* **Just as there are limitations getting data IN to a “less-scalable” service like RDS, there can be limitations to getting data OUT as well.** 
+* Amazon has done some pretty amazing stuff in this space with **Aurora Read Replicas and Aurora Serverless**, but unfortunately, hitting the max_connections limit is still very possible, especially with applications with heavy READ requirements. 
+* **Caching is a tried and true strategy for mitigating READS** 
+* The example below throws an Elasticache cluster (which can handle tens of thousands of connections) in front of our RDS cluster. Key points here are to make sure that TTLs are set appropriately, cache-invalidation is included (maybe as a subscription to another service), and new RDS connections are ONLY made if the data isn’t cached.
 
-![Read Heavy Reporting Engine]()
+**NOTE: Elasticache doesn’t talk directly to RDS, I was simply trying to make the caching layer clear. The Lambda function would technically need to communicate with both services.
+
+![Read Heavy Reporting Engine](https://www.jeremydaly.com/wp-content/uploads/2018/08/read-heavy-reporting-engine-1200x178.png)
 
 ## The Fan-Out/Fan-In
-*
+* This is another great pattern, **especially for batch jobs.** 
+* Lambda functions are limited to 15 minutes of total execution time, so large ETL tasks and other time intensive processes can easily exceed this limitation. 
+ * To get around this limitation, we can use a single Lambda function to split up our big job into a series of smaller jobs. 
+ * This can be accomplished by invoking a **Lambda “Worker”** for each smaller job using the Event type to disconnect the calling function. **This is known as “fan-out” since we are distributing the workload.**
 
-![Fan-Out/Fan-In]()
+* In some cases, fanning-out our job may be all we need to do. However, sometimes we need to **aggregate the results of these smaller jobs.** Since the Lambda Workers are all detached from our original invocation, we will have to **“fan-in” our results to a common repository.** This is actually easier than it sounds. Each worker simply needs to write to a DynamoDB table with the main job identifier, their subtask identifier, and the results of their work. Alternatively, each job could write to the same job folder in S3 and the data could be aggregated from there. Don’t forget your Lambda DLQs to catch those failed invocations.
+
+![Fan-Out/Fan-In](https://www.jeremydaly.com/wp-content/uploads/2018/08/fan-out-fan-in-1200x483.png)
 
 ## The Eventually Consistent
-*
+* Microservice rely on the concept of **“eventual consistency”** in order to replicate data across other services. **The small delay is often imperceptible to end users since replication typically happens very quickly.** 
+ * Think about when you change your Twitter profile picture and it take a few seconds for it to update in the header. The data needs to be replicated and the cache needs to be cleared. **Using the same data for different purposes in microservices often means we have to store the same data more than once.**
+* In the example below, we are persisting data to a DynamoDB table by calling some endpoint routed to a Lambda function by our API Gateway. For our frontend API purposes, a NoSQL solution works just fine. 
+* However, we also want to use a copy of that data with our reporting system and we’ll need to do some joins, making a relational database the better choice. We can set up **another Lambda function that subscribes to the DynamoDB table’s Stream which will trigger events whenever data is added or changed.**
 
-![Eventually Consistent]()
+* **DynamoDB streams work like Kinesis, so batches will be retried over and over again (and stay in order).** This means we can throttle our Lambda function to make sure we don’t overwhelm our RDS instance. Make sure you manage your own DLQ to store invalid updates, and be sure to include a last_updated field with every record change. You can use that to limit your SQL query and ensure that you have the latest version.
+
+![Eventually Consistent](https://www.jeremydaly.com/wp-content/uploads/2018/08/eventually-consistent-1200x346.png)
 
 ## The Distributed Trigger
-*
+* The **standalone SNS topic (aka The Notifier pattern)** that I mentioned before is extremely powerful given its ability to serve so many masters. 
+* However, coupling an SNS topic directly to a microservice has its benefits too. If the topic truly has a single purpose, and only needs to receive messages from within its own microservice, the Distributed Trigger pattern outlined below works really well.
 
-![Distributed Trigger]()
+* We’re using CloudWatch Logs as an example here, but it technically could use any event type that was supported. Events trigger our Lambda function (which has our attached DLQ), and then sends the event to an SNS topic. In the diagram below, I show three microservices with SQS buffers being notified. However, the subscriptions to the SNS topic would be the responsibility of the individual microservices.
+
+![Distributed Trigger](https://www.jeremydaly.com/wp-content/uploads/2018/08/distributed-trigger-1200x457.png)
 
 ## The Circuit Breaker
-*
+* If you are using a number of third-party APIs within serverless applications. The Circuit Breaker pattern keeps track of the number of failed (or slow) API calls made using some sort of a state machine. 
+* For our purposes, we’re using an Elasticache cluster to persist the information (but DynamoDB could also be used if you wanted to avoid VPCs).
+* Here’s how it works. **When the number of failures reaches a certain threshold, we “open” the circuit and send errors back to the calling client immediately without even trying to call the API. 
+* **After a short timeout, we “half open” the circuit, sending just a few requests through to see if the API is finally responding correctly. All other requests receive an error. 
+ * If the sample requests are successful, we “close” the circuit and start letting all traffic through. 
+ * However, if some or all of those requests fail, the circuit is opened again, and the process repeats with some algorithm for increasing the timeout between “half open” retry attempts.
 
-![Circuit Breaker]()
+* This is an incredibly powerful (and cost saving) pattern for any type of synchronous request. You are accumulating charges whenever a Lambda function is running and waiting for another task to complete. Allowing your systems to self-identify issues like this, provide incremental backoff, and then self-heal when the service comes back online makes you feel like a superhero!
+
+![Circuit Breaker](https://www.jeremydaly.com/wp-content/uploads/2018/09/the-circuit-breaker-1200x324.png)
 
 ## 
 *
