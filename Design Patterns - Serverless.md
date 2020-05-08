@@ -94,14 +94,21 @@ This is a **non-blocking request**. A service can invoke (or trigger) another se
 ![Strangler](https://www.jeremydaly.com/wp-content/uploads/2018/08/strangler-1200x303.png)
 
 ## The State Machine
-*
+* It is often the case that Serverless architectures will need to provide some sort of **orchestration.**
+ * AWS **Step Functions are, without a doubt, the best way to handle orchestration within your AWS serverless applications.** 
+ * State Machines are great for coordinating several tasks and ensuring that they properly complete by implementing retries, wait timers, and rollbacks. 
+ * However, they are **exclusively asynchronous**, which means you can’t wait for the result of a Step Function and then respond back to a synchronous request.
+ * AWS advocates using Step Functions for orchestrating entire workflows, i.e. coordinating multiple microservices. I think this works for certain asynchronous patterns, but it will definitely not work for services that need to provide a synchronous response to clients. I personally like to encapsulate step functions within a microservice, reducing code complexity and adding resiliency, but still keeping my services decoupled.
 
-![State Machine]()
+![State Machine](https://www.jeremydaly.com/wp-content/uploads/2018/08/state-machine-1200x391.png)
 
 ## The Router
-*
+* The State Machine pattern is powerful because it provides us with simple tools to manage complexity, parallelism, error handling and more. However, Step Functions are not free and you’re likely to rack up some huge bills if you use them for everything.
+* **For less complex orchestrations where we’re less concerned about state transitions**, we can handle them using the Router pattern.
+ * In the example below, an asynchronous call to a Lambda function is determining which task type should be used to process the request. **This is essentially a glorified switch statement**, but it could also add some additional context and data enrichment if need be. 
+ * Note that the main Lambda function is only invoking one of the three possible tasks here. As I mentioned before, asynchronous Lambdas should have a DLQ to catch failed invocations for replays, including the three “Task Type” Lambdas below. The tasks then do their jobs (whatever that may be). Here we’re simply writing to DynamoDB tables.
 
-![Router]()
+![Router](https://www.jeremydaly.com/wp-content/uploads/2018/08/router-1200x469.png)
 
 ## The Robust API
 *
