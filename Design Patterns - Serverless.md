@@ -40,6 +40,31 @@ Microservices (especially serverless ones) should be completely independent and 
 * SQS triggers for Lambda functions now work correctly with throttling, so it is no longer necessary to manage your own redrive policy.
 ![Scalable Webhook](https://www.jeremydaly.com/wp-content/uploads/2018/08/scalable-webhook-1200x416.png)
 
+## The Big Fan
+* You can integrate API Gateway directly with SNS and then add some resiliency by integrating your event consumers via sqs and message filtering.
+
+![The Big Fan](https://github.com/cdk-patterns/serverless/raw/master/the-big-fan/img/the-big-fan-arch.png)
+
+## The Dynamo Streamer
+* You can integrate API Gateway directly with DynamoDB and that way your systems can be more resilient! "Code is a liability" so less lambda functions, less liability
+
+![The Dynamo Streamer](https://raw.githubusercontent.com/cdk-patterns/serverless/master/the-dynamo-streamer/img/arch.jpg)
+
+## The X-Ray Tracer
+* Learn about using AWS X-Ray for tracing events through your system. This pattern has X-Ray enabled on API Gateway, Lambda, DynamoDB, External HTTP calls, SNS and SQS
+
+![The X-Ray Tracer](https://github.com/cdk-patterns/serverless/raw/master/the-xray-tracer/img/arch_notitle.png)
+
+## The EventBridge Circuit Breaker
+* Integrate with unreliable external services? Build a circuit breaker and handle the risk
+
+![The EventBridge Circuit Breaker](https://github.com/cdk-patterns/serverless/raw/master/the-eventbridge-circuit-breaker/img/arch2.PNG)
+
+## The Saga Step Function
+* A mechanism for handling distributed transactions within your system.
+
+![The Saga Step Function](https://github.com/cdk-patterns/serverless/raw/master/the-saga-stepfunction/img/arch.png)
+
 ## The Gatekeeper
 * This is a variation on the Simple Web Service pattern. 
 * Using API Gateway’s **“Lambda Authorizers”**, you can connect a Lambda function that processes the Authorization header and returns an IAM policy. 
