@@ -163,8 +163,8 @@ Microservices (especially serverless ones) should be completely independent and 
 ## The Circuit Breaker
 * If you are using a number of third-party APIs within serverless applications. The Circuit Breaker pattern keeps track of the number of failed (or slow) API calls made using some sort of a state machine. 
 * For our purposes, we’re using an Elasticache cluster to persist the information (but DynamoDB could also be used if you wanted to avoid VPCs).
-* Here’s how it works. **When the number of failures reaches a certain threshold, we “open” the circuit and send errors back to the calling client immediately without even trying to call the API. 
-* **After a short timeout, we “half open” the circuit, sending just a few requests through to see if the API is finally responding correctly. All other requests receive an error. 
+* Here’s how it works. **When the number of failures reaches a certain threshold, we “open” the circuit and send errors back to the calling client immediately without even trying to call the API.**
+* **After a short timeout, we “half open” the circuit, sending just a few requests through to see if the API is finally responding correctly. All other requests receive an error.** 
  * If the sample requests are successful, we “close” the circuit and start letting all traffic through. 
  * However, if some or all of those requests fail, the circuit is opened again, and the process repeats with some algorithm for increasing the timeout between “half open” retry attempts.
 
