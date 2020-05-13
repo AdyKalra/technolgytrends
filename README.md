@@ -122,6 +122,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20-%20Why.md)
 - [AWS SAM](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20SAM.md)
 - [Buildkite](https://github.com/AdyKalra/technolgytrends/blob/master/Buildkite.md)
+- [Datadog](https://github.com/AdyKalra/technolgytrends/blob/master/Datadog.md)
 
 #### PostProduction trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/Chaos%20Engineering.md)
