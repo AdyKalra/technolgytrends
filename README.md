@@ -106,23 +106,23 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [DynamoDB and DDB Streams](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Dynamodb%20and%20Dynamodb%20streams.md)
 
 #### Testing trends
-- [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Cypress.md)
-- [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/LocalStack.md)
+- [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
+- [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/LocalStack.md)
 
 #### NonFunctional trends
-- [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/Crypto%20shredding.md)
+- [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/Crypto%20shredding.md)
 
 #### CloudPlatform trends
-- [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/Infrastructure%20configuration%20scanner.md)
-- [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/Secrets%20as%20a%20service.md)
-- [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/Service%20mesh.md)
-- [API Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20API%20Gateway.md)
-- [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/Nginx.md)
-- [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/k8s.md)
-- [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20-%20Why.md)
-- [AWS SAM](https://github.com/AdyKalra/technolgytrends/blob/master/AWS%20SAM.md)
-- [Buildkite](https://github.com/AdyKalra/technolgytrends/blob/master/Buildkite.md)
-- [Datadog](https://github.com/AdyKalra/technolgytrends/blob/master/Datadog.md)
+- [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20configuration%20scanner.md)
+- [Secrets as a service](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Secrets%20as%20a%20service.md)
+- [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Service%20mesh.md)
+- [API Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/AWS%20API%20Gateway.md)
+- [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Nginx.md)
+- [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/K8s.md)
+- [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/AWS%20-%20Why.md)
+- [AWS SAM](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/AWS%20SAM.md)
+- [Buildkite](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Buildkite.md)
+- [Datadog](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Datadog.md)
 
 #### PostProduction trends
-- [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/Chaos%20Engineering.md)
+- [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Chaos%20Engineering.md)
