@@ -82,7 +82,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Microservices Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Microservice%20Architecture.md)
 - [Micro Frontends](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Micro%20Frontends.md)
 - [Decompose by business capability](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Pattern%20:%20Decompose%20by%20business%20capability.md)
-- [Backend for Frontend](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/BFF.md)
+- [Backend for Frontend / BFF](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/BFF.md)
 - [Design Pattern - Serverless](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Patterns%20-%20Serverless.md)
 
 #### EngineeringPractices trends
