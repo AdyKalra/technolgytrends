@@ -21,4 +21,9 @@
 
 * By lifting those simple API calls (especially the read traffics) away from Lambda, we can reserve the precious Lambda concurrency to more complex tasks.
 
+### Can AWS API Gateway Act as a Load Balancer?
+* Yes and costs more
+* API Gateway can manage and balance out network traffic just as a Load Balancer, just in a different way. Instead of distributing requests evenly to a set of backend resources (e.g. a cluster of servers), an API Gateway can be configured to direct requests to specific resources based on the endpoints being requested.
+* It plays an important role in microservices architectures, for example. Multiple services can be connected to the Gateway and mapped to particular HTTP endpoint representations. The Gateway is responsible for routing each request, on-demand, to the appropriate backend service.
+
 ![API gateway](https://d1.awsstatic.com/serverless/New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d.png)
