@@ -104,6 +104,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [NodeJS](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/NodeJs.md)
 - [ReactJS](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/ReactJS.md)
 - [DynamoDB and DDB Streams](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Dynamodb%20and%20Dynamodb%20streams.md)
+- [EventBridge](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Eventbridge.md)
 
 #### Testing trends
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
