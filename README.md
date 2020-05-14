@@ -84,6 +84,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Decompose by business capability](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Pattern%20:%20Decompose%20by%20business%20capability.md)
 - [Backend for Frontend / BFF](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/BFF.md)
 - [Design Pattern - Serverless](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Patterns%20-%20Serverless.md)
+- [DLQ / Dead letter queue](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/DLQ.md)
 
 #### EngineeringPractices trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
