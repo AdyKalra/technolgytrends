@@ -128,3 +128,4 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 #### PostProduction trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Chaos%20Engineering.md)
+- [CDN Akamai Cloudfront Imperva](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/CDN%20Incapsula%20Akamai%20Cloudfront.md)
