@@ -1,5 +1,10 @@
 # Serverless Microservice Patterns for AWS
 
+### Serverless
+* The term 'serverless' is somewhat misleading, as there are still servers providing these backend services, but all of the server space and infrastructure concerns are handled by the vendor. Serverless means that the developers can do their work without having to worry about servers at all.
+
+![Serverless-Landscape](https://www.simform.com/wp-content/uploads/2018/01/Serverless-Landscape.jpg)
+
 ### Very important distinction between synchronous and asynchronous communication
 
 * **Synchronous Communication**
