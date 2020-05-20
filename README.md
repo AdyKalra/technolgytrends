@@ -86,6 +86,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Design Pattern - Serverless](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Patterns%20-%20Serverless.md)
 - [DLQ / Dead letter queue](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/DLQ.md)
 - [Design Patterns - Frontend](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Patterns%20-%20Frontend.md)
+- [Function as a Service](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Function%20as%20a%20Service.md)
 
 #### EngineeringPractices trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
