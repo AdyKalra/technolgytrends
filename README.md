@@ -87,7 +87,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [DLQ / Dead letter queue](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/DLQ.md)
 - [Design Patterns - Frontend](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Patterns%20-%20Frontend.md)
 - [Function as a Service](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Function%20as%20a%20Service.md)
-- [API Design Cheat Sheet](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/API%20Design%20Cheat%20Sheet.md)
+- [API Design cheatsheet](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/API%20Design%20Cheat%20Sheet.md)
+- [Platform Building cheatsheet](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Platform-Building%20Cheat%20Sheet.md)
 
 #### EngineeringPractices trends
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
