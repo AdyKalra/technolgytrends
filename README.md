@@ -67,11 +67,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
      <span> | </span>
      <a href="https://github.com/AdyKalra/technolgytrends/tree/master/NonFunctional%20trends">
       NonFunctional  
-    </a>
-     <span> | </span>
-    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/NonFunctional%20trends">
-      NonFunctional  
-    </a>
+    </a>    
      <span> | </span>
      <a href="https://github.com/AdyKalra/technolgytrends/tree/master/PostProduction%20trends">
       PostProduction  
