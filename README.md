@@ -45,20 +45,36 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 <div align="center">
   <h3>
-    <a href="https://github.com/AdyKalra/technologyradar/blob/master/Tools.md">
-      Tools
+    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/Architecture%20trends">
+      Architecture 
     </a>
     <span> | </span>
-    <a href="https://github.com/AdyKalra/technologyradar/edit/master/Techniques.md">
-      Techniques
+    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/CloudPlatform%20trends">
+      CloudPlatform 
     </a>
     <span> | </span>
-    <a href="https://github.com/AdyKalra/technologyradar/blob/master/Platforms.md">
-      Platforms
+    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/Development%20trends">
+      Development 
     </a>
     <span> | </span>
-    <a href="https://github.com/AdyKalra/technologyradar/blob/master/Programming%20Languages%20and%20Frameworks.md">
-      Languages and Frameworks
+    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/Testing%20trends">
+      Testing 
+    </a>
+    <span> | </span>
+    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/EngineeringPractices%20trends">
+      EngineeringPractices 
+    </a>
+     <span> | </span>
+     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/NonFunctional%20trends">
+      NonFunctional  
+    </a>
+     <span> | </span>
+    <a href="https://github.com/AdyKalra/technolgytrends/tree/master/NonFunctional%20trends">
+      NonFunctional  
+    </a>
+     <span> | </span>
+     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/PostProduction%20trends">
+      PostProduction  
     </a>
     </h3>
 </div>
