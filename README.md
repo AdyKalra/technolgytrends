@@ -107,6 +107,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Deployment Strategies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Deployment-Strategies.md)
 - [Scaling Microservices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Microservices.md)
 - [Devops vs SRE](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DevOps%20Versus%20SRE.md)
+- [Serverless](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Serverless.md)
 
 #### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Jupyter.md)
