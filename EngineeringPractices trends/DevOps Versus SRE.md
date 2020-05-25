@@ -12,4 +12,5 @@
 ![SRE](https://3ovyg21t17l11k49tk1oma21-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/SRE_5.jpg)
 
 - principles of observability follow a cyclical approach, which ensures maximum application uptime.
+
 ![observability](https://3ovyg21t17l11k49tk1oma21-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/SRE_4.png)
