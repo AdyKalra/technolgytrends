@@ -126,6 +126,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [BottleRocket](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/BottleRocket.md)
 - [EventBridge](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Eventbridge.md)
 - [Memcached](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Memcached.md)
+- [Data Lake](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Datalake.md)
 
 #### Testing trends
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
