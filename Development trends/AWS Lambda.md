@@ -1,4 +1,6 @@
-* AWS Lambda is a **serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you**. You can use AWS Lambda to extend other AWS services with custom logic, or create your own back-end services that operate at AWS scale, performance, and security.
+* AWS Lambda is a **serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you**. You can use AWS Lambda to extend other AWS services with custom logic, or create your own back-end services
+that operate at AWS scale, performance, and security.
+* Two of the reasons why Lambdas are so attractive are their **auto-scale (in & out) capability and their pay-per-use pricing model**
 * [Lambda on slideshare](https://www.slideshare.net/AmazonWebServices/a-walk-in-the-cloud-with-aws-lambda)
 * AWS Lambda is a **compute service that lets you run code without provisioning or managing servers**. AWS Lambda **executes your code only when needed and scales automatically**, from a few requests per day to thousands per second. You pay only for the compute time you consume - there is no charge when your code is not running.
 * AWS Lambda functions execute in a container (sandbox) that isolates them from other functions and provides the resources, such as memory, specified in the function's configuration.
