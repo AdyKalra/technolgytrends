@@ -109,6 +109,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Devops vs SRE](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DevOps%20Versus%20SRE.md)
 - [Serverless](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Serverless.md)
 - [Adaptive IT: Transformational framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Adaptive%20IT:%20Transformational%20framework.md)
+- [Analytics Lens](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Analytics%20Lens.md)
 
 #### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Jupyter.md)
