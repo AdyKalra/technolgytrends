@@ -103,6 +103,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Platform Building cheatsheet](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Platform-Building%20Cheat%20Sheet.md)
 
 #### EngineeringPractices trends
+- [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
 - [Deployment Strategies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Deployment-Strategies.md)
 - [Scaling Microservices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Microservices.md)
