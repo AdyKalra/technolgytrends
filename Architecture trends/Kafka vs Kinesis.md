@@ -1,3 +1,26 @@
+| |Apache Kafka |	Amazon Kinesis |
+|:-:  |:-:  |:-:  |
+| Concepts |	Kafka Streams |	Kinesis Analytics | 
+|Stream of records| container	|Topic	Stream|
+|Data Stored in...	|Kafka Partition|	Kinesis Shard|
+|Unique ID of a record|	Offset number|	Sequence number|
+|Ordering under...|	Partition level	|Shard level|
+|Features	||	
+|SDK Support|	Kafka SDK supports Java	|AWS SDK supports Android, Java, Go, .NET|
+|Configuration & Features	|More control on configuration and better performance	|Number of days/shards can only be configured|
+|Reliability	|The replication factor can be configured	|Kinesis writes synchronously to 3 different machines/data-centers|
+|Performance	|Kafka wins	|Kinesis writes each message synchronously to 3 different machines|
+|Data Retention|	Configurable	|7 days at max|
+|Log Compaction	|Supported	|Not supported|
+|Processing Events	|More than 1000s of events/sec|	Almost 1000s of events/sec|
+|Producer Throughput|	Kafka Wins	|Kinesis is a bit slower than Kafka|
+|Ops		||
+|Setup|	Weeks	|A couple of hours|
+|Configuration Store	|Apache Zookeeper	|Amazon DynamoDB|
+|Checkpointing	|Offsets stored in a special topic|	DynamoDB|
+|Incident Risk/Maintenance	|More In Kafka	|Amazon takes care|
+|Human Costs	|Require human support for installing and managing their clusters, and also accounting for requirements such as high availability, durability, and recovery	|Kinesis is just about paying and use|
+
 # Decision Points to Choose Apache Kafka vs Amazon Kinesis
 * Choosing the streaming data solution is not always straightforward. Making a decision on which streaming platform to use is based on the metrics you want to achieve and the business use case. Following are some metrics and decision points to compare whether to choose Apache Kafka or Amazon Kinesis as a data streaming solution:
 
