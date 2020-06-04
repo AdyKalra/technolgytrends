@@ -21,6 +21,8 @@
 |Incident Risk/Maintenance	|More In Kafka	|Amazon takes care|
 |Human Costs	|Require human support for installing and managing their clusters, and also accounting for requirements such as high availability, durability, and recovery	|Kinesis is just about paying and use|
 
+![kinesis-vs-kafka](https://www.softkraft.co/uploads/aws-kinesis-vs-kafka-which-to-choose.png)
+
 # Decision Points to Choose Apache Kafka vs Amazon Kinesis
 * Choosing the streaming data solution is not always straightforward. Making a decision on which streaming platform to use is based on the metrics you want to achieve and the business use case. Following are some metrics and decision points to compare whether to choose Apache Kafka or Amazon Kinesis as a data streaming solution:
 
