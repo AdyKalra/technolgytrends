@@ -20,10 +20,14 @@
 * JMeter for performance testing
 * OWASP ZAP for security scanning
 
+* With Jenkins
+  * you'll only need to enable Pipelines and define your workflows to be able to run tests and deployments on your branches.
+  * Step 1: Start with a default pipelines to be run on feature branches
+  * Step 2: Add a new pipeline for the master branch
+  * Step 3: Protect your release branches
+  * Step 4: Use pull request to promote changes to production
+
 ![CICD](https://miro.medium.com/max/1400/1*-BziHNWo19nQ_edSiO6y0g.png)
-
-
-
 
 ## Applications Deployment
 ![applications_deployment](https://opensource.com/sites/default/files/uploads/applications_deploymentpipeline.png)\
@@ -31,3 +35,10 @@
 ![Version Control](https://opensource.com/sites/default/files/uploads/version-control.png)
 
 ![Testing Pyramid](https://opensource.com/sites/default/files/uploads/testing.png)
+
+## Test Env
+![CI](https://wac-cdn.atlassian.com/dam/jcr:25127c2f-a53c-4e57-a4ba-3e89c704e508/part-1-v2@2x.png?cdnVersion=1058)
+## Staging 
+![Staging](https://wac-cdn.atlassian.com/dam/jcr:4f991401-bf02-4bf8-b67d-c9e3072c8d09/part-2-v2@2x.png?cdnVersion=1058)
+## Production
+![Production](https://wac-cdn.atlassian.com/dam/jcr:84dbe552-eda9-495e-977b-e84ff096781d/part-3-v2@2x.png?cdnVersion=1058)
