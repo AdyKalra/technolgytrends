@@ -43,5 +43,7 @@
 ## Production
 ![Production](https://wac-cdn.atlassian.com/dam/jcr:84dbe552-eda9-495e-977b-e84ff096781d/part-3-v2@2x.png?cdnVersion=1058)
 
+## CI CD Overview
+![cicd-overview](https://www.mendix.com/evaluation-guide/app-lifecycle/attachments/cicd-overview.png)
 ## CI CD with K8S
 ![k8s](https://cdn.thenewstack.io/media/2018/07/d00605db-c1cdpiplin.png)
