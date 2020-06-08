@@ -1,4 +1,31 @@
-# fundamentals which drives a CI/CD pipeline
+# CI
+* **Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.**
+* Continuous Integration doesn’t get rid of bugs, but it does make them dramatically easier to find and remove.
+
+## If you want to practice CI, the steps roughly go like this:
+
+1. Developers check out code from the repository to work on it locally. Ideally, they create a new branch for the feature they want to implement.
+2. When their feature branch is ready, they run tests locally in their development environments.
+3. Once all tests pass, they push the commits to the single source repository.
+4. Whenever there are changes on the repository, a CI server checks out the changes and performs a “build and test.” A build and test is when the CI server builds the entire system on the developer’s feature branch and runs all the unit and integration tests.
+5. The CI server notifies the team of the integration result. There should generally be four outcomes: failed build, successful build, failed tests, successful tests.
+6. If there’s a failure, the team fixes the issue ASAP.
+7. When the feature branch is merged to the main branch, they repeat steps 2–6.
+8. They continue to develop and repeat the steps 2–6 whenever there’s new code to be checked in to the repository.
+
+## The main principles of CI are that you:
+
+1. Check in code in frequently.
+2. Automate the build and test portion.
+3. Always test the code locally before checking it in.
+4. Never merge any failed branches to the main branch.
+5. Return its status back to successful if you’re the developer who causes the failed build or test.
+6. Make it your top priority to do so once the fail happens
+
+# CD
+* **Continuous Deployment is closely related to Continuous Integration and refers to the release into production of software that passes the automated tests.**
+
+# Fundamentals which drives a CI/CD pipeline
 ## Integration and Verification 
 * In a typical software development setup you expect multiple developers to be developing in their own **feature branches which they periodically integrate to a common development branch.** 
 * When a piece of code is integrated (or even before it’s integrated) , it is essential that a verification step is available that can quickly ensure that the particular integration would not break existing functionality, would not degrade performance or even would not introduce security loopholes.
@@ -43,6 +70,8 @@
 ## Production
 ![Production](https://wac-cdn.atlassian.com/dam/jcr:84dbe552-eda9-495e-977b-e84ff096781d/part-3-v2@2x.png?cdnVersion=1058)
 
+## BuildPipeline
+![BuildPipeline](https://www.afor.co.nz/img/common/BuildPipeline.png)
 ## CI CD Overview
 ![cicd-overview](https://www.mendix.com/evaluation-guide/app-lifecycle/attachments/cicd-overview.png)
 ## CI CD with K8S
