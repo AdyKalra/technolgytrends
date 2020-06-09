@@ -103,7 +103,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Platform Building cheatsheet](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Platform-Building%20Cheat%20Sheet.md)
 - [Kafka v/s Kinesis](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Kafka%20vs%20Kinesis.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
 
 #### EngineeringPractices trends
 - [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
@@ -117,7 +117,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Scaling Serverless Applications](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Serverless%20Applications.md)
 - [Orchestrating CI CD Pipelines](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Orchestrating%20CI%20CD%20Pipelines.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
 
 #### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Jupyter.md)
@@ -141,7 +141,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Data Lake](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Datalake.md)
 - [Auto Scaling](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Auto%20Scaling.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
 
 #### Testing trends
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
