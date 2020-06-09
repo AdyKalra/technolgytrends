@@ -82,7 +82,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
   </a>
 </div>
 
-### [Trends](#trends-1)
+### [Trends](#trends)
 |     |     |     |   
 |:-:  |:-:  |:-:  |
 | [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [EngineeringPractices](#EngineeringPractices-trends) |
