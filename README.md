@@ -147,12 +147,12 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
 - [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/LocalStack.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
 
 #### NonFunctional trends
 - [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/Crypto%20shredding.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
 
 #### CloudPlatform trends
 - [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20configuration%20scanner.md)
@@ -167,10 +167,10 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Datadog](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Datadog.md)
 - [Infrastructure as Code](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20as%20Code.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
 
 #### PostProduction trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Chaos%20Engineering.md)
 - [CDN Akamai Cloudfront Imperva](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/CDN%20Incapsula%20Akamai%20Cloudfront.md)
 
-[Back to top :arrow_up:](#trends-1)
+[Back to top :arrow_up:](#trends)
