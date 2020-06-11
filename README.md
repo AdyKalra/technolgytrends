@@ -116,6 +116,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Analytics Lens](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Analytics%20Lens.md)
 - [Scaling Serverless Applications](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Serverless%20Applications.md)
 - [Orchestrating CI CD Pipelines](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Orchestrating%20CI%20CD%20Pipelines.md)
+- [Data Driven Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Data%20Driven%20Engineering.md)
 
 [Back to top :arrow_up:](#trends)
 
