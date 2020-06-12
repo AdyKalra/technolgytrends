@@ -7,5 +7,10 @@ What are the roadblocks? What works well? What is challenging?
 
 * Try to get your teams to engage with the numbers, and suggest ways to use them. Homegrown metrics that your team sees as serving them or their fellow developers are the way to go. You can make suggestions, but the more that this is owned by the people building your software, the better.
 
+## 3 Ingredients to Start Data-Driven Engineering
+1. Instrument Page Views - Create a way to record customer data 
+2. Prioritize with Funnels - Marketing funnel is a well-known technique to drive users from prospects to clients. The idea is to identify an entry stage, a desired stage and stages between them. The number of users dropping at each stage can be measured to focus marketing resources on a problematic stage. The same technique can be applied to users navigating an application.
+3. Debug with Segments - The segments should be prioritized by their potential impact and ability to get data for them. 
+
 ## Go beyond the numbers
 * Data-driven software engineering produces benefits well beyond the numbers if you have an effective process or framework that reduces pain points and drives success. As your organization moves toward digital transformation, you'll need to have a greater focus on delivering value. With these metrics in place, the value you deliver will be measurable, and your employees will be engaged and happy to contribute to the organization’s success.
