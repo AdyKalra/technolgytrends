@@ -12,5 +12,9 @@ What are the roadblocks? What works well? What is challenging?
 2. Prioritize with Funnels - Marketing funnel is a well-known technique to drive users from prospects to clients. The idea is to identify an entry stage, a desired stage and stages between them. The number of users dropping at each stage can be measured to focus marketing resources on a problematic stage. The same technique can be applied to users navigating an application.
 3. Debug with Segments - The segments should be prioritized by their potential impact and ability to get data for them. 
 
+## Enabling Software Developers to Complete the Build-Measure-Learn Cycle
+* The “Build” part is given. Democratizing the “Measure” part requires a simple and robust data infrastructure. 
+* Next, pick a metric that impacts user experience and you have direct control over. It may be a number of errors per user per day or 75th percentile of the application start time. Plot a daily trend. Does it match your expectations? Does it trend to the right direction? To improve the metric, think about a dimension that can impact the metric and “segment” by it.
+
 ## Go beyond the numbers
 * Data-driven software engineering produces benefits well beyond the numbers if you have an effective process or framework that reduces pain points and drives success. As your organization moves toward digital transformation, you'll need to have a greater focus on delivering value. With these metrics in place, the value you deliver will be measurable, and your employees will be engaged and happy to contribute to the organization’s success.
