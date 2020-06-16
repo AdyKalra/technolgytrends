@@ -85,7 +85,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 ### [Trends](#trends)
 |     |     |     |   
 |:-:  |:-:  |:-:  |
-| [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [EngineeringPractices](#EngineeringPractices-trends) |
+| [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [Engineering](#Engineering-trends) |
 | [Development](#Development-trends) 	| [Testing](#c-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
 | [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	| 
 
@@ -105,7 +105,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 [Back to top :arrow_up:](#trends)
 
-#### EngineeringPractices trends
+#### Engineering trends
 - [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
 - [Deployment Strategies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Deployment-Strategies.md)
