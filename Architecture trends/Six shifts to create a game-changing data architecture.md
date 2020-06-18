@@ -47,4 +47,13 @@
 
 * A **data platform** to “buffer” transactions outside of core systems is often required. Such buffers could be provided by central data platforms such as a **data lake or in a distributed data mesh**, which is an ecosystem consisting of best-fit platforms (including data lakes, data warehouses, and so on) created for each business domain’s expected data usage and workloads. For example, one bank built a columnar database to provide customer information, such as their most recent financial transactions, directly to online and mobile banking applications and reduce costly workloads on its mainframe. 
 
-## 
+## From an enterprise warehouse to domain-based architecture
+* Many data-architecture leaders have **pivoted from a central enterprise data lake toward “domain-driven” designs** that can be customized and “fit for purpose” to improve time to market of new data products and services. With this approach, while the data sets may still reside on the same physical platform, “product owners” in each business domain (for example, marketing, sales, manufacturing, and so on) are tasked with organizing their data sets in an **easily consumable way** both for users within their domain and for **downstream data consumers** in other business domains. This approach requires a careful balance to avoid becoming fragmented and inefficient, but in return it can **reduce the time spent up front on building new data models into the lake, often from months to just days, and can be a simpler and more effective choice when mirroring a federated business structure or adhering to regulatory limitations on data mobility.**
+
+* One European telecommunications provider used a distributed domain-based architecture so sales and operations staff could expose customer, order, and billing data to data scientists for use in AI models or directly to customers via digital channels. Rather than building one central data platform, the organization deployed logical platforms that are managed by product owners within the company’s sales and operations teams. Product owners are incentivized to promote the use of the data for analytics and are using **digital channels as well as forums and hackathons to drive adoption.**
+
+### Enabling concepts and components
+
+* **Data infrastructure as a platform** provides common tools and capabilities for storage and management to speed implementation and remove from data producers the burden of building their own data-asset platform.
+* **Data virtualization techniques**, which started in niche areas such as customer data, are now being used across enterprises to organize access to and integrate distributed data assets.
+* **Data cataloging** tools provide enterprise search and exploration of data without requiring full access or preparation. The catalog also typically provides metadata definitions and an end-to-end interface to simplify access to data assets.
