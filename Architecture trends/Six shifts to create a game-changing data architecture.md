@@ -69,3 +69,15 @@
 * **Graph databases, a type of NoSQL database**, have gained attention in recent years. NoSQL databases in general are ideal for digital applications that require massive scalability and real-time capabilities, and for data layers serving AI applications, thanks to their ability to tap into unstructured data. Graph databases, in particular, offer the ability to model relationships within data in a powerful and flexible manner, and many companies are building master data repositories using graph databases to accommodate changing information models.
 * Technology services such as Azure Synapse Analytics allow querying file-based data akin to relational databases by dynamically applying table structures onto the files. This provides users the flexibility to continue using common interfaces such as SQL while accessing data stored in files.
 * Using JavaScript Object Notation (JSON) to store information enables organizations to change database structures without having to change business information models.
+
+# How to get started
+* Data technologies are evolving quickly, making traditional efforts that define and build toward three-to-five-year target architectural states both risky and inefficient. Data and technology leaders will be best served by instituting practices that enable them to rapidly evaluate and deploy new technologies so they can quickly adapt. Four practices are crucial here:
+
+## Apply a test-and-learn mindset to architecture construction, 
+* and experiment with different components and concepts. Such agile practices have been applied in application development for quite a while and have recently moved into the data space. For example, rather than engage in drawn-out discussions about optimal designs, products, and vendors to identify the “perfect” choice followed by lengthy budget approvals, leaders can start with smaller budgets and create minimum viable products or string together existing open-source tools to create an interim product, releasing them into production (using cloud to accelerate) so they can demonstrate their value before expanding and evolving further.
+## Establish data “tribes,” 
+* where squads of data stewards, data engineers, and data modelers work together with end-to-end accountability for building the data architecture. These tribes also work to put in place standard, repeatable data- and feature-engineering processes to support development of highly curated data sets ready for modeling. These agile data practices can help accelerate time to market of new data services.
+## Invest in DataOps (enhanced DevOps for data),
+* which can help to accelerate the design, development, and deployment of new components into the data architecture so teams can rapidly implement and frequently update solutions based on feedback.
+## Create a data culture 
+* where employees are eager to use and apply new data services within their roles. One essential tool to achieve this is ensuring that data strategy ties to the business goals and is reflected in the C-suite’s messages to the organization, which can help reinforce the importance of this work to business teams.
