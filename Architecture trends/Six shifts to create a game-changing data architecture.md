@@ -35,3 +35,16 @@
 
 * **Data pipeline and API-based interfaces** simplify integration between disparate tools and platforms by shielding data teams from the complexity of the different layers, speeding time to market, and reducing the chance of causing new problems in existing applications. These interfaces also allow for easier replacement of individual components as requirements change.
 * **Analytics workbenches** such as Amazon Sagemaker and Kubeflow simplify building end-to-end solutions in a highly modular architecture. Such tools can connect with a large variety of underlying databases and services and allow highly modular design.
+
+## From point-to-point to decoupled data access
+* Exposing data via APIs can ensure that direct access to view and modify data is limited and secure, while simultaneously offering faster, up-to-date access to common data sets. This allows data to be easily reused among teams, accelerating access and enabling seamless collaboration among analytics teams so AI use cases can be developed more efficiently.
+
+* One pharmaceutical company, for example, is setting up an internal **“data marketplace”** for all employees via APIs to simplify and standardize access to core data assets rather than relying on proprietary interfaces. The company is gradually—over 18 months—migrating its most valuable existing data feeds to an API-based structure and deploying an API management platform to expose the APIs to users.
+
+### Enabling concepts and components
+
+* An **API management platform (often called an API gateway)** is necessary to create and publish data-centric APIs, implement usage policies, control access, and measure usage and performance. This platform also allows developers and users to search for existing data interfaces and reuse them rather than build new ones. An API gateway is often embedded as a separate zone within a data hub but can also be developed as a standalone capability outside of the hub.
+
+* A **data platform** to “buffer” transactions outside of core systems is often required. Such buffers could be provided by central data platforms such as a **data lake or in a distributed data mesh**, which is an ecosystem consisting of best-fit platforms (including data lakes, data warehouses, and so on) created for each business domain’s expected data usage and workloads. For example, one bank built a columnar database to provide customer information, such as their most recent financial transactions, directly to online and mobile banking applications and reduce costly workloads on its mainframe. 
+
+## 
