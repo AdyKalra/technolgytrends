@@ -25,4 +25,13 @@
 * **Streaming processing and analytics solutions** such as **Apache Kafka Streaming, Apache Flume, Apache Storm, and Apache Spark** Streaming allow for direct analysis of messages in real time. This analysis can be **rule based or involve advanced analytics to extract events or signals from the data.** Often, analysis integrates historic data to compare patterns, which is especially vital in recommendation and prediction engines.
 * **Alerting platforms such as Graphite or Splunk** can trigger business actions to users, such as notifying sales representatives if they’re not meeting their daily sales targets, or integrate these actions into existing processes that may run in enterprise resource planning (ERP) or customer relationship management (CRM) systems.
 
-### 
+## From pre-integrated commercial solutions to modular, best-of-breed platforms
+
+* To scale applications, companies often need to push well beyond the boundaries of legacy data ecosystems from large solution vendors. Many are now moving toward a highly modular data architecture that uses best-of-breed and, frequently, open-source components that can be replaced with new technologies as needed without affecting other parts of the data architecture.
+
+* The utility-services company mentioned earlier is transitioning to this approach to rapidly deliver new, data-heavy digital services to millions of customers and to connect cloud-based applications at scale. For example, it offers accurate daily views on customer energy consumption and real-time analytics insights comparing individual consumption with peer groups. The company set up an independent data layer that includes both commercial databases and open-source components. Data is synced with back-end systems via a proprietary enterprise service bus, and microservices hosted in containers run business logic on the data.
+
+### Enabling concepts and components
+
+* **Data pipeline and API-based interfaces** simplify integration between disparate tools and platforms by shielding data teams from the complexity of the different layers, speeding time to market, and reducing the chance of causing new problems in existing applications. These interfaces also allow for easier replacement of individual components as requirements change.
+* **Analytics workbenches** such as Amazon Sagemaker and Kubeflow simplify building end-to-end solutions in a highly modular architecture. Such tools can connect with a large variety of underlying databases and services and allow highly modular design.
