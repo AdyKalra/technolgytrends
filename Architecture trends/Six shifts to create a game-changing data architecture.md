@@ -57,3 +57,15 @@
 * **Data infrastructure as a platform** provides common tools and capabilities for storage and management to speed implementation and remove from data producers the burden of building their own data-asset platform.
 * **Data virtualization techniques**, which started in niche areas such as customer data, are now being used across enterprises to organize access to and integrate distributed data assets.
 * **Data cataloging** tools provide enterprise search and exploration of data without requiring full access or preparation. The catalog also typically provides metadata definitions and an end-to-end interface to simplify access to data assets.
+
+## From rigid data models toward flexible, extensible data schemas
+* **Predefined data models** from software vendors and proprietary data models that serve **specific business-intelligence needs** are often built in **highly normalized schemas with rigid database tables** and data elements to minimize redundancy. While this approach remains the standard for reporting and regulatory-focused use cases, it also requires that organizations undergo lengthy development cycles and have strong system knowledge when they want to incorporate new data elements or data sources, as any changes can affect data integrity.
+
+* To gain greater flexibility and a powerful competitive edge when exploring data or supporting advanced analytics, companies are evolving to **“schema-light” approaches, using denormalized data models**, which have fewer physical tables, to organize data for maximum performance. This approach offers a host of benefits: agile data exploration, greater flexibility in storing structured and unstructured data, and reduced complexity, as data leaders no longer need to introduce additional abstraction layers, such as multiple “joins” between highly normalized tables, to query relational data.
+
+### Enabling concepts and components
+
+* **Data vault 2.0 techniques, such as data-point modeling**, can ensure that data models are extensible so data elements can be added or removed in the future with limited disruption.
+* **Graph databases, a type of NoSQL database**, have gained attention in recent years. NoSQL databases in general are ideal for digital applications that require massive scalability and real-time capabilities, and for data layers serving AI applications, thanks to their ability to tap into unstructured data. Graph databases, in particular, offer the ability to model relationships within data in a powerful and flexible manner, and many companies are building master data repositories using graph databases to accommodate changing information models.
+* Technology services such as Azure Synapse Analytics allow querying file-based data akin to relational databases by dynamically applying table structures onto the files. This provides users the flexibility to continue using common interfaces such as SQL while accessing data stored in files.
+* Using JavaScript Object Notation (JSON) to store information enables organizations to change database structures without having to change business information models.
