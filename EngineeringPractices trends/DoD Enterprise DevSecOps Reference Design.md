@@ -184,3 +184,23 @@ For each DoD organization, the practice of DevSecOps starts with buy-in of the D
 The activities supported by the build phase are listed in Table 9. 
 ![Build3](https://user-images.githubusercontent.com/8856857/85366320-727a4d00-b56a-11ea-91f8-56f11cfb0ff7.png)
 ![Build4](https://user-images.githubusercontent.com/8856857/85366349-8756e080-b56a-11ea-96ef-6def55b58406.png)
+#### Test 
+* Test tools support continuous testing across the software development lifecycle. Test activities may include, but are not limited to, **unit test, functional test, integration test, system test, regression test, acceptance test, performance test,** and variety of security tests. . 
+* Mission programs can select their own test activities and merge several tests together based on the nature of their software and environment. 
+* All tests start with test development, which develops detailed test procedures, test scenarios, test scripts, and test data. Automated test can be executed by running a set of test scripts or running a set of test scenarios on the specific test tool without human intervention. If full automation is not possible, the highest percentage of automation is desired. 
+* It is highly recommended to leverage emulation and simulation to test proper integration between components such as microservices and various sensors/systems, so integration testing can be automated as much as possible. 
+* Automation will help achieve high test coverage and make continuous ATO practicable, as well as significantly increase the quality of delivered software.  
+* The components involved with the test phase are listed in the following table. 
+![Test1](https://user-images.githubusercontent.com/8856857/85366729-490df100-b56b-11ea-82a4-d28ed09904fd.png)
+![Test2](https://user-images.githubusercontent.com/8856857/85366781-604cde80-b56b-11ea-8421-fdde5966db3e.png)
+![Test3](https://user-images.githubusercontent.com/8856857/85366962-b3269600-b56b-11ea-80d6-a33d660dc753.png)
+![Test4](https://user-images.githubusercontent.com/8856857/85367070-e1a47100-b56b-11ea-8d1b-8e3bb0c2a99e.png)
+![Test5](https://user-images.githubusercontent.com/8856857/85367129-026cc680-b56c-11ea-93e2-ff47e5f2ca6d.png)
+* The activities supported by the test phase are listed in Table 11. These activities happen at different test stages. 
+   * Development stage: unit test, SAST discussed in the build phase 
+   *  System test stage: DAST or IAST, integration test, system test 
+   *  Pre-production stage: manual security test, performance test, regression test, acceptance test, container policy enforcement, and compliance scan Test audit, test deployment, and configuration audit happen at all stages. 
+![Test6](https://user-images.githubusercontent.com/8856857/85367309-5c6d8c00-b56c-11ea-9ef2-0e89941e3ed0.png)
+![Test7](https://user-images.githubusercontent.com/8856857/85367394-7d35e180-b56c-11ea-98fb-34e3db195528.png)
+![Test8](https://user-images.githubusercontent.com/8856857/85367432-8fb01b00-b56c-11ea-9037-0bb1f4fcf98d.png)
+![Test9](https://user-images.githubusercontent.com/8856857/85367484-afdfda00-b56c-11ea-98a8-c76b24e47553.png)
