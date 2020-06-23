@@ -160,6 +160,14 @@ For each DoD organization, the practice of DevSecOps starts with buy-in of the D
 ![Plan7](https://user-images.githubusercontent.com/8856857/85365243-4b228080-b568-11ea-989b-020fbeb1907b.png)
 ### Software Factory Tools and Activities 
 * Software factory tools include a CI/CD orchestrator, a set of development tools, and a group of tools in the build, test, release, and deliver phases that are pluggable to the CI/CD orchestrator. 
-* **CI/CD Orchestrator** The CI/CD Orchestrator is the central automation engine of the CI/CD pipeline. 
+#### **CI/CD Orchestrator** The CI/CD Orchestrator is the central automation engine of the CI/CD pipeline. 
 * It manages pipeline creation, modification, execution, and termination. The DevSecOps team creates a pipeline workflow in the Orchestrator by specifying a set of stages, stage conditions, stage entrance and exit control rules, and stage activities. The Orchestrator automates the pipeline workflow by validating the stage control rules. If all the entrance rules of a stage are met, the Orchestrator will transition the pipeline into that stage and perform the defined activities by coordinating the tools via plugins. If all the exit rules of the current stage are met, the pipeline exits out the current stage and starts to validate the entrance rules of the next stage. 
 ![Orchestrator](https://user-images.githubusercontent.com/8856857/85365435-b1a79e80-b568-11ea-9715-1b31f4f61f3f.png)
+#### Develop 
+* The Develop phase uses tools to support the development activities that convert requirements into source code. the source code includes application code, test scripts, Infrastructure as Code, Security as Code, DevSecOps workflow scripts, etc. The development team may rely on a single modern integrated development environment (IDE) for multiple programming language support. 
+* The IDE code assistance feature aids developers with code completion, semantic coloring, and library management to improve coding speed and quality. 
+* The integrated compiler, interpreter, lint tools, and static code analysis plugins can catch code mistakes and suggest fixes before developers check code into the source code repository.
+* Source code peer review or pair programming are other ways to ensure code quality control. All the code generated during development must be committed to the source code repository and thus version controlled. Committed code that breaks the build should be checked in on a branch and not merged into the trunk until it is fixed. 
+* The following tables list the components that facilitate code development, along with their inputs and outputs. 
+![Develop1](https://user-images.githubusercontent.com/8856857/85365765-588c3a80-b569-11ea-8328-57a274d48741.png)
+![Develop2](https://user-images.githubusercontent.com/8856857/85365865-870a1580-b569-11ea-8f5b-a33c1d3ebac0.png)
