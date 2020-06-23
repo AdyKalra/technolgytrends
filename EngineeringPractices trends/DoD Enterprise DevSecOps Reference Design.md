@@ -171,3 +171,16 @@ For each DoD organization, the practice of DevSecOps starts with buy-in of the D
 * The following tables list the components that facilitate code development, along with their inputs and outputs. 
 ![Develop1](https://user-images.githubusercontent.com/8856857/85365765-588c3a80-b569-11ea-8328-57a274d48741.png)
 ![Develop2](https://user-images.githubusercontent.com/8856857/85365865-870a1580-b569-11ea-8f5b-a33c1d3ebac0.png)
+#### Build 
+* The build tools perform the tasks of building and packaging applications, services, and microservices into artifacts. For languages like C++, building starts with compiling and linking. 
+   *  The former is the act of turning source code into object code and the latter is the act of combining object code with libraries to create an executable file. 
+   *  For Java Virtual Machine (JVM) based languages, building starts with compiling to class files, then building a compressed file such as a jar, war or ear file, which includes some metadata, and may include other files such as icon images. 
+   * For interpreted languages, such as Python or JavaScript, there is no need to compile, but lint tools help to check for some potential errors such as syntax errors. 
+*  Building should also include generating documentation, such as Javadoc, copying files like libraries or icons to appropriate locations, and creating a distributable file such as a tar or zip file. The build script should also include targets for running automated unit tests. 
+* Modern build tools can also be integrated into both an IDE and a source code repository to enable building both during development and after committing. 
+* For those applications that use containers, the build stage also includes a containerization tool. The following tables list build-related tools along with their inputs and outputs. 
+![Build1](https://user-images.githubusercontent.com/8856857/85366108-07c91180-b56a-11ea-9afc-c58467537410.png)
+![Build2](https://user-images.githubusercontent.com/8856857/85366203-3941dd00-b56a-11ea-940c-81b6cc81d7c8.png)
+The activities supported by the build phase are listed in Table 9. 
+![Build3](https://user-images.githubusercontent.com/8856857/85366320-727a4d00-b56a-11ea-91f8-56f11cfb0ff7.png)
+![Build4](https://user-images.githubusercontent.com/8856857/85366349-8756e080-b56a-11ea-96ef-6def55b58406.png)
