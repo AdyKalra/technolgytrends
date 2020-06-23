@@ -69,3 +69,8 @@ Figure 1: Containers
 * The DevSecOps software lifecycle phases are illustrated in Figure 3. There are nine phases: plan, develop, build, test, release, deliver, deploy, operate, and monitor. Security is embedded within each phase.
 ![Lifecycle](https://user-images.githubusercontent.com/8856857/85360008-499e8b80-b55b-11ea-82fd-8a8597f47e3c.jpg)
  The DevSecOps lifecycle is adaptable and has many feedback loops for continuous improvement.
+
+## DevSecOps Pillars 
+* DevSecOps are supported by four pillars: organization, process, technology, and governance, as illustrated in Figure 4. 
+![Pillars](https://user-images.githubusercontent.com/8856857/85360142-a7cb6e80-b55b-11ea-9b9f-03c1ae8a5f72.jpg)
+For each DoD organization, the practice of DevSecOps starts with buy-in of the DevSecOps philosophy by senior leaders within the organization. This leads to a change to the organizational culture, along with the development of new collaborative processes, technologies and tools to automate the process and to apply consistent governance. A project must advance in all four areas to be successful. 
