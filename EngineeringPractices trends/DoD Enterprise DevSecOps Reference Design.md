@@ -204,3 +204,13 @@ The activities supported by the build phase are listed in Table 9.
 ![Test7](https://user-images.githubusercontent.com/8856857/85367394-7d35e180-b56c-11ea-98fb-34e3db195528.png)
 ![Test8](https://user-images.githubusercontent.com/8856857/85367432-8fb01b00-b56c-11ea-9037-0bb1f4fcf98d.png)
 ![Test9](https://user-images.githubusercontent.com/8856857/85367484-afdfda00-b56c-11ea-98a8-c76b24e47553.png)
+#### Release and Deliver 
+* In the release and deliver phase, the software artifacts are digitally signed to verify that they have passed build, all tests, and security scans. They are then delivered to the artifact repository. The content of the artifacts depends on the application. It may include, but is not limited to, container images, VM images, binary executables (such as jar, war, ear files), test results, security scan results, and Infrastructure as Code deployment scripts. 
+* Artifacts will be tagged with the release tag if GO release decision is made based on the configuration audit results. The artifacts with the release tag are delivered to production.  
+![Rel1](https://user-images.githubusercontent.com/8856857/85367658-064d1880-b56d-11ea-9e27-e0ec5e95ee2c.png)
+* The mission program could have more than one artifact repository, though more likely there is a centralized one and tags separate artifact types. 
+   *  One artifact repository (or set of tags) is used in the build stage to store build results. 
+   *  The test deployment activity can fetch the artifacts from the build stage artifact repository to deploy the application into various environments (development, test, or pre-production). 
+   *  Another artifact repository (or set of tags) may be used by the production environment, which is the one that the store artifacts stage uses to push the final deliverables to production. 
+   *  The production deployment will get all the artifacts from the production artifact repository to deploy the application.  
+*  Some mission program application systems have geographically distributed operational regions across the country or even overseas. In order to increase deployment velocity, a remote operational region may have its own local artifact repository that replicates the artifact repository 
