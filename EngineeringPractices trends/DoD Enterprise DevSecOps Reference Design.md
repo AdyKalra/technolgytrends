@@ -13,3 +13,12 @@
 * In addition, DevSecOps practice enables: 
     * Fully automated risk characterization, monitoring, and mitigation across the application lifecycle. 
     * Software updates and patching at a pace that allows the addressing of security vulnerabilities and code weaknesses. 
+## Purpose
+* The main purpose of this document is to provide a logical description of the key design components and processes to provide a repeatable reference design that can be used to instantiate a DoD DevSecOps software factory. 
+* The target audiences for this document include: 
+   * DoD Enterprise DevSecOps capability providers who build DoD Enterprise DevSecOps hardened containers and provide a DevSecOps hardened container access service 
+   * DoD organization DevSecOps teams who manage (instantiate and maintain) DevSecOps software factories and associated pipelines for its programs 
+   * DoD program application teams who use DevSecOps software factories to develop, secure, and operate mission applications 
+   * Authorizing Officials (AOs) 
+* The DoD Enterprise DevSecOps reference design leverages a set of hardened DevSecOps tools and deployment templates that enable DevSecOps teams to select the appropriate template for the program application capability to be developed.  For example, these templates will be specialized around a specific programming language or around different types of capabilities such as web application, transactional, big data, or artificial intelligence (AI) capabilities. 
+* A program selects a DevSecOps template and toolset; the program then uses these to instantiate a DevSecOps software factory and the associated pipelines that enable Continuous Integration and Continuous Delivery (CI/CD) of the mission application. 
