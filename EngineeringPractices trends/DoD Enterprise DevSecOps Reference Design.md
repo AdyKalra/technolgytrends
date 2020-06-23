@@ -59,3 +59,8 @@ Software instructions for a computer, written in a programming language. These i
 ![Containers](https://user-images.githubusercontent.com/8856857/85359727-65edf880-b55a-11ea-8252-489581280a1a.jpg) 
 Figure 1: Containers 
 * Containers run on the OS, so no hypervisor (virtualization) is necessary (though the OS itself may be running on a hypervisor).  Containers are much smaller than a VM, typically by a factor of 1,000 (MB vs GB), partly because they don’t need to include the OS. Using containers allows denser packing of applications than VMs.  Unlike VMs, containers are portable between clouds or between clouds and on-premise servers. This helps alleviate Cloud Service Provider (CSP) lock-in, though an application may still be locked-in to a CSP, if it uses CSPspecific services. Containers also start much faster than a VM (seconds vs. minutes), partly because the OS doesn’t need to boot. 
+
+## Conceptual Model 
+* The following conceptual model shows some of the most important concepts described in this paper along with their relationships. It should help to clarify these relationships. When reading text along an arrow, follow the direction of the arrow. So, a DevSecOps Ecosystem contains one or more software factories, and each software factory contains one or more pipelines. The diagram also shows that each software factory contains only one CI/CD Orchestrator, and that many software factories use DCAR. 
+
+![](https://user-images.githubusercontent.com/8856857/85359791-9b92e180-b55a-11ea-9482-fd2d8db84942.jpg)
