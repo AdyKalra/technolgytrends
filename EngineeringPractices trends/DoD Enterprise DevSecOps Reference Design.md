@@ -213,4 +213,6 @@ The activities supported by the build phase are listed in Table 9.
    *  The test deployment activity can fetch the artifacts from the build stage artifact repository to deploy the application into various environments (development, test, or pre-production). 
    *  Another artifact repository (or set of tags) may be used by the production environment, which is the one that the store artifacts stage uses to push the final deliverables to production. 
    *  The production deployment will get all the artifacts from the production artifact repository to deploy the application.  
-*  Some mission program application systems have geographically distributed operational regions across the country or even overseas. In order to increase deployment velocity, a remote operational region may have its own local artifact repository that replicates the artifact repository 
+*  Some mission program application systems have geographically distributed operational regions across the country or even overseas. In order to increase deployment velocity, a remote operational region may have its own local artifact repository that replicates the artifact repository completely or partially. During release, a new artifact is pushed into the artifact repository and then replicated to other regional artifact repositories.
+* The activities supported by the release and deliver phase are listed below. 
+![Rel2](https://user-images.githubusercontent.com/8856857/85368210-2f21dd80-b56e-11ea-987a-142f911be169.png)
