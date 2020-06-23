@@ -158,3 +158,8 @@ For each DoD organization, the practice of DevSecOps starts with buy-in of the D
 ![Plan5](https://user-images.githubusercontent.com/8856857/85365129-0e568980-b568-11ea-963f-c964c8774e56.png)
 ![Plan6](https://user-images.githubusercontent.com/8856857/85365175-25957700-b568-11ea-8ebe-18cf5a7282cf.png)
 ![Plan7](https://user-images.githubusercontent.com/8856857/85365243-4b228080-b568-11ea-989b-020fbeb1907b.png)
+### Software Factory Tools and Activities 
+* Software factory tools include a CI/CD orchestrator, a set of development tools, and a group of tools in the build, test, release, and deliver phases that are pluggable to the CI/CD orchestrator. 
+* **CI/CD Orchestrator** The CI/CD Orchestrator is the central automation engine of the CI/CD pipeline. 
+* It manages pipeline creation, modification, execution, and termination. The DevSecOps team creates a pipeline workflow in the Orchestrator by specifying a set of stages, stage conditions, stage entrance and exit control rules, and stage activities. The Orchestrator automates the pipeline workflow by validating the stage control rules. If all the entrance rules of a stage are met, the Orchestrator will transition the pipeline into that stage and perform the defined activities by coordinating the tools via plugins. If all the exit rules of the current stage are met, the pipeline exits out the current stage and starts to validate the entrance rules of the next stage. 
+![Orchestrator](https://user-images.githubusercontent.com/8856857/85365435-b1a79e80-b568-11ea-9715-1b31f4f61f3f.png)
