@@ -255,3 +255,14 @@ The activities supported by the build phase are listed in Table 9.
 * Security is not a separate phase of the DevSecOps lifecycle; rather security activities occur in all phases. This DevSecOps security practice facilitates automated risk characterization, monitoring, and mitigation across the application lifecycle. Table 20 summarizes the security activities of all phases.
 ![Security1](https://user-images.githubusercontent.com/8856857/85503307-afa71380-b62c-11ea-9580-5f0bb858a1ea.png)
 ![Security2](https://user-images.githubusercontent.com/8856857/85503346-cbaab500-b62c-11ea-8a3d-4467e5e5f5a9.png)
+
+###  Configuration Management Tools and Activities Summary 
+* Configuration management plays a key role in DevSecOps practice. It ensures the configuration of a software system’s infrastructure, software components, and functionalities are not only known initially but also knowable and well controlled throughout the DevSecOps lifecycle.  
+* Configuration management consists of three sets of activities:  
+   *  **Configuration identification:** identify the configuration items. This can be done manually or with assistance from a discovery tool. The configuration items include infrastructure components, COTS or open source software components used in the system, documented software design, features, software code or scripts, artifacts, etc. 
+   *  **Configuration control:** control the changes of the configuration items. Each configuration item has its own attributes, such as model number, version, configuration setup, license, etc. The CMDB, source code repository, and artifact repository are tools to track and control the changes. The source code repository is used primarily during development. The other two are used in both development and operations. 
+   * **Configuration verification and audit:** verify that the configuration items meet the documented requirements and design. Configuration verification and audit are control gates along a pipeline to control the go/no-go decision to the next phase.
+![Config1](https://user-images.githubusercontent.com/8856857/85503536-41168580-b62d-11ea-9d0f-f818fed72293.png)
+![Config2](https://user-images.githubusercontent.com/8856857/85503586-5db2bd80-b62d-11ea-86ca-ed890ecc77e1.png)
+
+
