@@ -242,3 +242,11 @@ The activities supported by the build phase are listed in Table 9.
 ![Operate1](https://user-images.githubusercontent.com/8856857/85502670-29d69880-b62b-11ea-8587-3584b54853c7.png)
 ![Operate2](https://user-images.githubusercontent.com/8856857/85502740-4b378480-b62b-11ea-88da-1fcf3fc8f738.png)
       
+#### Monitor 
+* In the monitor phase, tools are utilized to collect and assess key information about the use of the application to discover trends and identify problem areas. 
+* Monitoring **spans the underlying hardware resources, network transport, applications / microservices, containers, interfaces, normal and anomalous endpoint behavior, and security event log analysis.** It also includes behavior and signature-based detection in the runtime environment. All these security capabilities are mapped against the NIST controls and follow NIST Special Publication 800-190 Application Container Security Guide [12] for continuous compliance. 
+![Monitor1](https://user-images.githubusercontent.com/8856857/85502935-d153cb00-b62b-11ea-9d32-ccf69bc0566a.png)
+![Monitor2](https://user-images.githubusercontent.com/8856857/85502991-ef213000-b62b-11ea-91fa-71fd695ccfe9.png)
+![Monitor3](https://user-images.githubusercontent.com/8856857/85503039-09f3a480-b62c-11ea-95c1-371a355152aa.png)
+![Monitor4](https://user-images.githubusercontent.com/8856857/85503094-2abbfa00-b62c-11ea-82b7-e7a79997b32d.png)
+![Monitor5](https://user-images.githubusercontent.com/8856857/85503147-49ba8c00-b62c-11ea-93b0-ec5adb956006.png)
