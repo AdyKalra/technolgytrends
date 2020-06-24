@@ -235,4 +235,10 @@ The activities supported by the build phase are listed in Table 9.
 ![Deploy3](https://user-images.githubusercontent.com/8856857/85501769-58537400-b629-11ea-98b1-1160fde13192.png)
 ![Deploy4](https://user-images.githubusercontent.com/8856857/85501889-981a5b80-b629-11ea-870b-6b79eb354fa1.png)
 
+#### Operate 
+* The Operate phase uses tools for system **scaling, load balancing, and backup.**  
+   * Load balancing monitors resource consumption and demand, and then distributes the workloads across the system resources. 
+   * Scaling helps dynamic resource allocation based on demand. Both virtualization manager and CNCF-certified Kubernetes support load balancing and scaling capabilities. CNCF-certified Kubernetes handles the load balancing and scaling at the container level. The virtualization manager works at the VM level. Application deployment must have proper load balancing and scaling policies configured with the virtualization manager or the CNCF-certified Kubernetes based on VM deployment or container deployment respectively. During runtime, the management layer will continuously monitor the resources. If the configured threshold is met (for example if memory or Central Processing Unit (CPU) usage meets a pre-set threshold), then the system triggers the load balancing or scaling action automatically. **Auto-scaling must be able to scale both up and down.**
+![Operate1](https://user-images.githubusercontent.com/8856857/85502670-29d69880-b62b-11ea-8587-3584b54853c7.png)
+![Operate2](https://user-images.githubusercontent.com/8856857/85502740-4b378480-b62b-11ea-88da-1fcf3fc8f738.png)
       
