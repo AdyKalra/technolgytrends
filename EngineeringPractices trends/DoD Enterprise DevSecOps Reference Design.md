@@ -250,3 +250,8 @@ The activities supported by the build phase are listed in Table 9.
 ![Monitor3](https://user-images.githubusercontent.com/8856857/85503039-09f3a480-b62c-11ea-95c1-371a355152aa.png)
 ![Monitor4](https://user-images.githubusercontent.com/8856857/85503094-2abbfa00-b62c-11ea-82b7-e7a79997b32d.png)
 ![Monitor5](https://user-images.githubusercontent.com/8856857/85503147-49ba8c00-b62c-11ea-93b0-ec5adb956006.png)
+
+### Security Tools and Activities Summary 
+* Security is not a separate phase of the DevSecOps lifecycle; rather security activities occur in all phases. This DevSecOps security practice facilitates automated risk characterization, monitoring, and mitigation across the application lifecycle. Table 20 summarizes the security activities of all phases.
+![Security1](https://user-images.githubusercontent.com/8856857/85503307-afa71380-b62c-11ea-9580-5f0bb858a1ea.png)
+![Security2](https://user-images.githubusercontent.com/8856857/85503346-cbaab500-b62c-11ea-8a3d-4467e5e5f5a9.png)
