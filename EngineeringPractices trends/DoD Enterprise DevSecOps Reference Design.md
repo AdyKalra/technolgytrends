@@ -216,3 +216,23 @@ The activities supported by the build phase are listed in Table 9.
 *  Some mission program application systems have geographically distributed operational regions across the country or even overseas. In order to increase deployment velocity, a remote operational region may have its own local artifact repository that replicates the artifact repository completely or partially. During release, a new artifact is pushed into the artifact repository and then replicated to other regional artifact repositories.
 * The activities supported by the release and deliver phase are listed below. 
 ![Rel2](https://user-images.githubusercontent.com/8856857/85368210-2f21dd80-b56e-11ea-987a-142f911be169.png)
+### Production Operation Tools and Activities 
+* The production operations tools provide the capability to deploy artifacts, including containers and VM images, to the production environment, and to monitor their operations. For Cloudnative applications, it is recommended to use containers whenever possible over virtual machines due to the baked-in security provided by the Sidecar Container Security Stack. 
+#### Deploy 
+* The tools used in deploy phase are environment and deployment mode dependent. 
+   *  **Virtual Machine deployment**
+   *  While it is highly recommended to leverage containers for new system design and development, if the application is deployed as a VM, the virtualization manager in the hosting environment is the key component with which IaC will interface to deploy and configure the application system. 
+   * The virtualization manager manages the virtual compute, storage and network resources. 
+   * In some hosting environments, such as a general-purpose cloud, the virtualization manager also provides some security capabilities, such as microsegmentation, which creates security zones to isolate VMs from one another and secure them individually. 
+  * **Container deployment**
+   *  A container manager provides capabilities that check for new versions of containers, deploys the containers to the production environment, and performs post-deployment checkout. 
+   * The container manager consists of an OCI-compliant container runtime and a CNCF-certified Kubernetes, which is an orchestration tool for managing microservices or containerized applications across a cluster of nodes. 
+   * The nodes could be bare metal servers or VMs. The container manager may be owned by a mission program or provided by the cloud hosting environment. It simplifies container management tasks, such as **instantiation, configuration, scaling, monitoring, and rolling updates.** 
+   * The CNCF-certified Kubernetes interacts with the underlying virtualization manager in the cloud environment to ensure each node’s health and performance, and scale it as needed. This scaling includes container scaling within the CNCF-certified Kubernetes cluster, but when running in a cloud, it also includes the ability to auto-scale number of nodes in a cluster by adding or deleting VMs.  
+* The following tables list deployment-related tools and their inputs and outputs. 
+![Deploy1](https://user-images.githubusercontent.com/8856857/85501613-14f90580-b629-11ea-8b10-9fed8eed59c6.png)
+![Deploy2](https://user-images.githubusercontent.com/8856857/85501692-3823b500-b629-11ea-988a-d70e35b97a75.png)
+![Deploy3](https://user-images.githubusercontent.com/8856857/85501769-58537400-b629-11ea-98b1-1160fde13192.png)
+![Deploy4](https://user-images.githubusercontent.com/8856857/85501889-981a5b80-b629-11ea-870b-6b79eb354fa1.png)
+
+      
