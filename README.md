@@ -120,6 +120,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Orchestrating CI CD Pipelines](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Orchestrating%20CI%20CD%20Pipelines.md)
 - [Data Driven Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Data%20Driven%20Engineering.md)
 - [DoD Enterprise DevSecOps Reference Design](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DoD%20Enterprise%20DevSecOps%20Reference%20Design.md)
+- [auxiliary-engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Auxillary%20Engineering.md)
 
 [Back to top :arrow_up:](#trends)
 
