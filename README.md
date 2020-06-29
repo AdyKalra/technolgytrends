@@ -104,6 +104,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Kafka v/s Kinesis](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Kafka%20vs%20Kinesis.md)
 - [Six shifts to create a game-changing data architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Six%20shifts%20to%20create%20a%20game-changing%20data%20architecture.md)
 - [Real world architecture examples](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Real%20world%20architecture.md)
+- [High Level Design](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/High%20Level%20Design.md)
 
 [Back to top :arrow_up:](#trends)
 
