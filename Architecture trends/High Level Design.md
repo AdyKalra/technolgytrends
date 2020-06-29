@@ -1,5 +1,7 @@
 ## High Level Design
 *  Client -> CDN | DNS -> LB -> Http Cache -> APIG -> XL -> Feature Services -> Core Services -> Domains
+  * Cloud formation - stacks
+    * AMI to bake instances, launch config mgmt
 
 [Stacks comparison](https://stackshare.io/categories)
 
