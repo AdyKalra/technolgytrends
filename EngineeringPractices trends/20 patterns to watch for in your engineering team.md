@@ -177,4 +177,39 @@ Even in the most well-deﬁned projects, out-of-scope tasks arise. As a manager,
 * Pluralsight Flow data to show the additional work caused by the scope creep. Scope creep is caused by poor planning and insufficient attention during design. It’s not the engineer’s responsibility to shoulder the work resulting from bad specs. Call it out!  Let the people who are responsible for pushing a poorly designed project into implementation know that it’s simply not ok.
 * Then show them how much additional work their carelessness caused. Show them the data. This more than anything will make the true consequences of scope creep visible and thus actionable.
  
-### 
+### PATTERN 12 Flaky Product Ownership
+* Miscommunications between Product and Engineering can easily lead to Scope Creep. Flaky Product Ownership, however, can show up slightly different in the data and also generally requires a different approach.
+* There are two important behaviors that fall under this category:
+ * A Product Owner submits incomplete requirements, leading to extra engineering time spent toward ﬁlling in the gaps or resulting in ‘miscommunications’ later on. 
+ * A Product Owner changes their requests after implementation began, leading to missed deadlines.
+### How to recognize it 
+* This pattern tends to reveal itself in recurring scope creep driven by the same product owner. You may notice a signiﬁcant expansion of code that wasn’t driven by code review in the back of the sprint.
+* Frequent Mid-Stream Changes
+### What to do 
+* Ambiguous or changing requirements from a Product Owner can often be a sign that that person is stretched thin. They have too much to work on, so nothing gets their full attention. It’s helpful, for that reason, to have a discussion with their manager. Bringing data to the discussion can eliminate skepticism around what’s happening and help cut straight to the discussion about how to resolve the situation.
+* The handling of the situation should generally be left to the Product Owner’s manager. If it’s an issue of too much work, it can help to eliminate the individual’s work in progress. Otherwise, it may simply require coaching around any areas they tend to overlook when creating specs.
+ 
+## PATTERN 13 Expanding Refactor
+* Expanding refactors happen when a planned effort to improve or revise a section of code triggers a dramatic widening of scope.
+* What was intended as an optimization exercise, becomes a wholesale rewrite.
+### How to recognize it 
+* A small amount of legacy refactoring is healthy. It’s when you notice a whole slew of changes in areas that are unrelated to the feature at hand.
+* Look at the Work Log for outsized code commits in sets of ﬁles that seem completely unrelated to the feature at hand. Talk to the engineer, expanding refactors are rarely driven by the product teams.
+
+### What to do 
+* Open the topic up for discussion with the team. Ask team members to make a case for and against the refactor, and then come to a conclusion about whether it’s best to move forward with the project, drop it, or tackle it with a different approach.
+* It can also be useful to provide standards around what success is — what “done” looks like. That way, everyone’s clear around what the project is and isn’t, and so the expanding refactor doesn’t consume too much of your team’s time and energy.
+
+### PATTERN 14 Just One More Thing
+* “Just One More Thing” refers to the pattern of late-arriving pull requests. A team submits work, but then—right before the deadline—they jump in and make additions to that work.
+* Sometimes only one or two individual contributors will show this pattern, but that generally points to behaviors that require a different approach. But when the majority of the team is submitting PRs right before a deadline, it can mean there are larger process or even cultural issues that are causing an unpredictable workﬂow.
+* This pattern can occur for a wide range of reasons, including last minute requests, poor planning or estimates, and too much work in progress.
+### How to recognize it 
+* “Just One More Thing,” when appearing across a team, is characterized by a spike in PRs being submitted near the end of a sprint after the main PR was approved. These engineers will also show a high level of New Work.
+### What to do 
+* Late-arriving PRs are a sign that work is being rushed and given less review. Even when the work is submitted by engineers who are very familiar with the code, the PRs should be treated as riskier than other equally sized PRs that are submitted earlier in the sprint.
+* When you notice a spike in PRs being submitted, it can be helpful to review the work  submitted and decide whether it should be given an extra day’s review.
+* Longer-term, consider working with the team to identify any bottlenecks or process issues that could be eliminated or improved.
+ * If the team’s estimates or deadlines are causing lastminute stress, consider setting internal deadlines for projects. Another framework that some teams use is to consider ‘the three levers’ in setting a deadline: the external deadline (if any), the scope of the project, and resources available. It’s typically not realistic to change one without having to change the others, so it can help the planning process to take all three variables into account.
+ 
+ 
