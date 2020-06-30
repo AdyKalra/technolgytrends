@@ -78,4 +78,19 @@ others can provide in the review process. As a result, Domain Champions will typ
 * Recognize a clean bullseye in a standup, or a simple note: “I saw that check-in, nice job!” Whether it’s public or private, showing that you noticed and that you care will only reinforce this pattern.
 * If there’s an engineer who regularly makes Bullseye Commits, it may be helpful for others to understand how they approach projects. Ask the engineer to do a lunch and learn, or consider asking them to provide feedback on another engineer’s work  in the review process.
  
+## PATTERN 05 HEROING
+* Right before a release, the “Hero” ﬁnds some critical defect and makes a diving catch to save the day. More formally, Heroing is the reoccurring tendency to ﬁx other people’s work at the last minute.
+* Granted, a good save is usually better than no save. But regular Heroing leads to the creation of unhealthy dynamics within the team or otherwise encourages undisciplined programming. Some team members even learn to expect them to jump in on every release.
+* Heroing can be a symptom of poor delegation or micro-management. It also points to trust issues on a number of levels. The Hero will ultimately undermine growth by short-circuiting feedback loops and, over time, can foster uncertainty and self-doubt in otherwise strong engineers. At its worst, the Hero feeds a culture of laziness: everyone knows the Hero will “ﬁx” the work anyway so why bother. Ironically, those last-minute ﬁxes are the genesis of a lot of technical debt.
+
+### How to recognize it 
+* The Hero typically dominates Pluralsight Flow’s Help Others metric, particularly in the form of late arriving check-ins. They’re also distinguishable in the review process, where they may be self-merging PRs (and typically right before the deadline), or they will show very low Receptiveness in the review process (meaning either others aren’t providing substantial feedback or the Hero isn’t incorporating it).
+* It can be hard to disagree with their changes — especially with these changes being made so late in the sprint. This is partly why the Hero’s PRs usually show a very low level of engagement in the review process (see the Review and Collaboration metrics).
+ 
+### What to do 
+* Rather than managing the ‘saves,’ manage the code review process.
+* Ideally, team members are making small and frequent commits and requesting interim reviews for larger projects. If that’s not the case, consider working toward that goal ﬁrst. * It’ll help to get the Hero’s feedback early, even before the code is done.
+* When the team is in the habit of getting feedback early and often throughout a project, as opposed to submitting massive PRs all at once, the barrier to participating in the review process is lower. This can make it easier to promote healthier collaboration patterns and get everyone — especially the Hero — to give and be receptive to feedback in reviews. Coach the Hero to turn their ‘ﬁxes’ into actionable feedback for their teammates.
+
 ## 
+ 
