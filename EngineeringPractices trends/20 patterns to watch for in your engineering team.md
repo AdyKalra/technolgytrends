@@ -111,4 +111,15 @@ others can provide in the review process. As a result, Domain Champions will typ
 * One note of caution: be mindful when the two engineers are friends or were colleagues at a former employer. Making light of a friendship or teasing them can be incredibly damaging and hurtful. Go the extra mile to keep it professional.
 * And, as always, be transparent. You’re not trying to split up friendships. It’s the manager’s job to ensure that knowledge of the codebase is distributed evenly across the team and to ensure that people are honing their craft and growing their careers.
 
+## PATTERN 07 Clean As You Go
+* A codebase is continuously evolving by nature, but it doesn’t evolve evenly across all aspects. A Clean As You Go engineer will notice and reﬁne shortcomings even if it’s not essential to the task at hand. 
+* This pattern of continually improving the code adjacent to the code the engineer is working on, is a fantastic pattern to encourage.
+* “Fixing” work certainly doesn’t get the attention that “feature” work does, in part because there’s rarely that ta-da moment. While the activity of regularly ﬁxing existing code while working on other tasks can be much less visible and recognizable than working on new code, this engineer’s contribution is invaluable.
+### How to recognize it 
+* “Clean As You Go” refers to when an engineer contributes new code and also mends adjacent code in the codebase. Consequently, you’ll notice these engineers writing new code while also showing higher levels of legacy refactoring, that together usually exceed the expected scope of change for the assignment at hand.
+### What to do 
+* Recognize this engineer’s work publicly and use it as a model for other team members to work towards. Regularly acknowledge it in sprint retrospectives and standups, even after you ﬁrst observe the pattern. Consistent acknowledgment lets everyone know you value this effort.
+* Encourage this engineer to formalize their work pattern with documented coding standards (e.g., naming conventions, getter/setters, preferred patterns for ORM work, etc.)
+* A little bit of encouragement can go a long way to minimizing tech debt, and the engineers who Clean As They Go can help demonstrate how these best practices look.
+ 
 ## 
