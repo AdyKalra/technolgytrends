@@ -48,7 +48,9 @@ others can provide in the review process. As a result, Domain Champions will typ
 * This can be great timing for an impromptu and informal 1:1. Going on a walk or getting coffee, for example, can keep the conversation casual. Get them talking about their latest project, ask what went well and what didn’t, and recognize their achievement.
 * Along the way, bring up the topic of team collaboration, and how saving work until it’s completed leaves little room for learning from others throughout the process. When teams do work together throughout a project, they can learn from each other’s perspectives, reduce uncertainty and move faster, and even ﬁnd improved solutions to the problem. 
 * In practice, that might look like submitting work far before the engineer thinks it’s ready for a review.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 03 Unusually High Churn
 * Churn is a natural and healthy part of the development process and varies from project to project. However, Unusually High Churn is often an early indicator that a team or a person may be struggling with an assignment.
 * In benchmarking the code contribution patterns of over 85,000 software engineers, Pluralsight’s data science team identiﬁed that Code Churn levels frequently run between 13-30% of all code committed (i.e., 70-87% Efficiency), while a typical team can expect to operate in the neighborhood of 25% Code Churn (75% Efficiency).
@@ -71,7 +73,9 @@ others can provide in the review process. As a result, Domain Champions will typ
  2. Ask to split the work. The act of dividing the work often reveals the root issue. 
  3. Ask a more senior engineer to assess what “good enough” is in the context of the project.
  4. If the problem is difficult, or if the domain is unfamiliar, bring in another engineer to pair program.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 04 Bullseye Commits
 * This pattern is relatively common in most teams, but it often goes unrecognized: an engineer understands a problem, breaks down the project into smaller tasks, and submits code that has little room for improvement. 
 * Most likely, not all of the commits that make up the project will be Bullseyes. But the ones that are, generally have a small to modest impact and were thoroughly reviewed and approved on the ﬁrst try. Celebrate them!
@@ -81,7 +85,9 @@ others can provide in the review process. As a result, Domain Champions will typ
 ### What to do 
 * Recognize a clean bullseye in a standup, or a simple note: “I saw that check-in, nice job!” Whether it’s public or private, showing that you noticed and that you care will only reinforce this pattern.
 * If there’s an engineer who regularly makes Bullseye Commits, it may be helpful for others to understand how they approach projects. Ask the engineer to do a lunch and learn, or consider asking them to provide feedback on another engineer’s work  in the review process.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 05 HEROING
 * Right before a release, the “Hero” ﬁnds some critical defect and makes a diving catch to save the day. More formally, Heroing is the reoccurring tendency to ﬁx other people’s work at the last minute.
 * Granted, a good save is usually better than no save. But regular Heroing leads to the creation of unhealthy dynamics within the team or otherwise encourages undisciplined programming. Some team members even learn to expect them to jump in on every release.
@@ -95,6 +101,8 @@ others can provide in the review process. As a result, Domain Champions will typ
 * Rather than managing the ‘saves,’ manage the code review process.
 * Ideally, team members are making small and frequent commits and requesting interim reviews for larger projects. If that’s not the case, consider working toward that goal ﬁrst. * It’ll help to get the Hero’s feedback early, even before the code is done.
 * When the team is in the habit of getting feedback early and often throughout a project, as opposed to submitting massive PRs all at once, the barrier to participating in the review process is lower. This can make it easier to promote healthier collaboration patterns and get everyone — especially the Hero — to give and be receptive to feedback in reviews. Coach the Hero to turn their ‘ﬁxes’ into actionable feedback for their teammates.
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
 
 ## PATTERN 06 Over Helping
 * Collaboration among teammates is a natural and expected part of the development process. Over Helping is the pattern whereby one developer spends unnatural amounts of time helping another developer to get their work across the line.
@@ -115,6 +123,8 @@ others can provide in the review process. As a result, Domain Champions will typ
 * One note of caution: be mindful when the two engineers are friends or were colleagues at a former employer. Making light of a friendship or teasing them can be incredibly damaging and hurtful. Go the extra mile to keep it professional.
 * And, as always, be transparent. You’re not trying to split up friendships. It’s the manager’s job to ensure that knowledge of the codebase is distributed evenly across the team and to ensure that people are honing their craft and growing their careers.
 
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 07 Clean As You Go
 * A codebase is continuously evolving by nature, but it doesn’t evolve evenly across all aspects. A Clean As You Go engineer will notice and reﬁne shortcomings even if it’s not essential to the task at hand. 
 * This pattern of continually improving the code adjacent to the code the engineer is working on, is a fantastic pattern to encourage.
@@ -125,7 +135,9 @@ others can provide in the review process. As a result, Domain Champions will typ
 * Recognize this engineer’s work publicly and use it as a model for other team members to work towards. Regularly acknowledge it in sprint retrospectives and standups, even after you ﬁrst observe the pattern. Consistent acknowledgment lets everyone know you value this effort.
 * Encourage this engineer to formalize their work pattern with documented coding standards (e.g., naming conventions, getter/setters, preferred patterns for ORM work, etc.)
 * A little bit of encouragement can go a long way to minimizing tech debt, and the engineers who Clean As They Go can help demonstrate how these best practices look.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 08 In the Zone
 
 * This pattern is exhibited by engineers whose work is, in a word, consistent. They have a knack for getting in the zone and shipping highquality work week in and week out. Their work is reliable and predictable in nearly every way.
@@ -140,6 +152,8 @@ others can provide in the review process. As a result, Domain Champions will typ
 * An essay from Paul Graham, titled “Maker’s Schedule, Manager’s Schedule” offers context and strategies for blocking meetings and creating space to get in the zone. 
 * Small changes in scheduling and reduction of interruptions can amount to signiﬁcant increase in capacity. Furthermore, consistently getting in the zone allows your team to ship 
 
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 09 Bit Twiddling
 
 * Bit Twiddling is like working on jigsaw puzzle to the point where everything looks the same and you’re not making progress anymore. You might pick up the same piece, try it in a few places, rotate it, put down, only to pick it up a few minutes later.
@@ -151,7 +165,9 @@ others can provide in the review process. As a result, Domain Champions will typ
 ### What to do Look for 
 * ways to reenergize the engineer with a new project. Find a ticket, even a small one, that will lead into new and interesting areas of the code — even if it comes at the expense of the team’s productivity in the short-term.
 * Creative workers thrive when tackling new and challenging problems, even if they at ﬁrst balk at working outside their area of expertise. New experience typically leads to learning something new, a process most engineers enjoy.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 10 The Busy Body
 
 * The Busy Body is an engineer who skips all over the codebase: they’ll ﬁx a front-end problem here, jump to some refactoring, then ﬁddle with the database over there. 
@@ -163,7 +179,9 @@ Their work is always lightweight and shies away from heavier problems. This beha
 ### What to do 
 * Give these engineers something to own top to bottom. Whether it’s a module, a new feature, or a large project, ask them to do more than just ‘get it done’. Ask them to become an expert in that particular area or on that speciﬁc project.
 * Then, double down on their strengths in that area: assign them the 1.1 version, the bug ﬁxes, the unit tests, and the documentation, then give them the 1.2 and 1.3 versions as well. Allow them the opportunity to get to know their domain, to work with it, to teach others about it, and to develop a mastery. Ask them to give a presentation on the project to highlight lessons learned and best practices. The key is to nurture a true sense of ownership.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 # PART 2 Work patterns exhibited on a team-wide level
 
 ## PATTERN 11 Scope Creep
@@ -180,7 +198,9 @@ Even in the most well-deﬁned projects, out-of-scope tasks arise. As a manager,
 ### What to do Use 
 * Pluralsight Flow data to show the additional work caused by the scope creep. Scope creep is caused by poor planning and insufficient attention during design. It’s not the engineer’s responsibility to shoulder the work resulting from bad specs. Call it out!  Let the people who are responsible for pushing a poorly designed project into implementation know that it’s simply not ok.
 * Then show them how much additional work their carelessness caused. Show them the data. This more than anything will make the true consequences of scope creep visible and thus actionable.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ### PATTERN 12 Flaky Product Ownership
 * Miscommunications between Product and Engineering can easily lead to Scope Creep. Flaky Product Ownership, however, can show up slightly different in the data and also generally requires a different approach.
 * There are two important behaviors that fall under this category:
@@ -192,7 +212,9 @@ Even in the most well-deﬁned projects, out-of-scope tasks arise. As a manager,
 ### What to do 
 * Ambiguous or changing requirements from a Product Owner can often be a sign that that person is stretched thin. They have too much to work on, so nothing gets their full attention. It’s helpful, for that reason, to have a discussion with their manager. Bringing data to the discussion can eliminate skepticism around what’s happening and help cut straight to the discussion about how to resolve the situation.
 * The handling of the situation should generally be left to the Product Owner’s manager. If it’s an issue of too much work, it can help to eliminate the individual’s work in progress. Otherwise, it may simply require coaching around any areas they tend to overlook when creating specs.
- 
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
 ## PATTERN 13 Expanding Refactor
 * Expanding refactors happen when a planned effort to improve or revise a section of code triggers a dramatic widening of scope.
 * What was intended as an optimization exercise, becomes a wholesale rewrite.
@@ -203,6 +225,8 @@ Even in the most well-deﬁned projects, out-of-scope tasks arise. As a manager,
 ### What to do 
 * Open the topic up for discussion with the team. Ask team members to make a case for and against the refactor, and then come to a conclusion about whether it’s best to move forward with the project, drop it, or tackle it with a different approach.
 * It can also be useful to provide standards around what success is — what “done” looks like. That way, everyone’s clear around what the project is and isn’t, and so the expanding refactor doesn’t consume too much of your team’s time and energy.
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
 
 ### PATTERN 14 Just One More Thing
 * “Just One More Thing” refers to the pattern of late-arriving pull requests. A team submits work, but then—right before the deadline—they jump in and make additions to that work.
@@ -215,5 +239,92 @@ Even in the most well-deﬁned projects, out-of-scope tasks arise. As a manager,
 * When you notice a spike in PRs being submitted, it can be helpful to review the work  submitted and decide whether it should be given an extra day’s review.
 * Longer-term, consider working with the team to identify any bottlenecks or process issues that could be eliminated or improved.
  * If the team’s estimates or deadlines are causing lastminute stress, consider setting internal deadlines for projects. Another framework that some teams use is to consider ‘the three levers’ in setting a deadline: the external deadline (if any), the scope of the project, and resources available. It’s typically not realistic to change one without having to change the others, so it can help the planning process to take all three variables into account.
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
+## PATTERN 15 Rubber Stamping
+* Rubber Stamping is the process by which an engineer approves their colleague’s PR without giving it a substantial review.
+* Often, the Submitter will have some level of seniority in the team, and the Reviewer trusts that the work is good enough. In other situations, someone doesn’t value code review, or everyone just ran out of time and felt the need to push the PR through.
+* In any case, the code review process has a wide range of beneﬁts and outcomes: teams see improved code quality, increased knowledge transfer within and across teams, more signiﬁcant opportunities for collaboration and mentorship, and improved solutions to problems. So when an individual submits code for review and no review is given, we sacriﬁce all of these outcomes for short-term efficiency.
+### How to recognize it 
+* Rubber Stamping is most noticeable in the Review and Collaboration reports. Watch the Review Workﬂow for PRs that opened and closed in a preposterously short period of time, with a very low level of Receptiveness. Low levels of engagement in reviews can also be seen in the Involvement and Review Coverage metrics.
+* When review happens later, as opposed to right after the PR is opened, there will be little to no back-and-forth in the comments (see the PR Resolution report). If there were no comments on the PR, this PR will show as Unreviewed.
+* The Team Collaboration metrics will also provide insight into the time and energy that team members are allocating toward the review process over any given time period. These reports will help watch and manage the trends in the long-term.
+
+### What to do 
+* While reviewing other people’s work is a substantial part of what it means to be a professional software developer, it’s not always recognized as such. Rubber Stamping often occurs in environments where the review process is given little attention or recognition; when leadership praises the behaviors they want to see in code reviews, we generally see that the way people work will shift to match those expectations.
+* On an individual level, it can be helpful to coach team members on what substantial reviews look like in practice by showing examples from others on their team. Try deconstructing the feedback together in a 1:1, so engineers leave the meeting with a framework they can use moving forward. If there are speciﬁc engineers who are frequently given less review, take into consideration 
  
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
+## PATTERN 16 Knowledge Silos
+* Knowledge Silos are usually experienced between departments in traditional organizational structures, but they also form within teams when information is not passing freely between individuals.
+* In software engineering, Knowledge Silos can be identiﬁed in the code review process. Knowledge Silos form when a group of engineers only review each other’s work. Imagine two or three engineers who review all of each other’s PRs, and don’t review anyone else’s PRs on their team. These engineers learn about each other’s work and techniques, and the areas of the code that they’re working in. Other engineers on the team who aren’t part of the silo don’t have that same level of information.
+* There are plenty of reasons why engineers will get into a cycle of only reviewing each other’s work — ﬁguring out the reasons why, through discussions with the team and by reviewing the Team Collaboration metrics, can sometimes point you toward the broader team dynamics at play. For example, if these engineers only want to work together because everyone else is slow to review their code, consider setting expectations around Time to First Comment, and Reaction Time.
+* When knowledge silos exist for an extended period of time, they can often begin to show signs of Rubber Stamping. Reviewing a select group of engineer’s work for a long time can lead to less substantial reviews simply because the engineers trust that each other’s work is good enough. When that happens, these situations can turn into bug factories. Work is being approved and pushed forward without adequate evaluation.
+### How to recognize it 
+* When team members are co-located, a basic understanding of where people sit in an office along with an awareness of any other social bonds can be helpful indicators as to where silos may form.
+* You can also use the Knowledge Sharing report to visualize how knowledge is being distributed across a team in the review process and to identify knowledge Silos. If there are two or three people who only review each other’s code, the team’s Knowledge Sharing Index will trend toward 0. If the majority of the team reviews each other’s code, the Index will trend toward 1.
+* You can then drill down into speciﬁc team dynamics with the Review Radar. When there are Silos, there will be a small group of engineers that review only each other’s work across multiple sprints.
+### What to do 
+* Bring in the outsiders! One of the most natural ways to manage this pattern is to look for outliers and stranded engineers and get those individuals involved in the review process. You can also see whether there’s anyone who could be cross-trained or onboarded on a speciﬁc area of the code that an engineering within the silo is working on.
+* Assign other engineers to review the work of the individuals that make up the silo, and have the individuals within that tight-knit group review the work of others outside their group.
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
+## PATTERN 17 Self-Merging PRs
+* This pattern refers to when an engineer opens a pull request and then approves it themselves. This means no one else reviewed the work and it’s headed to production!
+* As a general rule, engineers shouldn’t merge their own code. In fact, most companies don’t permit them to: selfmerging bypasses all forms of human review, and can easily introduce bugs.
+* If the code is worth putting on the main branch, it is worth having someone review it.
+### How to recognize it 
+* Self-merging is easy to see because the submitter and the reviewer are the same people. In Pluralsight Flow these instances will show up in the team’s Unreviewed PRs metric as well as in their Review Workﬂow.
+### What to do 
+* Many organizations prevent self-merging PRs by conﬁguring their build systems to reject them. Enforced review is most common among companies that work under regulatory compliance, like ﬁntech or biotech companies. 
+* Self-merging represents a material security risk to the company, no matter how talented an engineer is.
+* But even in organizations that don’t enforce review, managers should be in the know when these situations do happen. Reviewing these PRs on a case-by-case basis, even though they’re being reviewed after they’ve have been merged, will help ensure that any bugs or problems are not going to get buried.
+* If the commit was trivial, you might be able to give QA a heads-up to take a close look at it. If the unreviewed pull requests are non-trivial, walk those back if the circumstances allow it and require a code review.
+* Reducing the frequency of unreviewed and self-merged pull requests is a best practice (Unreviewed PRs should be 0%, or close to it). If engineers are in the habit of self-merging without review, it may be helpful to have an informal conversation with them to ensure that they understand the ‘why’ behind getting the review process or at least clear on expectations. If they’re more senior, encourage them to follow the best practice of getting code thoroughly reviewed by others, so other engineers will model that behavior.
+  
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
+## PATTERN 18 Long-Running PRs
+* Long-running pull requests are PRs that have been open for a very long time (more than a week). A PR that doesn’t close in a normal amount of time (within a day) can indicate uncertainty or disagreement about the code. 
+* Often in long-running PRs, you’ll notice a few back-and-forth comments, then radio silence.
+* Apart from the possible disagreement or confusion amongst the team, longrunning PRs are also themselves a problem. A PR that is a week old can quickly become irrelevant, especially in fast-moving teams. Long-running PRs can also become bottlenecks.
+
+### How to recognize it 
+* Long-running PRs can quickly be identiﬁed in the team’s Review Workﬂow report, ﬁltered by ‘PR Status: Open’ and sorted by ‘oldest PRs’. Select the number of PRs you’d like to see in one view, then hover over those that have been open for more than a day. 
+* If you see a few back-and-forth comments with signs of uncertainty or disagreement in their communication, followed by silence, it’s worth checking in to see how you can move the conversation forward.
+### What to do 
+* It’s usually best to ﬁrst check in with the Submitter. It’s their responsibility to get their work across the line, so they should be encouraged to bubble up disagreements or uncertainties as they arise. If there is a disagreement, get their read on it and offer advice to move it forward. Depending on the situation, get the Reviewer’s read on it as well — ideally when everyone is together in a room or on a call. Make a decision, and ask anyone that disagrees to ‘disagree and commit’.
+* To manage this pattern in the longterm, consider setting expectations or targets around Time to First Comment, and Time to Resolve. It’s also helpful to communicate best practices around timely response — when it takes engineers a day to respond to feedback (see Responsiveness), that can mean there’s a lot of time spent waiting on others, and the communication isn’t timely enough to be as effective as it otherwise could be.
  
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
+## PATTERN 19 A High Bus Factor
+* “Bus factor” is a thought experiment that asks what the consequence would be if an individual team member were hit by a bus. More speciﬁcally: Bus factor (noun): The number of team members that need to get hit by a bus before your project is doomed to fail.
+* Having a low bus factor is risky. A High Bus Factor means that there is a greater distribution of knowledge and knowhow about the code across the team. When more than one engineer knows about each area of the team’s code, there’s more optionality for managers to assign tasks and more people that can provide substantial reviews, reducing the possibility of bottlenecks to a release.
+ * For example, if three engineers know how to work in the billing system, a manager can assign a task in that domain to any of those three engineers. Contrarily, if there are knowledge silos, or if only one engineer has experience working in the billing system, the manager will have difficulty assigning those tasks to any other engineer.
+### How to recognize it 
+* A team’s distribution of knowledge can be visualized with the Knowledge Sharing Index. It’s best to use this report within teams that you would expect to review each other’s work. A low Index means that there is a lower distribution of knowledge across a team, representing a higher bus factor risk. This also means there may be silos forming; a high Index represents a greater distribution of knowledge across the team.
+* Furthermore, it helps to start with the Index to get a high-level understanding and then drill down into speciﬁc team dynamics. If the Index is trending downward, check to see if team members are getting into a cycle of only reviewing each other’s work.
+
+### What to do 
+* Knowledge distribution can be achieved when team members are making small and frequent commits, and there’s a healthy level of collaboration and debate in reviews from everyone on the team. It can be helpful to keep this in mind when providing feedback in 1:1s and when onboarding new hires to the team.
+* When you see a low Sharing Index (i.e., a low bus factor, higher risk), see the Review Radar for opportunities to get team members more involved in the review process. When you see the behavior you want to see in the review process, consider recognizing that in a team-wide meeting.
+ 
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
+
+## PATTERN 20 Sprint Retrospectives
+* Retrospectives are a common practice that offer an easy way to continuously improve: take time to reﬂect, as an individual or a team, on a project, action, or occurrence.
+While reﬂecting on the goals of the sprint, what actually happened, why it happened, and planning for what’s next, use data to provide a more complete view on the team’s progress. Instead of looking just at what was built, look at how it was built. Visualize the development process and watch for trends in work patterns across the team and at the individual level.
+### How to recognize it 
+* A good Sprint Retrospective uses data to help people compare what they felt happened during the sprint and what actually happened in the sprint.
+### What to do 
+* As a manager of managers, it helps to coach managers of individual contributors on the practice of including data in their retrospectives. 
+* If there are speciﬁc work patterns you see in the team that you either want to see more of or want to manage away from, consider showing them what those behaviors look like in the data, how to watch for them, and what to do when they see them. 
+
+* Encourage them to include data in discussions with you, and with others in the organization, and show them how to do so.
+In short, Sprint Retrospectives are about watching for and managing work patterns. It’s about recognizing achievement, spotting bottlenecks, and debugging the development process with data.
+ 
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
