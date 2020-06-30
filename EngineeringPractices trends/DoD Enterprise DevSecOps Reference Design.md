@@ -267,4 +267,11 @@ The activities supported by the build phase are listed in Table 9.
 ![Config1](https://user-images.githubusercontent.com/8856857/85503536-41168580-b62d-11ea-9d0f-f818fed72293.png)
 ![Config2](https://user-images.githubusercontent.com/8856857/85503586-5db2bd80-b62d-11ea-86ca-ed890ecc77e1.png)
 
-
+### Database Management Tools and Activities Summary 
+* Databases are commonly used in the DoD software systems. They hold some of the most critical information of an enterprise or a mission and are typically the center piece of the software system. 
+* Data security and privacy protection are paramount to enterprises and missions. 
+* Relational databases continue to be a prime target for data thieves, and security vulnerabilities are compound by adoption of big data platforms, such as Hadoop, NoSQL databases, and Database as a Service (DBaaS) in the cloud. 
+* Here we discuss some database activities throughout the DevSecOps lifecycle to improve database security and operations. In development phases, database design, development, and testing activities generate database artifacts, which are data models, database schema files, trigger definitions, view definition, test data, test data generation scripts, test scripts, etc. 
+* These database artifacts must be under configuration management control. During test phase, database functional test is like application code unit test and functional test to validate the schema, triggers, and data compliance. The nonfunctional test includes load testing, stress test, and performance test. The security test focuses on vulnerability scan, user authentication and authorization, unauthorized access to data, data encryption, privilege elevation, SQL injection, and denial of service. 
+* During operations, the deployment and operational activities can be automated via database automation tools. The continuous monitoring is achieved using database monitoring tool and security audit tool. 
+![DB1](https://user-images.githubusercontent.com/8856857/86082096-52064180-bada-11ea-9ca6-1863be61ca4c.png)
