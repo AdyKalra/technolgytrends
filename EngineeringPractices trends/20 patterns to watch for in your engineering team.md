@@ -45,4 +45,28 @@ others can provide in the review process. As a result, Domain Champions will typ
 * Along the way, bring up the topic of team collaboration, and how saving work until it’s completed leaves little room for learning from others throughout the process. When teams do work together throughout a project, they can learn from each other’s perspectives, reduce uncertainty and move faster, and even ﬁnd improved solutions to the problem. 
 * In practice, that might look like submitting work far before the engineer thinks it’s ready for a review.
  
+## PATTERN 03 Unusually High Churn
+* Churn is a natural and healthy part of the development process and varies from project to project. However, Unusually High Churn is often an early indicator that a team or a person may be struggling with an assignment.
+* In benchmarking the code contribution patterns of over 85,000 software engineers, Pluralsight’s data science team identiﬁed that Code Churn levels frequently run between 13-30% of all code committed (i.e., 70-87% Efficiency), while a typical team can expect to operate in the neighborhood of 25% Code Churn (75% Efficiency).
+* Testing, reworking, and exploring various solutions is expected, and these levels will vary between people, types of projects, and stage in the software lifecycle. Given the variance, becoming familiar with your team’s ‘normal’ levels is necessary to identify when something is off.
+* Unusually high churn levels aren’t a problem in themselves. More likely, there are outside factors causing the problem.
+* An unusually high level of churn can be indicative of one of three behaviors:
+ * Perfectionism: When an engineers’ standards of “good enough” are not aligned with the company’s standard of “good enough.” Engineers keep going back into the code to rewrite it because they think it can and should be better but may not add much to the actual functionality of the code.
+ * They’re struggling with the problem at hand. This situation manifests differently than with Hoarding the Code (pattern #2), because in this case, the engineer initially thought they had correctly solved the problem, perhaps even sent it off for review, and then discovered it needed to be rewritten. Not just touched up. Rewritten. 
+ * Or, most commonly, issues concerning external stakeholders. We see this with unclear or ambiguous specs, late arriving requirements, or mid-sprint updates to the deliverables.
+### How to recognize it 
+* This pattern is characterized by high levels of churn in the back of the sprint or project. Watch for churn rates that climb signiﬁcantly above the engineer’s historical average (see the Snapshot and Spot Check reports), pairing that information with where they are in a project.
+### What to do 
+* Churn is normal in lots of situations. Redesigns, prototypes, and POCs are all examples where you would expect to rewrite large chunks of code. So when you notice unusually high churn, take into consideration whether this is routine or something’s off. If it’s the latter:
+* Determine whether an external stakeholder is driving the situation. If so (and the engineer has veriﬁed that this is causing the higher levels of churn), then:
+ 1. Show the data. Show how late arriving specs or last-minute changes are throwing the project off. 
+ 2. Pull the ticket from the sprint, or decide on an MVP and split off the additions into a reﬁnement sprint.
+* If an external stakeholder is not driving the Unusually High Churn, call in the cavalry!
+* It is usually preferable to be coached by a fellow engineer or team lead instead of a manager.
+ 1. Ask for a pre-submit code review or a rubber duck. 
+ 2. Ask to split the work. The act of dividing the work often reveals the root issue. 
+ 3. Ask a more senior engineer to assess what “good enough” is in the context of the project.
+ 4. If the problem is difficult, or if the domain is unfamiliar, bring in another engineer to pair program.
+ 
 ## 
+
