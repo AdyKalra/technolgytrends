@@ -136,5 +136,27 @@ others can provide in the review process. As a result, Domain Champions will typ
 * An essay from Paul Graham, titled “Maker’s Schedule, Manager’s Schedule” offers context and strategies for blocking meetings and creating space to get in the zone. 
 * Small changes in scheduling and reduction of interruptions can amount to signiﬁcant increase in capacity. Furthermore, consistently getting in the zone allows your team to ship 
 
-## 
+## PATTERN 09 Bit Twiddling
+
+* Bit Twiddling is like working on jigsaw puzzle to the point where everything looks the same and you’re not making progress anymore. You might pick up the same piece, try it in a few places, rotate it, put down, only to pick it up a few minutes later.
+* Bit Twiddling reveals itself when an engineer is unwaveringly focused on a single area of the codebase for a very long time, making only slight changes here and there. This often happens because the engineer doesn’t fully understand the problem or the context for making the change. 
+* They may be losing steam and motivation, or are at high risk for doing so. 
+### How to recognize it 
+* Look for high rates of churn in the same area of the code. The key is to couple repetition and refactoring with ambivalence or indifference in code review over an extended period.
+ * For example, watch for a standard library call, or otherwise stable code, get refactored into customized code for some difficult to articulate optimization. Or, watch for code that gets reﬁned and refactored multiple times with disinterest — light code review and PRs with generic submitter comments like “refactoring,” “reorganizing,” or “touch up,” followed by “LGTM”. 
+### What to do Look for 
+* ways to reenergize the engineer with a new project. Find a ticket, even a small one, that will lead into new and interesting areas of the code — even if it comes at the expense of the team’s productivity in the short-term.
+* Creative workers thrive when tackling new and challenging problems, even if they at ﬁrst balk at working outside their area of expertise. New experience typically leads to learning something new, a process most engineers enjoy.
+ 
+## PATTERN 10 The Busy Body
+
+* The Busy Body is an engineer who skips all over the codebase: they’ll ﬁx a front-end problem here, jump to some refactoring, then ﬁddle with the database over there. 
+Their work is always lightweight and shies away from heavier problems. This behavior can be perfectly normal over short periods or in isolated instances. And, in fact, some shifting around is healthy.
+* But the Busy Body is problematic over a long period because these engineers end up without a strong sense of ownership. There’s nothing for them to point at and say, “I made that.” Even if they can solve a wide range of problems, lacking something that they own can lead to attrition.
+### How to recognize it 
+* Engineers exhibiting this pattern will show high levels of Impact and lots of small pull requests without any identiﬁable home base in the code. They’ll show a high level of Involvement in the review process. And because they typically spend their time building and spend less time bug ﬁxing their own work, they’ll show high levels of new work and relatively low churn.
+* These dynamics are often ﬁrst identiﬁed in the Player Card report or in the team’s Submit and Review Fundamentals.
+### What to do 
+* Give these engineers something to own top to bottom. Whether it’s a module, a new feature, or a large project, ask them to do more than just ‘get it done’. Ask them to become an expert in that particular area or on that speciﬁc project.
+* Then, double down on their strengths in that area: assign them the 1.1 version, the bug ﬁxes, the unit tests, and the documentation, then give them the 1.2 and 1.3 versions as well. Allow them the opportunity to get to know their domain, to work with it, to teach others about it, and to develop a mastery. Ask them to give a presentation on the project to highlight lessons learned and best practices. The key is to nurture a true sense of ownership.
  
