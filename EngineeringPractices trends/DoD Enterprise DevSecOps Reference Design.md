@@ -275,3 +275,106 @@ The activities supported by the build phase are listed in Table 9.
 * These database artifacts must be under configuration management control. During test phase, database functional test is like application code unit test and functional test to validate the schema, triggers, and data compliance. The nonfunctional test includes load testing, stress test, and performance test. The security test focuses on vulnerability scan, user authentication and authorization, unauthorized access to data, data encryption, privilege elevation, SQL injection, and denial of service. 
 * During operations, the deployment and operational activities can be automated via database automation tools. The continuous monitoring is achieved using database monitoring tool and security audit tool. 
 ![DB1](https://user-images.githubusercontent.com/8856857/86082096-52064180-bada-11ea-9ca6-1863be61ca4c.png)
+
+## DoD Enterprise DevSecOps Container Service
+* The DoD Enterprise DevSecOps Container Service creates DevSecOps hardened containers and provides hardened container access service to DoD programs to instantiate their own DevSecOps ecosystem. 
+![DevSecOps Container Service](https://user-images.githubusercontent.com/8856857/86082240-998ccd80-bada-11ea-8871-4c365a9bcb3d.png)
+* Figure 10 illustrates the DoD Enterprise DevSecOps Container Service architecture. It contains a DoD Enterprise DevSecOps Container Factory and a DoD Centralized Artifact Repository (DCAR). The Container Factory takes public container images as input and automates the container hardening process to produce the hardened container images. The DCAR stores the hardened container images and allows DoD programs access these images
+### DoD Enterprise DevSecOps Container Factory 
+* The Container Factory produces the hardened containers of DevSecOps tools. It is imperative for the Container Factory to automate its hardening process as much as possible. It does this by leveraging CI/CD pipelines in an instance of the software factory specifically configured for hardening of DevSecOps tool containers. 
+#### DoD Hardened Containers 
+* A DoD hardened container is an Open Container Image (OCI) compliant image that is secured and made compliant with the DoD Container Hardening Security Requirements Guide [6].
+* Container images should adhere to the OCI Image Format Specification to ensure portability. Each hardened container includes the “global configuration”, which includes all security hardening configuration. 
+* The packaged container is tagged with integrity metadata, such as a digital signature or a digital hash. Tags may be implemented as metadata bound to the object, or as attributes in a file associated with the object. 
+* Some configuration values can be changed for local use, such as the DNS location. These “local configuration” values are outside the scope of the integrity tag, and do not “break” the chain of trust for the hardened container.  Artifacts related to the hardened container should include the Information Assurance (IA) controls that the hardened container has successfully addressed, so that users of the container know which controls they can inherit, versus which controls they must address. This capability may not exist in the MVP, but it is an objective that enables reciprocity. 
+* The Hardened Container Factory produces following types of containers: 
+   * Hardened containers of DevSecOps CI/CD pipeline tools  
+   * Sidecar Container Security Stack containers to be used in runtime environments for container security 
+   * Common containers (such as OS, database, web servers, etc.) to be used as a program development baseline 
+#### Container Hardening Process 
+* The Container hardening process, including required documentation, sustainment of the hardened containers, and cybersecurity requirements, is fully described in the DoD Enterprise DevSecOps Initiative Hardening Containers [13]. The basic process is depicted in Figure 11. 
+![Hardening](https://user-images.githubusercontent.com/8856857/86082544-60a12880-badb-11ea-9621-65df5c48c0b5.png)
+#### Select the Container Base Image
+* A base image is a container image that comes from a vendor or an open source community; it is used as the starting point to create a hardened container image. Use the base image without creating forks to enable direct coupling with its updates. The container should be built starting with the respective DoD hardened base OS STIG image.  
+#### Harden the Container 
+* The Container Factory uses a set of instructions given in [13] to harden the container to mitigate findings and ensure proper DoD compliance. Reuse the instructions as much as possible between versions so that the hardening will be consistent across versions. 
+* It is possible that new versions bring new features, which may require additional hardening. The DoD Centralized Container Source Code Repository (DCCSCR) is used to store instruction files to build container images, associated checksums, and various documentation. The source code repository is centrally hosted so hardeners can store their code and leverage a CI/CD pipeline (Container Factory). 
+* This is what feeds the container hardening process and DCAR repository. Use the CI/CD orchestration tool; download the DCCSCR folder content into the pipeline and use the Instructions file to build the container. The CI/CD pipeline will then run the required Container Hardening Scanners, scanning the container image. Based on the findings of the Container Hardening Scanners, add instructions to mitigate the findings as needed. Rebuild and rescan until findings are mitigated or accepted. 
+#### Store the Hardened Container 
+* The DCAR is used to store the hardened containers, associated checksums, and various documentation. This repository will be centrally hosted. Each container will have its own folder in the DCAR. Subfolders should be used for versioning. 
+* Store the hardened container and checksum inside the DCAR. It will be tagged as “preproduction” as well until the artifact receives an ATO, in which case it will then be tagged for “production”. 
+#### Documentation 
+* Content and documentation provided for the hardened container will include: 
+   * A description of the container, how to deploy it, the functional capabilities it provides, and its interfaces. 
+   * Scripts, including the instructions file for building the container, and related configuration files for deploying and scaling the hardened image or container 
+   * Security test results including findings, false positives, and a recommended mitigation plan. 
+   * Accepted risks, including a Plan of Action and Milestones (POA&M) for critical and high findings that are not yet resolved. 
+   * Change log of significant changes since the last version. 
+   * Human-readable licenses for all products are included within the container. COTS license keys will not be included, and they will need to be acquired separately.
+   
+#### Continuous Engineering 
+* The hardened container factory CI/CD pipeline searches for and downloads new base images that are posted by the vendor or in an open source community repository and runs the steps 
+* These steps are triggered automatically, as soon as a new image is released into the open source repository. If the build passes all scans, it should automatically store the new container into DCAR, where it will be tagged as “pre-production”. It also automatically notifies the team if a build fails to pass any of the scans.
+#### Cybersecurity 
+* The hardened containers produced by the factory should meet the related cybersecurity requirements, which include NIST Special Publication (SP) 800-53 [14], NIST SP 800-37 [15], the DoD DISA Security Technical Implementation Guides (STIGs) and Security Requirements Guides (SRGs), and industry best practices. 
+
+### DoD Centralized Artifact Repository 
+* The DCAR holds the DoD hardened container images that the DoD Enterprise DevSecOps Container Factory produces. DoD program DevSecOps teams can utilize these to instantiate their own DevSecOps ecosystem and software factory. The DCAR also holds the DoD hardened containers for base operating systems, web servers, application servers, databases, API gateways, message buses, and additional enterprise capabilities for use by DoD program software teams as a program system deployment baseline. Separate hardened container images are created for different versions of base images. 
+* DCAR hardened container images are version controlled. These hardened containers, along with security accreditation reciprocity, greatly simplify and speed the process of obtaining an Approval to Connect (ATC) or Authority to Operate (ATO). The DCAR provides the capability to allow DoD programs (including approved DoD contractors) to search, list information about, and download artifacts from the repository for DoD software development on the approved environment.
+
+## DevSecOps Ecosystem Reference Designs 
+* This section will discuss two software factory reference designs. 
+   * One is based on the DoD Enterprise DevSecOps Container Service offering to create a software factory using DevSecOps tool hardened containers from DCAR. 
+   * The other is based on DoD authorized cloud DevSecOps service offerings as provided by a CSP. 
+* This section also discusses secure operations for containerized applications in a production environment by leveraging container security tools in the DCAR. 
+
+### Containerized Software Factory 
+* A containerized software factory can be instantiated using a set of DevSecOps hardened containers that are offered in the DCAR. These enterprise containers are preconfigured and secured to reduce the certification and accreditation burden and are often available as a predetermined pattern or pipeline that will need limited or no configuration. 
+* Figure 12 illustrates a containerized software factory reference design. The software factory is built on an underlying container orchestration layer and a host environment. It produces DoD applications as the product. These applications use different sets of hardened containers from the DCAR than the ones used to create the software factory. DoD programs may have already implemented a DevSecOps platform. One of the pain points is sustaining that platform. It is highly recommended that, as incremental updates are made to the existing platform, the program migrates capabilities to the DoD Enterprise DevSecOps hardened containers. For those cases where a DoD Enterprise hardened container is not available, or requires a custom policy, the program in conjunction with the DoD Enterprise DevSecOps program office is encouraged to create, sustain, and deliver the hardened container to the DCAR. 
+![RefDesign](https://user-images.githubusercontent.com/8856857/86083146-d0fc7980-badc-11ea-830d-77c54927c79e.png)
+
+### Hosting Environment 
+* The reference design does not restrict the software factory hosting environment, which could be DoD-approved Cloud Service Providers, DoD data centers or even on-premises servers. The hosting environment provides compute, storage, and network resources in either physical or virtual form. 
+### Container Orchestration 
+* In order to support containerized software factory tools, the underlying container orchestration must use CNCF certified Kubernetes and support OCI compliant containers. CNCF-certified Kubernetes orchestrates containers, interacts with underlying hosting environment resources, and coordinates clusters of nodes at scale in development, testing and pre-production in an efficient manner. There are two options for the container orchestration layer as illustrated in Figure 13. 
+![PlatformOptions](https://user-images.githubusercontent.com/8856857/86083273-1f117d00-badd-11ea-8180-81e2f61b4ad8.png)
+* In Option A, it is the mission program’s responsibility to build and maintain the container orchestration layer (CNCF-certified Kubernetes) using COTS solutions. The container orchestration layer can be deployed on top of a DoD authorized cloud environment, a DoD data center, or on bare metal servers. The container orchestration system components are subject to monitoring and security control under the DoD policy in that hosting environment, such as the DoD Cloud Computing Security Requirements Guide (SRG) [2] and DISA’s Secure Cloud Computing Architecture (SCCA) [3] for the cloud environment. 
+* In Option B, the mission program uses a CSP container service, which must have a DoD provisional authorization and must be based on CNCF-certified Kubernetes. 
+### Software Factory Using Hardened Containers
+The software factory leverages technologies and tools to automate the CI/CD pipeline processes defined in the DevSecOps lifecycle plan phase. There are no “one size fits all” or hard rules about what CI/CD processes should look like and what tools must be used. Each software team needs to embrace the DevSecOps culture and define its processes that suit its software system architectural choices. The tool chain selection is specific to the software programming language choices, application type, tasks in each software lifecycle phase, and the system deployment platform. Software factory building itself follows the DevSecOps philosophy and goes through its own design, instantiate, verify, operate and monitor phases. It evolves through the application lifecycle iteration. Figure 14 illustrates the software factory phases, activities, and the relationship with the application lifecycle. Security must be applied across the software factory phases. Sidecar Container Security Stack (SCSS) discussed in 6.4.4 can be used for software factory runtime cybersecurity monitoring. 
+ 
+![Software Factory Phases](https://user-images.githubusercontent.com/8856857/86083363-5da73780-badd-11ea-81fe-4d15b688dc68.png)
+* Figure 12 is a software factory reference design. It includes the tools and process workflows to develop, build, test, secure, release, and deliver software application for production deployment. All the tools are based on the DoD enterprise DevSecOps hardened containers. Committing code into the code repository kicks off the automated factory CI/CD pipeline workflow. The CI/CD orchestrator executes the workflow by coordinating different tools to perform various tasks. Some tasks are completed by a set of DevSecOps tools, such as build, static code analysis, unit test, publish artifacts, build container image, etc. Other tasks may need assistance from underlying container orchestration layer, such as deploy application to test, pre-production, and final production environments. Some test and security tasks may need human involvement.
+
+### DoD Applications 
+* The term “DoD Application” refers to a DoD software program hosted by an information system [16], which spreads widely from legacy monolithic infrastructure-dependent applications to modern modular infrastructure-agnostic applications. Most systems are in brownfield with legacy applications or mixed legacy and modern applications. Programs should consider the nature of their application and the deployment environment when designing their software factory.
+* It is recommended to leverage the Strangler Pattern [17] [18] to refactor legacy applications to modern microservices/containerized applications. 
+   * DoD application environments at all phases (development, test, pre-production, production) are subject to security control from DoD common security services.  
+   * While refactoring legacy code or writing new code, it is highly recommended to leverage the DoD hardened containers or hardening scripts to facilitate the application’s ATO. 
+
+## Software Factory using Cloud DevSecOps Services  
+* The DoD authorized cloud may already or will soon offer DevSecOps services, such as code repository, artifact repository, build service, code deploy service, etc. Programs should consider using these native managed services as alternatives to self-built and self-maintained DevSecOps tool sets, but they should understand that using them may lead to vendor lock-in with the CSP. The CSP is responsible for maintaining the service offering and the DoD Provisional Authorization (PA) for each service. The program still needs to follow the software factory lifecycle and performs the design, DevSecOps service selection instead of tool selection, CI/CD pipeline process workflow automation, verify the workflows, operates and monitors the workflows.  
+* Another consideration is that the CSP may not offer a full solution set. For the capability that a DevSecOps service with a DoD PA is not available, the corresponding DoD Enterprise hardened container that provides the proper capability should be used. A CNCF-certified Kubernetes container orchestration service is required for container runtime. Figure 15: Software Factory illustrates a software factory using both cloud DevSecOps services and self-maintained security tools. 
+![Software Factory using Cloud DevSecOps Services](https://user-images.githubusercontent.com/8856857/86083478-b5de3980-badd-11ea-8569-f05d3e607255.png)
+
+## 6.3 Serverless Support 
+* So-called “serverless computing” is becoming more popular in the DoD, and it is being used extensively in industry. This is a kind of Platform as a Service (PaaS) that is sometimes called Function as a Service (FaaS). Despite the “serverless” moniker, a FaaS still needs servers, but developers don’t have to worry about the servers, but rather how to deploy the code to them, how to set up autoscaling, and other deployment tasks. This frees the developers to focus on the code. 
+* Figure 16 illustrates that a FaaS can reduce development complexity and increase efficiency over an Infrastructure as a Service (IaaS), a Containers as a Service (CaaS), or some Platform as a Service (PaaS) offerings. Although a Software as a Service (SaaS) offering is even more efficient, and good to use when it meets requirements, a SaaS is typically focused on only a few capabilities, and cannot provide the flexibility the DoD needs to develop custom applications. A good FaaS, on the other hand, does provide that flexibility, although some applications will need the even greater flexibility of an IaaS. 
+![Operational Efficiency](https://user-images.githubusercontent.com/8856857/86083553-f047d680-badd-11ea-9285-ee50f8f29011.png)
+
+* The FaaS concept has made its way into the Kubernetes environment. The basic concept is to hand the FaaS some code, then the FaaS will build an image from the code and start it running on Kubernetes. The FaaS must have these features: 
+1) Build – builds containers from source code 
+   a) Uses container images as the deployment unit 
+   b) Given source code, build the code and create a container to house it 
+2) Serving – runs the containers created by Build and automatically scales them up or down as necessary 
+   a) Uses CNCF Kubernetes as the underlying container orchestration layer 
+   b) Auto-scale up (given that the code is written to allow this) 
+   c) Auto-scale down all the way to zero 
+   d) Gradual rollouts of new versions 
+   e) Network routing within the cluster, and ingress connections into the cluster 
+3) Eventing – allows functions/applications to publish and subscribe to event streams, to enable loosely-coupled, event-driven systems 
+   a) Universal subscription, delivery, and management of events 
+   b) Bind events to functions or containers 
+   c) Trigger functions when called via and Hypertext Transfer Protocol (HTTP) requests 
+   d) Automatically scale from a few events per day to live streams 
+One popular open source product that implements FaaS for Kubernetes is Knative. Another open source product is Kubeless. The DevSecOps Software Factories must offer Knative support. They may also support Kubeless or another FaaS for Kubernetes
