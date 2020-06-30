@@ -160,3 +160,21 @@ Their work is always lightweight and shies away from heavier problems. This beha
 * Give these engineers something to own top to bottom. Whether it’s a module, a new feature, or a large project, ask them to do more than just ‘get it done’. Ask them to become an expert in that particular area or on that speciﬁc project.
 * Then, double down on their strengths in that area: assign them the 1.1 version, the bug ﬁxes, the unit tests, and the documentation, then give them the 1.2 and 1.3 versions as well. Allow them the opportunity to get to know their domain, to work with it, to teach others about it, and to develop a mastery. Ask them to give a presentation on the project to highlight lessons learned and best practices. The key is to nurture a true sense of ownership.
  
+# PART 2 Work patterns exhibited on a team-wide level
+
+## PATTERN 11 Scope Creep
+
+* Intuitively, we all know what Scope Creep is — along with its associated risks. Still, there are plenty of different deﬁnitions for the issue so here’s what we’re focusing on:
+Scope Creep (noun): a pattern whereby the originally agreed upon scope increases or changes after implementation has begun. Often, though not always, Scope Creep happens incrementally and thus invisibly.
+* Using data to make Scope Creep visible to all parties can help mitigate the risks of unexpected work, and can also be used to combat this pattern moving forward.
+Even in the most well-deﬁned projects, out-of-scope tasks arise. As a manager, you need to watch for runaway situations where engineers are being asked to shoulder an unreasonable increase in scope.
+### How to recognize it 
+* Scope Creep is characterized by a sharp uptick in progress toward the back of a sprint that wasn’t driven by code review.
+* Generally, the problem a team is solving should be getting smaller over time as features are completed. So a sudden spike in activity, particularly in the later stages of a project, tends to be a signal that something new came in.
+* When you see this occurrence become a pattern sprint over sprint with the same team, look to the external stakeholders that interface with that team to see what might be causing the issues.
+
+### What to do Use 
+* Pluralsight Flow data to show the additional work caused by the scope creep. Scope creep is caused by poor planning and insufficient attention during design. It’s not the engineer’s responsibility to shoulder the work resulting from bad specs. Call it out!  Let the people who are responsible for pushing a poorly designed project into implementation know that it’s simply not ok.
+* Then show them how much additional work their carelessness caused. Show them the data. This more than anything will make the true consequences of scope creep visible and thus actionable.
+ 
+### 
