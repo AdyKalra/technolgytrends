@@ -357,7 +357,7 @@ The software factory leverages technologies and tools to automate the CI/CD pipe
 * Another consideration is that the CSP may not offer a full solution set. For the capability that a DevSecOps service with a DoD PA is not available, the corresponding DoD Enterprise hardened container that provides the proper capability should be used. A CNCF-certified Kubernetes container orchestration service is required for container runtime. Figure 15: Software Factory illustrates a software factory using both cloud DevSecOps services and self-maintained security tools. 
 ![Software Factory using Cloud DevSecOps Services](https://user-images.githubusercontent.com/8856857/86083478-b5de3980-badd-11ea-8569-f05d3e607255.png)
 
-## 6.3 Serverless Support 
+## Serverless Support 
 * So-called “serverless computing” is becoming more popular in the DoD, and it is being used extensively in industry. This is a kind of Platform as a Service (PaaS) that is sometimes called Function as a Service (FaaS). Despite the “serverless” moniker, a FaaS still needs servers, but developers don’t have to worry about the servers, but rather how to deploy the code to them, how to set up autoscaling, and other deployment tasks. This frees the developers to focus on the code. 
 * Figure 16 illustrates that a FaaS can reduce development complexity and increase efficiency over an Infrastructure as a Service (IaaS), a Containers as a Service (CaaS), or some Platform as a Service (PaaS) offerings. Although a Software as a Service (SaaS) offering is even more efficient, and good to use when it meets requirements, a SaaS is typically focused on only a few capabilities, and cannot provide the flexibility the DoD needs to develop custom applications. A good FaaS, on the other hand, does provide that flexibility, although some applications will need the even greater flexibility of an IaaS. 
 ![Operational Efficiency](https://user-images.githubusercontent.com/8856857/86083553-f047d680-badd-11ea-9285-ee50f8f29011.png)
@@ -378,3 +378,68 @@ The software factory leverages technologies and tools to automate the CI/CD pipe
    c) Trigger functions when called via and Hypertext Transfer Protocol (HTTP) requests 
    d) Automatically scale from a few events per day to live streams 
 One popular open source product that implements FaaS for Kubernetes is Knative. Another open source product is Kubeless. The DevSecOps Software Factories must offer Knative support. They may also support Kubeless or another FaaS for Kubernetes
+
+## Application Security Operations 
+* This section focuses on the software application lifecycle in the production environment. Continuous Deployment, Continuous Operation, and Continuous Monitoring are keys to streamlined and secure operations. 
+
+### Continuous Deployment 
+* Continuous deployment is triggered by the successful delivery of released artifacts to the artifact repository and may be subject to control with human intervention according to the nature of the program application. 
+* The typical activities for continuous deployment include, but are not limited to, 
+   * deploying a new software release to the production environment, 
+   * applying necessary infrastructure and security configuration changes, 
+   * running a smoke test to make sure essential functionality is working, 
+   * and performing security scans. 
+* Each activity is completed by specific tools or configuration/orchestration scripts. The selection of tools and the configuration/orchestration system depends on the application and the production platform. 
+   * For example, if the application is containerized and the production platform uses Kubernetes, the orchestration is done by Kubernetes. In this case, the configuration scripts would be Kubernetes Operators or Helm charts. 
+   * On the other hand, if the application is VM based, the configuration/orchestration tool could be Chef, Puppet or Ansible. Continuous deployment interacts with other DevSecOps components, such as the artifact repository for retrieving new releases, the log storage and retrieval service for logging deployment events, and the issue tracking system for recording any deployment issues. 
+* The firsttime deployment may involve heavy infrastructure provisioning, dependency system configuration (such as monitoring tools, logging tools, scanning tools, backup tools, etc.), and external system connectivity (such as DoD common security services, etc.).
+### Continuous Operation 
+* Continuous operation is an extension of continuous deployment. It is triggered by a successful deployment to the production environment, so that it operates the latest stable software release. 
+* The activities of continuous operation include, but are not limited to, 
+   * system patching, 
+   * compliance scanning, 
+   * data backup, 
+   * system recovery if failure happens, 
+   * and resource optimization with load balancing and scaling. 
+* The selection of the tools that facilitate the activities are application and environment dependent. The resource optimization heavily depends on the underlying platform. A containerized application can rely on Kubernetes to automatically scale containers across cluster nodes. On the other hand, a VM-based application with no containers can rely on the underlying CSP’s scaling service. 
+* Continuous operation interacts with the logging system, issue tracking system, and the underlying infrastructure platform. 
+### Continuous Monitoring 
+* Continuous monitoring is an extension to continuous operation. 
+* It continuously inventories all system components, monitors the performance and security of all components, and logs application and system events. 
+* Earlier fig illustrates the components for monitoring a containerized application deployed on Kubernetes. Figure 17 illustrates a simplified sample process of monitoring, logging, and log analysis and alerting, which also applies to deployments to non-containerized environments. 
+   * The process starts with application logging, compute resource monitoring, storage monitoring, network monitoring, security monitoring, and data monitoring at the Kubernetes pod level in the case of containerized deployment or individual subsystem level in the case of VM deployment. 
+   *  Each application will need to determine how it is divided into subsystems, the number of subsystems, and the specific monitoring mechanisms within the subsystems. The security tools within each subsystem (e.g., the Sidecar Container Security Stack) will aggregate and forward the event logs gathered from monitoring to a locally centralized aggregated logs database on the mission program platform. This should be automated within the Kubernetes cluster. 
+   * The aggregated logs will be further forwarded to the Logs/Telemetry Analysis in the DoD Common Security Services after passing the program application configured log filter. The program’s local log analysis capability will analyze the aggregated logs and generate incident alerts and reports. Incidents will be forwarded to the mission program incident management system to facilitate change request generation for incident resolution. The mission program incident management should alert or notify the responsible personnel about the incidents. The change request may be created to address the incident. These actions make the DevSecOps pipeline a full closed loop from secure operations back to planning. 
+![Logging](https://user-images.githubusercontent.com/8856857/86084082-479a7680-badf-11ea-80fd-161e8aadd3d6.png)
+
+### Sidecar Container Security Stack 
+* A new service that is enabled by DevSecOps and the container-based Kubernetes runtime environment is the Sidecar Container Security Stack (SCSS). This security stack enables: correlated and centralized logs, container security, east/west traffic management, a zero-trust model, a whitelist, Role-Based Access Control (RBAC), continuous monitoring, signature-based continuous scanning using Common Vulnerabilities and Exposures (CVEs), runtime behavior analysis, and container policy enforcement. 
+* One advantage of using the SCSS is that Kubernetes can inject the sidecar automatically, without the team having to do anything, once it’s configured. 
+* The sidecar pattern is depicted in Figure 18. A container group or pod is a set of containers that are deployed together. 
+* **A sidecar is a container running inside a pod alongside an application container. If there is one application container and one sidecar container in the container group, then we have the sidecar pattern as depicted in Figure 18.** 
+![SideCar](https://user-images.githubusercontent.com/8856857/86084200-92b48980-badf-11ea-8162-a2e29fa11017.png)
+* The sidecar can share state with the application container. In particular, the two containers can share disk and network resources while their running components are isolated from one another. 
+* A sidecar is a general container pattern. The Sidecar Container Security Stack has a sidecar container that contains a security stack, along with some supporting services that run in the hosting environment, such as a logging service. 
+* The security stack in the security sidecar container will include: 
+   1. A logging agent to push logs to a platform centralized logging service. 
+   2. Container policy enforcement. This includes ensuring container hardening from DCAR containers are preserved and complies with the NIST 800-190 requirements [12]. 
+   3. Runtime Defense, this can perform both signature-based and behavior-based detection. This can also be used to send notifications when there is anomalous behavior. 
+   4. Vulnerability Management 
+   5. A service mesh proxy to connect to the service mesh 
+   6. Zero Trust down to the container level. Zero trust requires strict controls, never trust anything by default and always verify. Key aspects of zero trust at the container level include mutual Transport Layer Security authentication (mTLS), an encrypted communication tunnel between containers, strong identities per Pod using certificates, and whitelisting rather than blacklisting. 
+* In addition to the components in the sidecar, there are a few services that support the security sidecar. These include: 
+   1. Program-specific Log Storage and Retrieval Service 
+   2. Service Mesh 
+   3. Program-specific artifact repository
+   4. Runtime Behavior Analysis Artificial Intelligence (AI) service
+   5. DCAR for the hardened containers 
+   6. Common Vulnerabilities and Exposures (CVE)Service / host-based security to provide CVEs for the security sidecar container 
+* The interaction of these services with the sidecar components is depicted in Figure 19. The arrows show the direction of the data flow. The items in purple are services provided by the DoD, while blue indicates components that are provided by the DoD but instantiated and operated by the program.
+![SideCarComponents](https://user-images.githubusercontent.com/8856857/86084336-f474f380-badf-11ea-950c-2924e3633401.png)
+
+![SC1](https://user-images.githubusercontent.com/8856857/86084388-21290b00-bae0-11ea-8f4c-06ffba17c3dc.png)
+![SC2](https://user-images.githubusercontent.com/8856857/86084427-3c941600-bae0-11ea-9b48-f48cbf15edc0.png)
+
+* Figure 20 depicts another view of the sidecar, along with some of the other DevSecOps components. Again, the arrows show the direction of the data flow, and not all interactions between the depicted components are indicated. The program dashboard displays information about the application. The dashboard is built partly using visualizations from the log visualization service. The items in purple and blue are either services or components that are provide by the DoD. But those in blue will be stood up by the program. For example, the Service Mesh is provided as a hardened container. Similarly, the Sidecar Container Security Stack is provided as a hardened container that the program installs in each pod (container group); this is injected by Kubernetes automatically without application developer involvement. 
+
+![SC SecurityStack](https://user-images.githubusercontent.com/8856857/86084512-72d19580-bae0-11ea-8dc0-5c579a6c0f37.png)
