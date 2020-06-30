@@ -122,4 +122,19 @@ others can provide in the review process. As a result, Domain Champions will typ
 * Encourage this engineer to formalize their work pattern with documented coding standards (e.g., naming conventions, getter/setters, preferred patterns for ORM work, etc.)
 * A little bit of encouragement can go a long way to minimizing tech debt, and the engineers who Clean As They Go can help demonstrate how these best practices look.
  
+## PATTERN 08 In the Zone
+
+* This pattern is exhibited by engineers whose work is, in a word, consistent. They have a knack for getting in the zone and shipping highquality work week in and week out. Their work is reliable and predictable in nearly every way.
+* Professional software development is an endurance sport. To create lasting enterprise value, you must show up every day and produce quality work. Real value creation can take years.
+* It’s tempting to think of this as a person and not a pattern. However it’s useful to depersonalize this engineer’s work as a pattern — it’s easier for others to model discrete behaviors than it is to model a person.
+### How to recognize it 
+* An engineer in the zone organizes their day to eliminate distraction and focus on delivering business value. Their Active Days are consistently above average. Their Impact is high and consistent. Their PRs are timely, evenly paced, and nicely sized. They consistently participate in reviews, so their Involvement is high and consistent. Their churn is usually lower than average.
+### What to do 
+* Similar to engineers who exhibit the “Clean As You Go” pattern, it helps to acknowledge this pattern either publicly, privately, or both. Emphasize their consistency and how great code is built not in a single sprint or pulling all-nighters. 
+* The Work Log and Review and Collaboration reports will show this pattern over time, and they can be used to support the story (e.g., “six weeks of committing code every day is something to admire”).
+* If increasing overall team velocity is important to you, helping everyone on your team ﬁnd their zone is a foundational place to start.
+* An essay from Paul Graham, titled “Maker’s Schedule, Manager’s Schedule” offers context and strategies for blocking meetings and creating space to get in the zone. 
+* Small changes in scheduling and reduction of interruptions can amount to signiﬁcant increase in capacity. Furthermore, consistently getting in the zone allows your team to ship 
+
 ## 
+ 
