@@ -1,4 +1,6 @@
-# 20 patterns to watch for in your engineering team
+> [Preview on the web](https://nicedoc.io/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/20%20patterns%20to%20watch%20for%20in%20your%20engineering%20team.md)
+
+# [20 patterns to watch for in your engineering team](#20-patterns-to-watch-for-in-your-engineering-team)
 * Efective managers view their teams as complex interdependent systems, with inputs and outputs.
 * When the outputs aren’t as expected, great managers approach the problem with curiosity and are relentless in their pursuit of the root cause. They watch code reviews and visualize work patterns, spotting bottlenecks or process issues that, when cleared, increase the overall health and capacity of the team. 
 * By searching for “why,” they uncover organizational issues and learn how their teams work and how to re how to resolve these
@@ -27,6 +29,8 @@ others can provide in the review process. As a result, Domain Champions will typ
   2. Ask them what they like to work on — ﬁrst generally, then speciﬁcally.
   3. Ask them if they are willing to take on a small assignment outside their domain in part to help share the best practices they’ve developed reﬁning the code in their domain.
   Inch the engineer out of their domain using small, low-risk tickets. A little bit of diversiﬁcation can go a long way toward minimizing attrition risk and maximizing best practices.
+
+[Back to top :arrow_up:](#20-patterns-to-watch-for-in-your-engineering-team)
 
 ## PATTERN 02 Hoarding the Code
 * This pattern refers to the work behavior of repeatedly working privately and hoarding all work in progress to deliver one giant pull request at the end of the sprint.
