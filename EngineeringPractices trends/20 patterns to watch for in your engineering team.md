@@ -68,5 +68,14 @@ others can provide in the review process. As a result, Domain Champions will typ
  3. Ask a more senior engineer to assess what “good enough” is in the context of the project.
  4. If the problem is difficult, or if the domain is unfamiliar, bring in another engineer to pair program.
  
+## PATTERN 04 Bullseye Commits
+* This pattern is relatively common in most teams, but it often goes unrecognized: an engineer understands a problem, breaks down the project into smaller tasks, and submits code that has little room for improvement. 
+* Most likely, not all of the commits that make up the project will be Bullseyes. But the ones that are, generally have a small to modest impact and were thoroughly reviewed and approved on the ﬁrst try. Celebrate them!
+### How to recognize it 
+* In practice, Bullseye Commits can be identiﬁed by when they were submitted in regard to the deadline, their impact, and how they were treated in the review process. Generally, the code was started and completed in advance of the deadline, with negligible churn. The commit’s Impact was small to modest in size and was then thoroughly reviewed. It was approved on the ﬁrst try (see Review Workﬂow).
+* It’s the level of thoroughness in the review that distinguishes Bullseye Commits from Rubber Stamping (Pattern #15). In Bullseye Commits,  code reviews are substantive.
+### What to do 
+* Recognize a clean bullseye in a standup, or a simple note: “I saw that check-in, nice job!” Whether it’s public or private, showing that you noticed and that you care will only reinforce this pattern.
+* If there’s an engineer who regularly makes Bullseye Commits, it may be helpful for others to understand how they approach projects. Ask the engineer to do a lunch and learn, or consider asking them to provide feedback on another engineer’s work  in the review process.
+ 
 ## 
-
