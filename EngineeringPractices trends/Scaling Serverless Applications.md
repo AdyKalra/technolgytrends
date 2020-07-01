@@ -1,3 +1,27 @@
+# Real World Scenarios - Serverless
+
+## Liberty Mutual’s Cloud Journey Led to Going Serverless
+* Making the move from datacenters to the cloud set off a **transformation strategy that created new operational opportunities and cost savings.** The start of Liberty Mutual Insurance’s journey to the cloud some six years ago set the stage for the continuing evolution of its infrastructure. As a major provider of insurance, Liberty Mutual, can receive millions of customer calls per year that may tap into considerable data resources. The insurer’s transformation strategy included moving out of datacenters to public cloud. 
+ * The **strategy kept business needs in focus rather than pursue technology just for technology’s sake.** “We started to realize that cloud is not just a datacenter,” he says. “It’s a transformational way of working.”
+
+* Liberty Mutual started to discuss serverless, where the cloud provider runs and allocates server resources, when AWS Lambda launched in 2014, Anderson says. The insurer’s migration, he says, included **developing core cloud application principles, infrastructure as code, with baked in guardrails and controls.** “We’ve experimented with containerization, different types of platform as a service, and we still have a hybrid compute model today.”
+
+* The move to serverless allowed teams with different needs **move at their own pace and accelerate faster**, Anderson says. 
+* **When engineers get into the serverless mindset, he says, there is a time-to-market play where teams create quality software quicker. “Their throughput is high, and they are able to iterate fast,”** 
+
+* Some of the benefits Liberty Mutual gained by going serverless, include being able to 
+ * **release applications quicker, which can also mean getting feedback sooner from users.** 
+ * Serverless can also **reduce various costs.** 
+ * **Serverless-first solutions opened up other possibilities such as integration with AI and data services or event streaming services.**
+
+* Other ways Liberty Mutual takes advantage of serverless include running a virtual assistant, he says. The virtual assistant uses a natural language processing bot for the call center, which is plugged into serverless services such as Amazon Lex and Amazon Polly. When a customer calls, the virtual assistant allows for data to be pulled from different databases in response. “There are probably more and more scenarios where we can use serverless than we can’t,” he says.
+
+* Going serverless also introduced new perspectives on how IT teams at Liberty Mutual work. **“Code is a liability,” Anderson says. “The less code we write the better.”** 
+ * As the resources of serverless were explored, he says teams were encouraged to think about every part of the solution and not just the code they are writing. 
+ * That includes operational constraints, performance constraints, total cost of the solution, and user experience, he says. 
+ * This led to teams starting to write systems rather than simply applications. 
+ * Further, the teams began to realize the **importance of observability in the cloud because serverless services can be ephemeral at times, disappearing quickly and hard to track. “You really want really good dashboards and traceability for events in your systems,”** 
+
 # Best practices for organizing larger serverless applications
 * Well-designed serverless applications are **decoupled**, **stateless**, and **use minimal code**.
 
