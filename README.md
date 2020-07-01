@@ -146,6 +146,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Memcached](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Memcached.md)
 - [Data Lake](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Datalake.md)
 - [Auto Scaling](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Auto%20Scaling.md)
+- [Four Golden Signals](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Golden%20Signals.md)
 
 [Back to top :arrow_up:](#trends)
 
@@ -178,5 +179,6 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 #### PostProduction trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Chaos%20Engineering.md)
 - [CDN Akamai Cloudfront Imperva](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/CDN%20Incapsula%20Akamai%20Cloudfront.md)
+- [Four Golden Signals](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Golden%20Signals.md)
 
 [Back to top :arrow_up:](#trends)
