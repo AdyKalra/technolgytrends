@@ -52,6 +52,6 @@
 * BI – Data warehouse[Redshift , EMR] = Tableau 
    *	Pull data from services tier to DW
 * Redshift – postgres SQL based
-*	Lambda 
+* Lambda 
   *	Why?Lambda, however, has two big benefits: first, it scales up and down instantly with zero effort on our part, meaning we are not ever paying for an idling server.
 Second, it’s what the rest of our stack is built on. Less technology means less cognitive overhead. If the number of pages we crawl ramps up, it will make sense to reconsidering EC2 or a similar compute service.
