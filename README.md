@@ -173,6 +173,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Buildkite](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Buildkite.md)
 - [Datadog](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Datadog.md)
 - [Infrastructure as Code](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20as%20Code.md)
+- [Pipelines as Code](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Pipelines%20as%20Code.md)
 
 [Back to top :arrow_up:](#trends)
 
