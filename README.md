@@ -86,7 +86,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 |     |     |     |   
 |:-:  |:-:  |:-:  |
 | [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [Engineering](#Engineering-trends) |
-| [Development](#Development-trends) 	| [Testing](#c-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
+| [Development](#Development-trends) 	| [Testing](#testing-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
 | [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	| 
 
 
