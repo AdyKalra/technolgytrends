@@ -122,6 +122,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Data Driven Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Data%20Driven%20Engineering.md)
 - [DoD Enterprise DevSecOps Reference Design](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DoD%20Enterprise%20DevSecOps%20Reference%20Design.md)
 - [auxiliary-engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Auxillary%20Engineering.md)
+- [APIs as Digital Factories](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/APIs%20as%20Digital%20Factories.md)
 
 [Back to top :arrow_up:](#trends)
 
