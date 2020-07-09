@@ -124,6 +124,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [auxiliary-engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Auxillary%20Engineering.md)
 - [APIs as Digital Factories](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/APIs%20as%20Digital%20Factories.md)
 - [GoLD Stack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/GoLD%20Stack.md)
+- [measure – and manage – technical debt](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/measure%20and%20manage%20technical%20debt.md)
 
 [Back to top :arrow_up:](#trends)
 
