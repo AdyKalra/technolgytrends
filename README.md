@@ -126,6 +126,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [GoLD Stack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/GoLD%20Stack.md)
 - [measure – and manage – technical debt](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/measure%20and%20manage%20technical%20debt.md)
 - [Coordinating code deploys and continuous integration in Slack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Coordinating%20code%20deploys%20and%20continuous%20integration%20in%20Slack.md)
+- [Code Deployment best practices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Code%20Deployment%20best%20practices.md)
 
 [Back to top :arrow_up:](#trends)
 
