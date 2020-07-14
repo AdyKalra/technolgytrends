@@ -56,18 +56,18 @@
 #### AI-driven-Tools-for-Interview-Process
 |  Name |  Summary | 
 |:-:    |:-:       |  
-|[]()||
-|[]()||
-|[]()||
-|[]()||
-|[]()||
+|[hirevue](https://www.hirevue.com/)|Hirevue is a pre-employment testing and video interviewing platform. Their video Interviewing software aims to increase your team’s productivity, enable better outcomes, and create a great candidate experience.|
+|[calendly](https://calendly.com/)|Calendly is an AI-powered solution used to identify suitable interview slots. The tool specializes in productivity, scheduling, efficiency, and lead conversion through the use of real-time emotional analytics.|
+|[x.ai](https://x.ai/)|X.AI helps tackle the administrative hassle of scheduling interviews with the aid of machine learning. The tool connects with all your calendars and coordinates the best time to meet with your candidates.|
+|[talocity](https://talocity.ai/)|Talocity is an AI-based one-way video interviewing platform. The engine sends an SMS, email, and IVR to the candidate with a video job description link. The candidate clicks on the link to watch the video JD, and if they like the company, they apply through a one-way video interview. The employer presents the questions for the interview which are available in 39 different languages.|
+|[panna](https://www.panna.ai/)|PAÑÑÃ is a platform that, among other things, enables companies to create a live face-to-face video interview or schedule a candidate-only interview. It has pre-built questions and AI technology filters out fabricated applicants from authentic, experienced candidates. At any time, you can review the digitally recorded interviews, compare applicant socre rankings and set up new or next stage interviews.|
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
 
 #### AI-driven-Tools-for-Offer-and-Onboarding-Process
 |  Name |  Summary | 
 |:-:    |:-:       |  
-|[]()||
-|[]()||
-|[]()||
+|[enboarder](https://enboarder.com/)|Enboarder is an experience-driven onboarding platform that transforms employee onboarding into an ongoing, rich, and consistent experience, at scale. It provides all the tools necessary for organizations to maximize employee engagement through machine learning.|
+|[talmundo](https://www.talmundo.com/)|Talmundo specializes in keeping new employees engaged once they are recruited. It gives them a 360-degree view of the organization and the chance to introduce themselves through the use of chatbots. It helps organizations in building a great pre-boarding & onboarding experience for employees.|
+|[appical](https://appical.net/en/)|Appical brings the essence of your organization straight into the heart of your new employee, as they put it nicely. Their software uses a unique blend of technology, knowledge, and experience to create a tailored onboarding experience for every organization.|
 
