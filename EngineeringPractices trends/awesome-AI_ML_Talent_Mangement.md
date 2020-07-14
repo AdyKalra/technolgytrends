@@ -3,7 +3,7 @@
 |   	|   	|   	| 
 |:-:  |:-:  |:-:  |
 | [talent-management-research](#talent-management-research) | [Job Postings and Candidate Sourcing](#AI-driven-Tools-for-Job-Postings-and-Candidate-Sourcing) | [Candidate Screening](#AI-driven-Tools-for-Candidate-Screening) | 
-| [Interview Process]() | [Offer and Onboarding Process]()|[Candidate Assessment](#AI-driven-Tools-for-Candidate-Assessment) |
+| [Interview Process](#AI-driven-Tools-for-Interview-Process) | [Offer and Onboarding Process](#AI-driven-Tools-for-Offer-and-Onboarding-Process)|[Candidate Assessment](#AI-driven-Tools-for-Candidate-Assessment) |
 
 #### talent-management-research
 |  Name |  Summary | 
@@ -53,7 +53,7 @@
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
 
-#### AI-driven Tools for Interview Process
+#### AI-driven-Tools-for-Interview-Process
 |  Name |  Summary | 
 |:-:    |:-:       |  
 |[]()||
@@ -64,7 +64,7 @@
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
 
-#### AI-driven Tools for Offer and Onboarding Process
+#### AI-driven-Tools-for-Offer-and-Onboarding-Process
 |  Name |  Summary | 
 |:-:    |:-:       |  
 |[]()||
