@@ -1,8 +1,9 @@
 #### awesome-AI-ML-talent-management
 ### [All awesome repos](#all-awesome-repos)
-| [talent-management-research](#talent-management-research) | [Job Postings and Candidate Sourcing](#AI-driven-Tools-for-Job-Postings-and-Candidate-Sourcing) |   	|   	|
-|:-:  |:-:  |:-:  |:-:  |
-|||||
+| [talent-management-research](#talent-management-research) | [Job Postings and Candidate Sourcing](#AI-driven-Tools-for-Job-Postings-and-Candidate-Sourcing) | 
+[Candidate Screening](#AI-driven-Tools-for-Candidate-Screening) | 
+|:-:  |:-:  |:-:  |
+| [Interview Process]() | [Offer and Onboarding Process]()|[Candidate Assessment](#AI-driven-Tools-for-Candidate-Assessment) |
 
 #### talent-management-research
 |  Name |  Summary | 
@@ -30,7 +31,7 @@
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
 
-#### AI-driven Tools for Candidate Screening
+#### AI-driven-Tools-for-Candidate-Screening
 |  Name |  Summary | 
 |:-:    |:-:       |  
 |[ceipal](https://www.ceipal.com/)|provides AI-driven recruitment software and specializes in resume parsing and social media integration that helps in parsing the resumes from the available set.|
@@ -41,7 +42,7 @@
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
 
-#### AI-driven Tools for Candidate Assessment
+#### AI-driven-Tools-for-Candidate-Assessment
 |  Name |  Summary | 
 |:-:    |:-:       |  
 |[Mya, Olivia, and Jobpal](https://www.mya.com/)|Mya, Olivia, and Jobpal are examples of some of the finest chatbots which are built using NLP and machine learning. They can strike a conversation with candidates and perform candidate screening. An interesting fact is that for a pre-existing candidate database, a text-based chatbot can initiate a message trail with passive candidates to know their interest in job openings. Interested candidates can be pre-screened using basic or advanced screening questions.|
