@@ -97,5 +97,32 @@
 
 * With a lot of elbow grease, you can calculate the right definitions needed to create SLI and SLO graphs. But this process can be pretty tedious, especially when you have multiple services and SLOs to create. Fortunately, the Service Monitoring component of Cloud Operations can automatically generate these graphs. Because we are using Istio service mesh integration in this example, observability into the system is even more accessible. Here’s how to set up a dashboard with Service Monitoring:
 
-1. Go to the Monitoring page in Cloud Console and select Services
+ 1. Go to the Monitoring page in Cloud Console and select Services
  2. Since we’re using Istio, our services are automatically exposed to Cloud Monitoring, so you just need to select the checkout service.
+ ![slo](https://storage.googleapis.com/gweb-cloudblog-publish/images/3_Cloud_Monitoring_9aQhDvx.max-1300x1300.jpg)
+ 3. Select Create an SLO 
+ ![Create_an_SLO](https://storage.googleapis.com/gweb-cloudblog-publish/images/4_Create_an_SLO.max-1100x1100.jpg)
+ 4. Select Availability and Request-based metric unit.
+ ![metric_unit](https://storage.googleapis.com/gweb-cloudblog-publish/images/5_metric_unit.max-1600x1600.jpg)
+ * Now you can see the SLIs as well as details into what metrics we are using.
+ ![performance_metric](https://storage.googleapis.com/gweb-cloudblog-publish/images/6_performance_metric.max-1600x1600.jpg)
+ 5. Select the compliance period. Here we’ll use a rolling window and a target of 30 days. Rolling windows are more closely aligned with user experience, but you can use calendar windows if you want your monitoring to align with your business targets and planning.
+ 6. Select the previously set SLO target of 99.9%. Service Monitoring also shows your historical SLO achievements if you have existing data.
+ ![compliance](https://storage.googleapis.com/gweb-cloudblog-publish/images/7_compliance.max-1600x1600.jpg)
+ 
+* Once we’re done, we end up with nice graphs for SLIs, SLOs, and error budgets.
+![dashboards](https://storage.googleapis.com/gweb-cloudblog-publish/images/9_SLO.max-1900x1900.jpg)
+* You can then repeat the process for the Checkout Latency SLI using the same workflow. 
+
+### Step 5: Create SLO alerts
+* As much as we love our dashboards, we won't be looking at them every second of the day, so we want to set up alerts to notify us when our service is in trouble. There are varying preferences for which thresholds to use when creating alerts, but as SREs, we like using the error budget burn-based alerting. 
+
+* Service Monitoring lets you set alerting policies for this exact situation.
+  1. Go to the Monitoring page in Cloud Console and select Services.
+  2. Select Set up alerting policy for the service you want to add an alerting policy for.
+  3. Select SLO burn rate and fill in the alert condition details.
+![alerts](https://storage.googleapis.com/gweb-cloudblog-publish/images/10_.max-800x800.jpg)
+* Here, we set a burn rate alert that will notify us when we burn our error budget at 2x the baseline rate, where the baseline is the error rate that, if consistent throughout the compliance period, would exactly use up the allotted error budget.
+
+4. Save the alert condition.
+* If you run a customer-facing service, following this process will help you define initial SLIs and SLOs. One thing to keep in mind is that your SLOs are never set in stone. It’s important to periodically review your SLOs every six to twelve months and make sure they still align with your users’ expectations and business needs or if there are other ways you can improve your SLOs to more accurately reflect your customer’s needs. There are many factors that can affect your SLOs, so you need to regularly iterate on them. If you want to learn more about implementing SLOs, check out these resources for defining and adopting SLOs. 
