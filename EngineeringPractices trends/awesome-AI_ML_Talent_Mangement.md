@@ -1,4 +1,10 @@
 #### awesome-AI-ML-talent-management
+### [All awesome repos](#all-awesome-repos)
+| [talent-management-research](#talent-management-research) | [Job Postings and Candidate Sourcing](#AI-driven-Tools-for-Job-Postings-and-Candidate-Sourcing) |   	|   	|
+|:-:  |:-:  |:-:  |:-:  |
+|||||
+
+#### talent-management-research
 |  Name |  Summary | 
 |:-:    |:-:       |  
 |  [eightfold.ai](https://eightfold.ai/talent-intelligence-platform/) | Talent Acquisition - Use deep learning AI to understand skills at scale and hire for potential, Talent Management- Retain your best people. Understand their skills to connect them to the best opportunities in your organization, Talent Experience - Match candidates with the right jobs instantly. Talent Diversity - Eliminate unconscious bias |
@@ -10,7 +16,7 @@
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
 
-#### AI-driven Tools for Job Postings and Candidate Sourcing
+#### AI-driven-Tools-for-Job-Postings-and-Candidate-Sourcing
 |  Name |  Summary | 
 |:-:    |:-:       |  
 |[textio](https://textio.com/)|Job Posting - tool that helps recruiters improve the content of their postings. Their product has shown that small tweaks in the language can make a big difference in response rates and the quality of applicants that apply. It uses, among other things, specific Natural Language Processing (NLP) and Text Analytics techniques. A wide range of organizations already uses Textio, varying from top FMCG companies to IT firms and everything in-between.|
