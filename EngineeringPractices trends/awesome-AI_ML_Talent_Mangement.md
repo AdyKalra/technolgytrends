@@ -1,11 +1,13 @@
 #### awesome-AI-ML-talent-management
 |  Name |  Summary | 
 |:-:    |:-:       |  
-|  [eightfold.ai](https://eightfold.ai/talent-intelligence-platform/) | GCD command line cheatsheet |
-|  [skyhive](https://www.skyhive.io/en-ca/enterprise) | GCD command line cheatsheet |
-|  [harver](https://harver.com/) | GCD command line cheatsheet |
-|  [uiba](https://www.uiba.co/) | GCD command line cheatsheet |
-|  [curiousthing](https://www.curiousthing.io/) | GCD command line cheatsheet |
-|  [faethm](https://faethm.ai/platform) | GCD command line cheatsheet |
+|  [eightfold.ai](https://eightfold.ai/talent-intelligence-platform/) | Talent Acquisition - Use deep learning AI to understand
+skills at scale and hire for potential, Talent Management- Retain your best people. Understand their skills to connect them to the best opportunities in your organization, Talent Experience - Match candidates with the right jobs instantly. Talent Diversity - Eliminate unconscious bias, 
+|
+|  [skyhive](https://www.skyhive.io/en-ca/enterprise) | SkyHive is an artificial intelligence technology that supports the rapid workforce reskilling efforts of Global 2000 companies and governments with the world's most advanced skills ontology. |
+|  [harver](https://harver.com/) | Harver is a full suite candidate selection platform designed to enable innovative companies around the world to hire better, faster.|
+|  [uiba](https://www.uiba.co/) | Uiba’s solutions address organizational workforce challenges using advanced data analytics and machine learning, Uiba enables you to centralize, standardize, and unlock the value of your workforce data, Workforce Planning & Optimization - Understand the scope and distribution of your workforce’s capabilities and how best to apply them for maximum productivity and cost savings, Predictive Recruiting - Compress the cost and time of your hiring funnel while ensuring only the best applicants for the role are put into the interview process. Employee Career Management - Empower your employees to manage their career paths and ensure development and mentoring are tailored for their unique capabilities. Engagement & Retention - Understand the level of employee engagement and identify at-risk employees before they become disengaged or leave. High Performing Teams - Delve into the dynamics of what makes a team successful and apply those lessons to other teams to drive maximum productivity.|
+|  [curiousthing](https://www.curiousthing.io/) | Automated interviews that use voice-based AI and an advanced people analytics platform to interview all candidates at scale. |
+|  [faethm](https://faethm.ai/platform) | Faethm is a SaaS analytics platform and forward-looking scenario tool that uses machine and deep learning to model the impact of emerging technologies on any economy, industry, organisation or job.t |
 
 [Back to top :arrow_up:](#awesome-AI-ML-talent-management)
