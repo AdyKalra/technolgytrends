@@ -1,6 +1,8 @@
 ### High Level Design - Client -> CDN | DNS -> LB -> Http Cache -> APIG -> XL -> Feature Services -> Core Services -> Domains
 ### AWS: Mobile | Web |  Affiliates -> Cloudfront | Route53 -> ELB -> Varnish -> APIG -> Application tier Lambda / SNS / SQS / Kinesis -> Data Tier RDS / Aurora / DynamoDB -> Redshift + EMR
 
+More pattrens [here](https://dev.to/nideveloper/cdk-patterns-at-20-let-s-walk-through-all-20-serverless-patterns-for-aws-d1n?utm_source=newsletter&utm_medium=email&utm_content=offbynone&utm_campaign=Off-by-none%3A%20Issue%20%2398)
+
 # Serverless Microservice Patterns for AWS
 
 ### Serverless [Ecosystem](https://www.simform.com/ecosystem-serverless-technologies/)
