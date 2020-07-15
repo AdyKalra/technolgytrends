@@ -129,6 +129,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Code Deployment best practices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Code%20Deployment%20best%20practices.md)
 - [Coordinating pull requests and code reviews in Slack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Coordinating%20pull%20requests%20and%20code%20reviews%20in%20Slack.md)
 - [awesome-AI_ML_Talent_Mangement](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/awesome-AI_ML_Talent_Mangement.md)
+- [Introducing and Scaling a GraphQL BFF](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Introducing%20and%20Scaling%20a%20GraphQL%20BFF.md)
 
 [Back to top :arrow_up:](#trends)
 
