@@ -3,6 +3,8 @@
    * Cloud formation - stacks
      * AMI to bake instances, launch config mgmt
 
+![HLD](https://user-images.githubusercontent.com/8856857/87503009-7c452b00-c6a6-11ea-9bf0-38a77c69af3e.jpg)
+
 [Stacks comparison](https://stackshare.io/categories)
 
 |  Generic 	| Client | CDN | DNS | LB | Http Cache | APIG | XL | Feature Services / Application tier | Core Services | Domains | Analytics | 
