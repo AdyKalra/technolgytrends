@@ -1,16 +1,11 @@
-## Domain-Oriented Microservice Architecture
+## Domain-Oriented Microservice Architecture from Uber
 
+### Introduction
+* Recently there has been substantial discussion around the downsides of service oriented architectures and microservice architectures in particular. While only a few years ago, many people readily adopted microservice architectures due to the numerous **benefits they provide such as flexibility in the form of independent deployments, clear ownership, improvements in system stability, and better separation of concerns,** in recent years people have begun to **decry microservices for their tendency to greatly increase complexity, sometimes making even trivial features difficult to build.**
 
-Introduction
-Recently there has been substantial discussion around the downsides of service oriented architectures and microservice architectures in particular. While only a few years ago, many people readily adopted microservice architectures due to the numerous benefits they provide such as flexibility in the form of independent deployments, clear ownership, improvements in system stability, and better separation of concerns, in recent years people have begun to decry microservices for their tendency to greatly increase complexity, sometimes making even trivial features difficult to build.
+* As Uber has grown to around 2,200 critical microservices, we introduce our generalized approach to microservice architectures, which we refer to as “Domain-Oriented Microservice Architecture” (DOMA).
 
-As Uber has grown to around 2,200 critical microservices, we experienced these tradeoffs first hand. Over the last two years, Uber has attempted to reduce microservice complexity while still maintaining the benefits of a microservice architecture. With this blog post we hope to introduce our generalized approach to microservice architectures, which we refer to as “Domain-Oriented Microservice Architecture” (DOMA).
-
-While it’s been popular in recent years to criticize microservice architectures because of these downsides, few people have advocated an outright rejection of microservice architectures. The operational benefits are too important, and it seems that there are no, or limited, alternatives. Our goal with DOMA is to provide a way forward for organizations that want to reduce overall system complexity while maintaining the flexibility associated with microservice architectures.
-
-This piece explains DOMA, the concerns that led to the adoption of this architecture for Uber, its benefits for platform and product teams, and, finally, some advice for teams who want to adopt this architecture. 
-
-What is a microservice?
+### What is a microservice?
 Microservices are an extension of service oriented architectures. As opposed to the fairly large “services” of the 2000s, microservices are applications that represent a set of narrowly scoped functionality. These applications are hosted and available over the network and expose a well-defined interface. Other applications call this interface by making a “remote procedure call” (RPC).
 
 The key characteristic of microservice architecture is the way in which code is hosted, called, and deployed. If we think about large, monolithic applications, they are generally split into encapsulated components with well-defined interfaces. These interfaces would then be called directly in-process as opposed to over the network. In this way, we can start to think of a microservice as a library with a performance hit (network I/O and serialization / deserialization) in order to call any of its functions.
