@@ -115,28 +115,28 @@
 ##### Custom
 * Outside of logic and data extensions, many teams at Uber have introduced their own extension patterns that are appropriate for their domain. For example, much of the integrations tied to our presentation architecture uses DAG based task execution logic.
 
-Benefits
-Almost every major domain at Uber has been influenced on some level by DOMA. Over the last year, we have focused primarily on Uber’s business layer which provides generalized logic for each of our various lines of business. 
+### Benefits
+* Almost every major domain at Uber has been influenced on some level by DOMA. Over the last year, we have focused primarily on Uber’s business layer which provides generalized logic for each of our various lines of business. 
 
-DOMA is still young at Uber, and we are excited to share more data and in-depth examples of our architecture in the future. However, early signs have been extremely positive in terms of a simplified developer experience and a reduction in overall system complexity.
+* DOMA is still young at Uber, and we are excited to share more data and in-depth examples of our architecture in the future. However, early signs have been extremely positive in terms of a simplified developer experience and a reduction in overall system complexity.
 
-Products & Platforms
-DOMA was the result of a consensus effort across product and platform teams at Uber. Platform support costs often dropped an order of magnitude. Product teams benefited from guard rails and accelerated development.
+#### Products & Platforms
+* DOMA was the result of a consensus effort across product and platform teams at Uber. Platform support costs often dropped an order of magnitude. Product teams benefited from guard rails and accelerated development.
 
-For example, an early platform consumer of our extensions architecture was able to drop the time to prioritize and integrate a new feature from three days to three hours by adopting an extension architecture with reduced time for code review, planning, and learning curve for consumers.
+* For example, an early platform consumer of our extensions architecture was able to drop the time to prioritize and integrate a new feature from three days to three hours by adopting an extension architecture with reduced time for code review, planning, and learning curve for consumers.
 
-Reduced Complexity
-Previously product teams would have to call numerous downstream services to leverage a domain; they now have to call just one. By reducing the number of touchpoints to onboard a new feature, platforms were able to reduce onboarding time by 25-50%. Furthermore, we were able to classify 2200 microservices into 70 domains. Roughly 50% of which have been implemented, and most of which have some plan for future adoption.
+#### Reduced Complexity
+* Previously product teams would have to call numerous downstream services to leverage a domain; they now have to call just one. By reducing the number of touchpoints to onboard a new feature, platforms were able to reduce onboarding time by 25-50%. Furthermore, we were able to classify 2200 microservices into 70 domains. Roughly 50% of which have been implemented, and most of which have some plan for future adoption.
 
-Future Migrations 
-At Uber, we calculated that the half-life of a microservice was 1.5 years, which means that every 1.5 years 50% of our microservices churn. Without gateways it’s easy for a microservice architecture to fall into a “migration hell” as a result of this churn. Ever changing microservices constantly require upstream migrations. Gateways enable teams to avoid dependencies on the underlying domain services, which means those services can change without forcing an upstream migration. 
+#### Future Migrations 
+* At Uber, we calculated that the half-life of a microservice was 1.5 years, which means that every 1.5 years 50% of our microservices churn. Without gateways it’s easy for a microservice architecture to fall into a “migration hell” as a result of this churn. Ever changing microservices constantly require upstream migrations. Gateways enable teams to avoid dependencies on the underlying domain services, which means those services can change without forcing an upstream migration. 
 
-Two of Uber’s largest platform rewrites in the last year happened behind gateways. These platforms had hundreds of services that depended on them that would have had to migrate existing consumers. The cost of migration in these cases would have been extremely high, making a complete platform rewrite infeasible.
+* Two of Uber’s largest platform rewrites in the last year happened behind gateways. These platforms had hundreds of services that depended on them that would have had to migrate existing consumers. The cost of migration in these cases would have been extremely high, making a complete platform rewrite infeasible.
 
-New Lines of Business & Products
-Platforms designed using DOMA have proven to be much more extensible and easier to maintain. Most teams at Uber who adopted DOMA did so because supporting new lines of business had become too expensive.
+#### New Lines of Business & Products
+* Platforms designed using DOMA have proven to be much more extensible and easier to maintain. Most teams at Uber who adopted DOMA did so because supporting new lines of business had become too expensive.
 
-Practical Advice
+### Practical Advice
 This section provides some practical advice for companies that might want to adopt DOMA. The guiding principle here is that in our experience a mature and thoughtful microservice architecture stems from quiet nudges in the right direction at the right time. The reality is that a true “rewrite” is never possible for one’s entire microservice architecture.
 
 As a result, we think of evolving a microservice architecture more like “trimming a hedge” so that it eventually grows correctly, rather than a top-down or one-time architecture (or re-architecture) effort. It’s a dynamic and progressive process.
