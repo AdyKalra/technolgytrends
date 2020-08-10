@@ -15,38 +15,39 @@
 ### Motivations
 * At Uber, we adopted a microservice architecture because we had (circa 2012-2013) primarily two monolithic services and ran into many of the operational issues that microservices solve.
 
-* Availability Risks. A single regression within a monolithic code base can bring the whole system (in this case, all of Uber) down.
-Risky, expensive deployments. These were painful and time consuming to perform with the frequent need for rollbacks.
-Poor separation of concerns. It was difficult to maintain good separations of concerns with a huge code base. In an exponential growth environment, expediency sometimes led to poor boundaries between logic and components.
-Inefficient execution. These issues combined made it difficult for teams to execute autonomously or independently.
-In other words, as Uber grew from 10s to 100s of engineers with multiple teams owning pieces of the tech stack, the monolithic architecture tied the fate of teams together and made it difficult to operate independently.
+  * Availability Risks. A single regression within a monolithic code base can bring the whole system (in this case, all of Uber) down.
+  * Risky, expensive deployments. These were painful and time consuming to perform with the frequent need for rollbacks.
+  * Poor separation of concerns. It was difficult to maintain good separations of concerns with a huge code base. In an exponential growth environment, expediency sometimes led to poor boundaries between logic and components.
+  * Inefficient execution. These issues combined made it difficult for teams to execute autonomously or independently.
 
-As a result, we adopted a microservice architecture. Ultimately our systems became more flexible, which allowed teams to be more autonomous.
+* In other words, as Uber grew from 10s to 100s of engineers with multiple teams owning pieces of the tech stack, the monolithic architecture tied the fate of teams together and made it difficult to operate independently.
 
-System reliability. Overall system reliability goes up in a microservice architecture. A single service can go down (and be rolled back) without taking down the whole system.
-Separation of concerns. Architecturally, microservice architectures force you to ask the question “why does this service exist?” more clearly defining the roles of different components.
-Clear Ownership. It becomes much clearer who owned what code. Services are typically owned at the individual, team, or org level enabling faster growth.
-Autonomous execution. Independent deployments + clearer lines of ownership unlock autonomous execution by various product and platform teams.
-Developer Velocity. Teams can deploy their code independently, which enables them to execute at their own pace.
-It’s not an exaggeration to say that Uber would not have been able to accomplish the scale and quality of execution that we maintain today without a microservice architecture.
+* As a result, we adopted a microservice architecture. Ultimately our systems became more flexible, which allowed teams to be more autonomous.
 
-However, as the company grew even larger, 100s of engineers to 1000s, we began to notice a set of issues associated with greatly increased system complexity. With a microservice architecture one trades a single monolithic code base for black boxes whose functionality can change at any time and easily cause unexpected behavior.
+  * System reliability. Overall system reliability goes up in a microservice architecture. A single service can go down (and be rolled back) without taking down the whole system.
+  * Separation of concerns. Architecturally, microservice architectures force you to ask the question “why does this service exist?” more clearly defining the roles of different components.
+  * Clear Ownership. It becomes much clearer who owned what code. Services are typically owned at the individual, team, or org level enabling faster growth.
+  * Autonomous execution. Independent deployments + clearer lines of ownership unlock autonomous execution by various product and platform teams.
+  * Developer Velocity. Teams can deploy their code independently, which enables them to execute at their own pace.
 
-For instance, engineers had to work through around 50 services across 12 different teams in order to investigate the root cause of the problem.
+* It’s not an exaggeration to say that Uber would not have been able to accomplish the scale and quality of execution that we maintain today without a microservice architecture.
 
-Understanding dependencies between services can become quite difficult, as calls between services can go many layers deep. A latency spike in the nth dependency can cause a cascade of issues upstream. Visibility into what’s actually happening is impossible without the right tools, making debugging difficult.
+* However, as the company grew even larger, 100s of engineers to 1000s, we began to notice a set of issues associated with greatly increased system complexity. With a microservice architecture one trades a single monolithic code base for black boxes whose functionality can change at any time and easily cause unexpected behavior.
 
+* For instance, engineers had to work through around 50 services across 12 different teams in order to investigate the root cause of the problem.
 
-Uber’s microservice architecture circa mid-2018 from Jaeger
-In order to build a simple feature an engineer often has to work across multiple services, all of which are owned by different individuals and teams. This requires extensive collaboration with time spent on meetings, design, and code review. The earlier promise of clear lines of service ownership is compromised as teams build code within each other’s services, modify each other’s data models, and even perform deployments on behalf of service owners. Networked monoliths can form, where services that appear to be independent all have to be deployed together to safely perform any change.
+* Understanding dependencies between services can become quite difficult, as calls between services can go many layers deep. A latency spike in the nth dependency can cause a cascade of issues upstream. Visibility into what’s actually happening is impossible without the right tools, making debugging difficult.
 
+* Uber’s microservice architecture circa mid-2018 from Jaeger
+![2018](https://eng.uber.com/wp-content/uploads/2020/07/unnamed.png)
+* In order to build a simple feature an engineer often has to work across multiple services, all of which are owned by different individuals and teams. This requires extensive collaboration with time spent on meetings, design, and code review. The earlier promise of clear lines of service ownership is compromised as teams build code within each other’s services, modify each other’s data models, and even perform deployments on behalf of service owners. Networked monoliths can form, where services that appear to be independent all have to be deployed together to safely perform any change.
 
-An example of a complex flow at Uber circa 2018, which required 10 touch points for a simple integration before DOMA.
- 
+* An example of a complex flow at Uber circa 2018, which required 10 touch points for a simple integration before DOMA.
+![complex](https://eng.uber.com/wp-content/uploads/2020/07/picture-.png) 
 
-The result is a slower developer experience, instability for service owners, more painful migrations, etc. For organizations that have already adopted a microservice architecture there is no turning back. It becomes a case of “can’t live with them, can’t live without them.” 
+* The result is a slower developer experience, instability for service owners, more painful migrations, etc. For organizations that have already adopted a microservice architecture there is no turning back. It becomes a case of “can’t live with them, can’t live without them.” 
 
-Domain-Oriented Microservice Architecture
+## Domain-Oriented Microservice Architecture
 If we can think of microservices as I/O bound libraries and a “microservice architecture” as a large, distributed application then we can use well understood architectures to think about how to organize our code. 
 
 “Domain-Oriented Microservice Architecture” thus draws heavily from established ways to organize code such as Domain-driven Design, Clean Architecture, Service-Oriented Architecture, and object- and interface-oriented design patterns. We think of DOMA as innovative only insofar as it is a relatively novel way to leverage established design principles in large distributed systems in large organizations.
