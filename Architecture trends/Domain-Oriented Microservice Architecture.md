@@ -48,19 +48,20 @@
 * The result is a slower developer experience, instability for service owners, more painful migrations, etc. For organizations that have already adopted a microservice architecture there is no turning back. It becomes a case of “can’t live with them, can’t live without them.” 
 
 ## Domain-Oriented Microservice Architecture
-If we can think of microservices as I/O bound libraries and a “microservice architecture” as a large, distributed application then we can use well understood architectures to think about how to organize our code. 
+* If we can think of microservices as I/O bound libraries and a “microservice architecture” as a large, distributed application then we can use well understood architectures to think about how to organize our code. 
 
-“Domain-Oriented Microservice Architecture” thus draws heavily from established ways to organize code such as Domain-driven Design, Clean Architecture, Service-Oriented Architecture, and object- and interface-oriented design patterns. We think of DOMA as innovative only insofar as it is a relatively novel way to leverage established design principles in large distributed systems in large organizations.
+* “Domain-Oriented Microservice Architecture” thus draws heavily from established ways to organize code such as **Domain-driven Design, Clean Architecture, Service-Oriented Architecture, and object- and interface-oriented design patterns.** We think of DOMA as innovative only insofar as it is a relatively novel way to leverage established design principles in large distributed systems in large organizations.
 
-The core principles and terminology associated with DOMA are as follows:
+* The core principles and terminology associated with DOMA are as follows:
 
-Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
-We further create collections of domains which we call layers. The layer that the domain belongs to establishes what dependencies the microservices within that domain are allowed to take on. We call this layer design.
-We provide clean interfaces for domains that we treat as a single point of entry into the collection. We call these gateways.
-Finally, we establish that each domain should be agnostic to other domains, which is to say, a domain shouldn’t have logic related to another domain hard coded inside of its code base or data models. Since frequently teams do need to include logic in another team’s domain (for example, custom validation logic or some meta context on a data model), we provide an extension architecture to support well defined extension points within the domain.
-In other words, by providing a systematic architecture, domain gateways, and predefined extension points, DOMA intends to transform microservice architectures from something complex to something comprehensible: a structured set of flexible, reusable, and layered components. 
+1. Instead of orienting around single microservices, we oriented around collections of **related microservices. We call these domains.**
+2. We further create **collections of domains which we call layers.** The layer that the domain belongs to establishes what dependencies the microservices within that domain are allowed to take on. We call this layer design.
+3. We provide clean interfaces for domains that we treat as a **single point of entry into the collection. We call these gateways.**
+4. Finally, we establish that each domain should be agnostic to other domains, which is to say, **a domain shouldn’t have logic related to another domain hard coded inside of its code base or data models.** Since frequently teams do need to include logic in another team’s domain (for example, custom validation logic or some meta context on a data model), we provide an extension architecture to support well defined extension points within the domain.
 
-The rest of this post digs into Uber’s implementation of DOMA, the benefits we’ve seen, and practical advice for companies which might want to adopt this approach.
+* In other words, by providing a systematic architecture, domain gateways, and predefined extension points, DOMA intends to transform microservice architectures from something complex to something comprehensible: a structured set of flexible, reusable, and layered components. 
+
+* The rest of this post digs into Uber’s implementation of DOMA, the benefits we’ve seen, and practical advice for companies which might want to adopt this approach.
 
 Uber’s Implementation
 Domains
