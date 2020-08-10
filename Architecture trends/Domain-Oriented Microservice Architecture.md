@@ -137,34 +137,34 @@
 * Platforms designed using DOMA have proven to be much more extensible and easier to maintain. Most teams at Uber who adopted DOMA did so because supporting new lines of business had become too expensive.
 
 ### Practical Advice
-This section provides some practical advice for companies that might want to adopt DOMA. The guiding principle here is that in our experience a mature and thoughtful microservice architecture stems from quiet nudges in the right direction at the right time. The reality is that a true “rewrite” is never possible for one’s entire microservice architecture.
+* This section provides some practical advice for companies that might want to adopt DOMA. The guiding principle here is that in our experience a mature and thoughtful microservice architecture stems from quiet nudges in the right direction at the right time. The reality is that a true “rewrite” is never possible for one’s entire microservice architecture.
 
-As a result, we think of evolving a microservice architecture more like “trimming a hedge” so that it eventually grows correctly, rather than a top-down or one-time architecture (or re-architecture) effort. It’s a dynamic and progressive process.
+* As a result, we think of evolving a microservice architecture more like “trimming a hedge” so that it eventually grows correctly, rather than a top-down or one-time architecture (or re-architecture) effort. It’s a dynamic and progressive process.
 
-Startups
-The driving questions should be “when should we adopt a microservice architecture?” and “does it make sense for our organization?” As we’ve seen above, while microservices provide an operational benefit to organizations with a large number of engineers, this trades off with an increase in complexity that can make features more difficult to build.
+#### Startups
+* The driving questions should be “when should we adopt a microservice architecture?” and “does it make sense for our organization?” As we’ve seen above, while microservices provide an operational benefit to organizations with a large number of engineers, this trades off with an increase in complexity that can make features more difficult to build.
 
-In small organizations, the operational benefit likely does not offset the increase in architectural complexity. Furthermore, microservice architectures often require dedicated engineering resources to support which may be out of budget for an early stage company or else suboptimal from a prioritization perspective. 
+* In small organizations, the operational benefit likely does not offset the increase in architectural complexity. Furthermore, microservice architectures often require dedicated engineering resources to support which may be out of budget for an early stage company or else suboptimal from a prioritization perspective. 
 
-With this in mind, it isn’t unreasonable to hold off on microservices altogether for some time. If an organization does choose to adopt microservices, it should think about the “microservice as large distributed application” analogy, and the separation of concerns between microservices it wants to build. Also, recognize that the first microservices will likely be the most important and longest lasting as they truly describe the core of the business.
+* With this in mind, it isn’t unreasonable to hold off on microservices altogether for some time. If an organization does choose to adopt microservices, it should think about the “microservice as large distributed application” analogy, and the separation of concerns between microservices it wants to build. Also, recognize that the first microservices will likely be the most important and longest lasting as they truly describe the core of the business.
 
-Midsize
-Once a company becomes midsized with multiple teams and the clear separation of concerns becomes hazy between different features and platforms, microservice architectures become more obviously useful.
+#### Midsize
+* Once a company becomes midsized with multiple teams and the clear separation of concerns becomes hazy between different features and platforms, microservice architectures become more obviously useful.
 
-It’s at this stage that one can begin to think about hierarchies between microservices. Dependency management may become more important, as some services begin to become more obviously critical to business operation, and more and more teams rely on them. 
+* It’s at this stage that one can begin to think about hierarchies between microservices. Dependency management may become more important, as some services begin to become more obviously critical to business operation, and more and more teams rely on them. 
 
-Early investment in platformization may pay dividends down the road. There is the possibility to avoid tech debt here if one can create completely product agnostic business platforms and avoid arbitrary product logic in core platform services. It might make sense to adopt extensions at this point to accomplish that goal.
+* Early investment in platformization may pay dividends down the road. There is the possibility to avoid tech debt here if one can create completely product agnostic business platforms and avoid arbitrary product logic in core platform services. It might make sense to adopt extensions at this point to accomplish that goal.
 
-Given that the number of microservices is likely still quite low, it may not make sense to cluster them together. However, it’s worth noting here that a domain in the context of Uber’s DOMA implementation can contain a single service, so it may still be useful to think in a “domain-oriented” way.
+* Given that the number of microservices is likely still quite low, it may not make sense to cluster them together. However, it’s worth noting here that a domain in the context of Uber’s DOMA implementation can contain a single service, so it may still be useful to think in a “domain-oriented” way.
 
-Large
-Larger engineering organizations may have hundreds of engineers and microservices and several dependencies. At this point DOMA reaches its full usefulness. There will likely be obvious clusters of microservices that can be easily grouped together into domains with a gateway in front of them. Legacy services often begin to need to be refactored or rewritten and then migrated, which means that gateways will soon begin to provide value in terms of ease of migration if they are already in place.
+#### Large
+* Larger engineering organizations may have hundreds of engineers and microservices and several dependencies. At this point DOMA reaches its full usefulness. There will likely be obvious clusters of microservices that can be easily grouped together into domains with a gateway in front of them. Legacy services often begin to need to be refactored or rewritten and then migrated, which means that gateways will soon begin to provide value in terms of ease of migration if they are already in place.
 
-Clear hierarchy will also become increasingly important with some services operating as “product” services for particular features or grouping of features, and other services will increasingly support multiple products and be thought of as “platforms.” It’s critical at this stage to keep arbitrary product logic decoupled from platforms, so as to avoid a heavy operational burden on platform teams as well as system-wide instability.
+* Clear hierarchy will also become increasingly important with some services operating as “product” services for particular features or grouping of features, and other services will increasingly support multiple products and be thought of as “platforms.” It’s critical at this stage to keep arbitrary product logic decoupled from platforms, so as to avoid a heavy operational burden on platform teams as well as system-wide instability.
 
-Final Thoughts
-We are still actively evolving DOMA as more and more teams at Uber come to adopt it. The critical insight of DOMA is that a microservice architecture is really just one, large, distributed program and you can apply the same principles to its evolution that you would apply to any piece of software. DOMA is simply an approach for thinking about these principles in practice. We hope others find it useful and we look forward to feedback!
+### Final Thoughts
+* We are still actively evolving DOMA as more and more teams at Uber come to adopt it. The critical insight of DOMA is that a microservice architecture is really just one, large, distributed program and you can apply the same principles to its evolution that you would apply to any piece of software. DOMA is simply an approach for thinking about these principles in practice. We hope others find it useful and we look forward to feedback!
 
-DOMA itself was the result of a cross-functional effort, which involved nearly 60 engineers across every org at Uber. Some particular acknowledgements, for people who invested heavily into this effort over the last 2 years…
+* DOMA itself was the result of a cross-functional effort, which involved nearly 60 engineers across every org at Uber. Some particular acknowledgements, for people who invested heavily into this effort over the last 2 years…
 
 [Source](https://eng.uber.com/microservice-architecture/)
