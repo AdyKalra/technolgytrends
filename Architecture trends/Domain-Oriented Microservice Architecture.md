@@ -85,36 +85,35 @@
 3. Product layer. Provides functionality that relates to a particular product category or LOB, but is agnostic to the mobile application, such as the “request a ride” logic which is leveraged by multiple Rides facing applications (Rider, Rider “Lite”, m.uber.com, etc).
 4. Presentation. Provide functionality that directly relates to features that exist within a consumer-facing application (mobile/web). 
 5. Edge Layer. Safely exposes Uber services to the outside world. This layer is also mobile application aware.
-As you can see, each subsequent layer represents an increasingly specific grouping of functionality, and has a smaller and smaller blast radius (or, in other words, less components depend on the functionality within that layer). 
+
+* As you can see, each subsequent layer represents an increasingly specific grouping of functionality, and has a smaller and smaller blast radius (or, in other words, less components depend on the functionality within that layer). 
 
 #### Gateways
-The term “Gateway API” is already a broadly established concept within microservice architectures. Our definition does not vary greatly from the established definition, except that we tend to think of gateways exclusively as a single entry-point into a collection of underlying services, which we call a domain. The success of a gateway relies on the success of the API design.
+* The term “Gateway API” is already a broadly established concept within microservice architectures. Our definition does not vary greatly from the established definition, except that we tend to think of gateways exclusively as a single entry-point into a collection of underlying services, which we call a domain. The success of a gateway relies on the success of the API design.
 
+* The following figure illustrates the high level diagram of a gateway. It abstracts away the internal details of the domains – multiple services, data tables, ETL pipelines etc. Only the interfaces – RPC APIs, messaging events and queries are exposed to other domains.
 
-The following figure illustrates the high level diagram of a gateway. It abstracts away the internal details of the domains – multiple services, data tables, ETL pipelines etc. Only the interfaces – RPC APIs, messaging events and queries are exposed to other domains.
- 
+![Gateway](https://eng.uber.com/wp-content/uploads/2020/07/Screen-Shot-2020-04-13-at-12.55.32-PM-768x633.png)
 
-Since upstream consumers only operate on a single service, gateways provide numerous benefits in terms of future migrations, discoverability, and overall reduction in system complexity with upstream services only taking a single dependency as opposed to dependencies on several downstream services that might exist within a domain. If we think about gateways in the sense of OO design, they are interface definitions, which enable us to do whatever we want in terms of the underlying “implementation” (in this case the collection of underlying microservices).
+* Since upstream consumers only operate on a single service, gateways provide numerous benefits in terms of future migrations, discoverability, and overall reduction in system complexity with upstream services only taking a single dependency as opposed to dependencies on several downstream services that might exist within a domain. If we think about gateways in the sense of OO design, they are interface definitions, which enable us to do whatever we want in terms of the underlying “implementation” (in this case the collection of underlying microservices).
 
 #### Extensions
-Extensions represent a mechanism to extend domains. The basic definition of an extension is that it provides a mechanism for extending the functionality of an underlying service without changing the actual implementation of that service and without impacting its overall reliability. At Uber we provide two different extension models: logic extensions and data extensions. The concept of extensions has allowed us to scale our architecture to multiple teams being able to work independently of each other.
+* Extensions represent a mechanism to extend domains. The basic definition of an extension is that it provides a mechanism for extending the functionality of an underlying service without changing the actual implementation of that service and without impacting its overall reliability. At Uber we provide two different extension models: logic extensions and data extensions. The concept of extensions has allowed us to scale our architecture to multiple teams being able to work independently of each other.
 
 ##### Logic Extensions
-Logic extensions provide a mechanism for extending the underlying logic of a service. For logic extensions we use a variation of a provider or plugin pattern with an interface defined on a service-by-service basis. This makes it so that extending teams can implement extension logic in an interface-driven way without modifying the core code of the underlying platform.
+* Logic extensions provide a mechanism for extending the underlying logic of a service. For logic extensions we use a variation of a provider or plugin pattern with an interface defined on a service-by-service basis. This makes it so that extending teams can implement extension logic in an interface-driven way without modifying the core code of the underlying platform.
 
-For example, a driver goes online. Typically, we make various checks to ensure that a driver is allowed to go online (safety checks, compliance, etc.). Each of these is owned by an individual team. One way to implement this would be to have each team write logic in the same endpoint, but this can introduce complexity. Each check would require custom, and entirely unrelated, logic. 
+* For example, a driver goes online. Typically, we make various checks to ensure that a driver is allowed to go online (safety checks, compliance, etc.). Each of these is owned by an individual team. One way to implement this would be to have each team write logic in the same endpoint, but this can introduce complexity. Each check would require custom, and entirely unrelated, logic. 
 
-In the case of logic extensions, the “go online” endpoint would define an interface that they expect each extension to conform to with a predefined request type and a response. Each team would register an extension that would be responsible for the execution of this logic. In this case, they might simply take some context about the driver and return a bool, saying if the driver can go online or not. The go online endpoint would simply iterate through these responses, and determine if any of them are false.
+* In the case of logic extensions, the “go online” endpoint would define an interface that they expect each extension to conform to with a predefined request type and a response. Each team would register an extension that would be responsible for the execution of this logic. In this case, they might simply take some context about the driver and return a bool, saying if the driver can go online or not. The go online endpoint would simply iterate through these responses, and determine if any of them are false.
 
-This decouples the core code from each extension, and provides isolation between extensions, which don’t know what other logic is executing. It’s easy to build up more functionality around this, such as observability or feature flagging. 
+* This decouples the core code from each extension, and provides isolation between extensions, which don’t know what other logic is executing. It’s easy to build up more functionality around this, such as observability or feature flagging. 
 
 ##### Data Extensions
-Data extensions provide a mechanism for attaching arbitrary data to an interface to avoid bloat in core platform data models. For data extensions, we leverage Protobuf’s Any functionality so that teams can add arbitrary data to requests. Services will often store this data or pass it to a logic extension so that the core platform is never responsible for deserializing (and thus “knowing about”) this arbitrary context. Protobuf’s Any implementation comes with some infrastructure overhead in exchange for stronger typing. For a simpler implementation, one could just as easily use a JSON string to represent arbitrary data.
+* Data extensions provide a mechanism for attaching arbitrary data to an interface to avoid bloat in core platform data models. For data extensions, we leverage Protobuf’s Any functionality so that teams can add arbitrary data to requests. Services will often store this data or pass it to a logic extension so that the core platform is never responsible for deserializing (and thus “knowing about”) this arbitrary context. Protobuf’s Any implementation comes with some infrastructure overhead in exchange for stronger typing. For a simpler implementation, one could just as easily use a JSON string to represent arbitrary data.
 
-
-
-Custom
-Outside of logic and data extensions, many teams at Uber have introduced their own extension patterns that are appropriate for their domain. For example, much of the integrations tied to our presentation architecture uses DAG based task execution logic.
+##### Custom
+* Outside of logic and data extensions, many teams at Uber have introduced their own extension patterns that are appropriate for their domain. For example, much of the integrations tied to our presentation architecture uses DAG based task execution logic.
 
 Benefits
 Almost every major domain at Uber has been influenced on some level by DOMA. Over the last year, we have focused primarily on Uber’s business layer which provides generalized logic for each of our various lines of business. 
