@@ -6,18 +6,16 @@
 * As Uber has grown to around 2,200 critical microservices, we introduce our generalized approach to microservice architectures, which we refer to as “Domain-Oriented Microservice Architecture” (DOMA).
 
 ### What is a microservice?
-Microservices are an extension of service oriented architectures. As opposed to the fairly large “services” of the 2000s, microservices are applications that represent a set of narrowly scoped functionality. These applications are hosted and available over the network and expose a well-defined interface. Other applications call this interface by making a “remote procedure call” (RPC).
+* Microservices are an **extension of service oriented architectures.** As opposed to the fairly large “services” of the 2000s, microservices are applications that represent a set of **narrowly scoped functionality.** These applications are hosted and available over the network and expose a well-defined interface. **Other applications call this interface by making a “remote procedure call” (RPC).**
 
-The key characteristic of microservice architecture is the way in which code is hosted, called, and deployed. If we think about large, monolithic applications, they are generally split into encapsulated components with well-defined interfaces. These interfaces would then be called directly in-process as opposed to over the network. In this way, we can start to think of a microservice as a library with a performance hit (network I/O and serialization / deserialization) in order to call any of its functions.
+* The key characteristic of microservice architecture is the way in which code is hosted, called, and deployed. If we think about large, monolithic applications, they are generally split into encapsulated components with well-defined interfaces. These interfaces would then be called directly in-process as opposed to over the network. In this way, we can start to think of a microservice as a library with a performance hit (network I/O and serialization / deserialization) in order to call any of its functions.
 
-When we think about microservices this way, we might question why we would adopt a microservice architecture at all. The answer is often independent deployments and scaling. With a large, monolithic application, an organization is forced to deploy or release all of their code at once. Each new version of an application can involve numerous changes. Deployments become risky and time consuming. Anyone can bring the whole system down. 
+* When we think about microservices this way, we might question why we would adopt a microservice architecture at all. The answer is often independent deployments and scaling. With a large, monolithic application, **an organization is forced to deploy or release all of their code at once. Each new version of an application can involve numerous changes. Deployments become risky and time consuming. Anyone can bring the whole system down.**
 
-In other words, organizations adopt microservices for an operational benefit at the expense of performance. Organizations also must take on the cost to maintain the infrastructure necessary to support microservices. In many situations, it turns out, this trade-off makes a lot of sense, but it is also a strong argument against a premature adoption of a microservice architecture.
+### Motivations
+* At Uber, we adopted a microservice architecture because we had (circa 2012-2013) primarily two monolithic services and ran into many of the operational issues that microservices solve.
 
-Motivations
-At Uber, we adopted a microservice architecture because we had (circa 2012-2013) primarily two monolithic services and ran into many of the operational issues that microservices solve.
-
-Availability Risks. A single regression within a monolithic code base can bring the whole system (in this case, all of Uber) down.
+* Availability Risks. A single regression within a monolithic code base can bring the whole system (in this case, all of Uber) down.
 Risky, expensive deployments. These were painful and time consuming to perform with the frequent need for rollbacks.
 Poor separation of concerns. It was difficult to maintain good separations of concerns with a huge code base. In an exponential growth environment, expediency sometimes led to poor boundaries between logic and components.
 Inefficient execution. These issues combined made it difficult for teams to execute autonomously or independently.
