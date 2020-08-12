@@ -56,16 +56,9 @@
 * Data is one of the greatest assets your organization has. And yet, for many companies, that data is locked away in silos, with critical insights inaccessible to the teams and departments that desperately need it to make informed decisions. To become a resilient digital organization, it is crucial to **unlock the power of these insights by enabling teams to ‘self-serve’ the data they need to create value.** This can be enabled through an **enterprise-wide data strategy, or through simple API mechanisms,** allowing teams to focus on what is important, rather than wading through organizational red tape to get the information they need to succeed. 
 
 ## 5. Moving from project to product thinking
-Whatever your sector, having a product mindset allows an organization to move beyond a rigid, timeboxed project, to experiment and discover what customers are really asking and looking for. Shifting to a product orientation means re-thinking the team required to evolve the product over time, and allows that team a deeper knowledge of the product and their customers, to the benefit of both the customer and the organization. Looking to a longer-term outcome, rather than short-term output, means that product teams can test, learn and adapt over time.
+* Whatever your sector, **having a product mindset allows an organization to move beyond a rigid, timeboxed project, to experiment and discover what customers are really asking and looking for.** Shifting to a product orientation means re-thinking the team required to evolve the product over time, and allows that team a deeper knowledge of the product and their customers, to the benefit of both the customer and the organization. Looking to a longer-term outcome, rather than short-term output, means that product teams can test, learn and adapt over time.
 
-Where to start
-To begin your journey of becoming a product-centric organization, we recommend addressing two of the biggest challenges you will face: identifying the right team, with the right set of skills, and working through the funding issues that accompany a move from project-based funding.  
-
-What next?
-We hope it has become clearer, that as we head towards a new future of IT, technology is, more than ever, a critical enabler of the future success of your business. 
-
-It will be impossible to accelerate your business strategy without putting your technical foundations in place; investing in your capability to respond and adapt to unpredictable changes. 
-
-Now is the time for business leaders to double down on building their technical knowledge, and to begin speaking the language of technology to foster collaboration with tech leaders. Looking forward, we believe that a new breed of business technologist will emerge, providing stronger leadership in the era of digital. 
+### Where to start
+* To begin your journey of becoming a product-centric organization, we recommend addressing two of the biggest challenges you will face: identifying the right team, with the right set of skills, and working through the funding issues that accompany a move from project-based funding.  
 
 [Source](https://www.thoughtworks.com/insights/blog/five-things-all-execs-should-know-about-technology-and-why-it-matters-more-ever)
