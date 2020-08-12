@@ -31,18 +31,20 @@
 * The role of a leader then, is to support an environment that enables this upskilling, as well as empowering teams with the autonomy to make informed decisions. **Cultivating a culture where it is safe to experiment, fail, and learn, is essential for innovation.** Additionally, a **commitment to continual investment in personal development, despite operational pressures, creates organizational resilience, and the ability to quickly build new capabilities as they are required by the business.**
 
 ## 3. Invest in continuous delivery & DevOps to deliver customer value faster.
-Continuous delivery (CD) enables the delivery of new features and functionality to shift from slow, lengthy release cycles, to a faster, more incremental and iterative approach. DevOps is a cultural movement promoting closer collaboration between those who create software (developers) and those who operate it in production (Ops). Facilitating this collaboration in your own delivery teams is a crucial component of creating speed and organizational agility, as well as improving resiliency. Pairing CD and DevOps means that the latest feature can be released (safely) to production at the push of a button, as and when the business needs it, rather than when the deployment cycle dictates. 
+* **Continuous delivery (CD) enables the delivery of new features and functionality to shift from slow, lengthy release cycles, to a faster, more incremental and iterative approach.** 
+* **DevOps is a cultural movement promoting closer collaboration between those who create software (developers) and those who operate it in production (Ops).** Facilitating this collaboration in your own delivery teams is a crucial component of creating speed and organizational agility, as well as improving resiliency. Pairing CD and DevOps means that the latest feature can be released (safely) to production at the push of a button, as and when the business needs it, rather than when the deployment cycle dictates. 
 
-Where to start
-Create a value proposition for CD in your organization. Think about how often you release to production, and how long it takes to get a new concept, or bug fix into the hands of your customers. What would you like those measures to be? Next, assess your iterative development, continuous integration and test automation practices, since these are all prerequisites to delivering value faster. Think about your organizational culture for development and operations—how do these groups currently collaborate? Are there friction points you could smooth through more closely working together?
-4. Building digital platforms
-The concept of a ‘platform business’ is not a new one. However, not every organization needs to become a ‘platform business’ in order to benefit from investment in its digital platforms. To capitalize on customer insights data, and reduce time-to-market, it makes sense to optimize your digital technology platform internally, as a prelude to business model revolution and growth. With the right platform capabilities in place, technologists have ready-access to the resources they need to respond quickly to disruption. 
+### Where to start
+* Create a **value proposition for CD in your organization.** Think about **how often you release to production,** and **how long it takes to get a new concept, or bug fix into the hands of your customers.** What would you like those measures to be? Next, assess your iterative development, continuous integration and test automation practices, since these are all prerequisites to delivering value faster. Think about your organizational culture for development and operations—how do these groups currently collaborate? Are there friction points you could smooth through more closely working together?
 
-Where to start
-There are three key pillars to supporting a digital platform that warrant your immediate attention:
-API-enabled architecture
-Delivery infrastructure
-Self-service data
+## 4. Building digital platforms
+* The concept of a ‘platform business’ is not a new one. However, not every organization needs to become a ‘platform business’ in order to benefit from investment in its digital platforms. To capitalize on customer insights data, and reduce time-to-market, it makes sense to optimize your digital technology platform internally, as a prelude to business model revolution and growth. **With the right platform capabilities in place, technologists have ready-access to the resources they need to respond quickly to disruption.**
+
+### Where to start
+* There are three key pillars to supporting a digital platform that warrant your immediate attention:
+  * API-enabled architecture
+  * Delivery infrastructure
+  * Self-service data
 API-enabled architecture
 Rather than an unwieldy monolithic architecture, enterprise systems should be built up from granular services that align with business domain capabilities, allowing these services to be independently built, deployed and run by multiple teams. These APIs can be exposed in the digital world, to create new business opportunities, and improve existing products, services and operations. 
 
