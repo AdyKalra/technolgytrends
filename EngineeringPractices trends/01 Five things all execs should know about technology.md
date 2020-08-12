@@ -42,18 +42,20 @@
 
 ### Where to start
 * There are three key pillars to supporting a digital platform that warrant your immediate attention:
-  * API-enabled architecture
-  * Delivery infrastructure
-  * Self-service data
-API-enabled architecture
-Rather than an unwieldy monolithic architecture, enterprise systems should be built up from granular services that align with business domain capabilities, allowing these services to be independently built, deployed and run by multiple teams. These APIs can be exposed in the digital world, to create new business opportunities, and improve existing products, services and operations. 
+  * **API-enabled architecture**
+  * **Delivery infrastructure**
+  * **Self-service data**
+  
+### API-enabled architecture
+* Rather than an unwieldy monolithic architecture, **enterprise systems should be built up from granular services that align with business domain capabilities,** allowing these services to be independently built, deployed and run by multiple teams. These APIs can be exposed in the digital world, to create new business opportunities, and improve existing products, services and operations. 
 
-Delivery infrastructure
-With teams so often constrained by their infrastructure, it’s little wonder that the most successful organizations are the ones able to remove the organizational friction that infrastructure processes can cause. By investing in self-service access to computing environments, provisioning of development tools and runtime environments, delivery teams are able to run experiments and deliver value with fewer barriers and quicker feedback. 
+### Delivery infrastructure
+* With teams so often constrained by their infrastructure, it’s little wonder that the most successful organizations are the ones able to remove the organizational friction that infrastructure processes can cause. By investing in **self-service access to computing environments, provisioning of development tools and runtime environments, delivery teams are able to run experiments and deliver value with fewer barriers and quicker feedback.** 
 
-Self-service data
-Data is one of the greatest assets your organization has. And yet, for many companies, that data is locked away in silos, with critical insights inaccessible to the teams and departments that desperately need it to make informed decisions. To become a resilient digital organization, it is crucial to unlock the power of these insights by enabling teams to ‘self-serve’ the data they need to create value. This can be enabled through an enterprise-wide data strategy, or through simple API mechanisms, allowing teams to focus on what is important, rather than wading through organizational red tape to get the information they need to succeed. 
-5. Moving from project to product thinking
+### Self-service data
+* Data is one of the greatest assets your organization has. And yet, for many companies, that data is locked away in silos, with critical insights inaccessible to the teams and departments that desperately need it to make informed decisions. To become a resilient digital organization, it is crucial to **unlock the power of these insights by enabling teams to ‘self-serve’ the data they need to create value.** This can be enabled through an **enterprise-wide data strategy, or through simple API mechanisms,** allowing teams to focus on what is important, rather than wading through organizational red tape to get the information they need to succeed. 
+
+## 5. Moving from project to product thinking
 Whatever your sector, having a product mindset allows an organization to move beyond a rigid, timeboxed project, to experiment and discover what customers are really asking and looking for. Shifting to a product orientation means re-thinking the team required to evolve the product over time, and allows that team a deeper knowledge of the product and their customers, to the benefit of both the customer and the organization. Looking to a longer-term outcome, rather than short-term output, means that product teams can test, learn and adapt over time.
 
 Where to start
