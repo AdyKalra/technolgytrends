@@ -36,8 +36,8 @@
 
 
 More Info
-[architecture_decision_record](https://github.com/joelparkerhenderson/architecture_decision_record)
-[earn-maintainers-esteem-with-adrs](https://understandlegacycode.com/blog/earn-maintainers-esteem-with-adrs/)
-[Architecture Decisions:Demystifying Architecture](https://personal.utdallas.edu/~chung/SA/zz-Impreso-architecture_decisions-tyree-05.pdf)
+* [architecture_decision_record](https://github.com/joelparkerhenderson/architecture_decision_record)
+* [earn-maintainers-esteem-with-adrs](https://understandlegacycode.com/blog/earn-maintainers-esteem-with-adrs/)
+* [Architecture Decisions:Demystifying Architecture](https://personal.utdallas.edu/~chung/SA/zz-Impreso-architecture_decisions-tyree-05.pdf)
 
 [Source](https://github.blog/2020-08-13-why-write-adrs/)
