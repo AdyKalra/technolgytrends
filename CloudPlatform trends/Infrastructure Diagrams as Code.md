@@ -10,49 +10,53 @@
 ### Now, let’s begin!
 * The official page has many [examples](https://diagrams.mingrammer.com/docs/getting-started/examples) of diagrams, but I decided to create one sample just to experiment and share my experience with you. So, see an example below.
 
-Now I will explain the parts that make up this tool:
+#### Now I will explain the parts that make up this tool:
 
-DIAGRAM: It is the main part and it represents the diagram itself.
+* **DIAGRAM:** It is the main part and it represents the diagram itself.
 
-name: Diagram name
-filename: The output filename, without the extension. If not given, it will be generated from the name.
-direction: Data flow direction, default is Left/Right. Options: TB|BT|LR|RL.
-curvestyle: Curve bending style default is curved. Options: ortho|curved.
-outformat: Output file format, default is png. Options: png|jpg| svg|pdf.
-show: Open image after save, default is true.
-graph_attr: Provide config attributes.
-node_attr: Provide config attributes.
-edge_attr: Provide config attributes.
-NODE: Node represents a node for a specific component or service.
+  * name: Diagram name
+  * filename: The output filename, without the extension. If not given, it will be generated from the name.
+  * direction: Data flow direction, default is Left/Right. Options: TB|BT|LR|RL.
+  * curvestyle: Curve bending style default is curved. Options: ortho|curved.
+  * outformat: Output file format, default is png. Options: png|jpg| svg|pdf.
+  * show: Open image after save, default is true.
+  * graph_attr: Provide config attributes.
+  * node_attr: Provide config attributes.
+  * edge_attr: Provide config attributes.
+
+* **NODE:** Node represents a node for a specific component or service.
 
 label: Node label.
 attrs: Provide config attributes.
 CLUSTER: Likes a group of components or services.
 
-label: Cluster label.
-direction: Data flow direction, default is Left/Right. Options: TB|BT|LR|RL.
-graph_attr: Provide config attributes.
-EDGE: A connection between components or services.
+  * label: Cluster label.
+  * direction: Data flow direction, default is Left/Right. Options: TB|BT|LR|RL.
+  * graph_attr: Provide config attributes.
 
-node: Parent node.
-forward: Points forward.
-reverse: Points backward.
-label: Edge label.
-color: Edge color.
-style: Edge style.
-attrs: Provide a config attributes.
-If you wanna know how to customize attributes, here is a reference link to Graphviz.
+* **EDGE:** A connection between components or services.
 
-Generate an image diagram.
-Here are some instructions to install and configure, but if you prefer I’ve created a docker image to keep it simple.
+  * node: Parent node.
+  * forward: Points forward.
+  * reverse: Points backward.
+  * label: Edge label.
+  * color: Edge color.
+  * style: Edge style.
+  * attrs: Provide a config attributes.
 
-Using python/Graphviz:
+* If you wanna know how to customize attributes, here is a reference link to [Graphviz.](https://graphviz.org/doc/info/attrs.html)
+
+### Generate an image diagram.
+* [Here](https://diagrams.mingrammer.com/docs/getting-started/installation) are some instructions to install and configure, but if you prefer I’ve created a [docker image](https://id.docker.com/login/?next=%2Fid%2Foauth%2Fauthorize%2F%3Fclient_id%3D43f17c5f-9ba4-4f13-853d-9d0074e349a7%26next%3D%252Frepository%252Fdocker%252Fsamuelsantos%252Fgenerate-diagrams-as-code%253Fref%253Dlogin%26nonce%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1OTc4ODgyNDYsImlhdCI6MTU5Nzg4Nzk0NiwicmZwIjoiNU5IeGRSTWZOQkk5MzZodk1JTmJWdz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiL3JlcG9zaXRvcnkvZG9ja2VyL3NhbXVlbHNhbnRvcy9nZW5lcmF0ZS1kaWFncmFtcy1hcy1jb2RlP3JlZj1sb2dpbiJ9.IL-8XbP9yYfCJXzZoNkvjYC87fsBeaZeHFw6GI844tM%26redirect_uri%3Dhttps%253A%252F%252Fhub.docker.com%252Fsso%252Fcallback%26response_type%3Dcode%26scope%3Dopenid%26state%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI0M2YxN2M1Zi05YmE0LTRmMTMtODUzZC05ZDAwNzRlMzQ5YTciLCJleHAiOjE1OTc4ODgyNDYsImlhdCI6MTU5Nzg4Nzk0NiwicmZwIjoiNU5IeGRSTWZOQkk5MzZodk1JTmJWdz09IiwidGFyZ2V0X2xpbmtfdXJpIjoiL3JlcG9zaXRvcnkvZG9ja2VyL3NhbXVlbHNhbnRvcy9nZW5lcmF0ZS1kaWFncmFtcy1hcy1jb2RlP3JlZj1sb2dpbiJ9.IL-8XbP9yYfCJXzZoNkvjYC87fsBeaZeHFw6GI844tM) to keep it simple.
+
+* Using python/Graphviz:
 
 # REQUIREMENT:
 #  - Python >= 3.6
 #  - Graphviz# using pip
 $ pip install diagramspython diagrams/diagram.py
-Using docker:
+
+* Using docker:
 
 docker run --rm -t -v ~/diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams samuelsantos/generate-diagrams-as-code
 DIAGRAM_FILE — This variable represents the name of the python file that you create. Remember to define a volume :/data, your diagram will be generated inside this volume and your python diagram needs to be inside this folder volume.
