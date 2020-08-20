@@ -1,6 +1,6 @@
 ## Infrastructure Diagrams as Code
 
-I usually see “at the beginning of a project” many changes happen and keep updated documentation is hard. Those changes happened because the use of agile methodologies in the software industry has become popular a few years ago. Now it is common to have less documentation than before, but diagrams are still important because they help us to get a quick overview. So, how do you keep updated the diagrams in your repository? Do you now about Diagram as code? Here’s how MinJae Kwon defines it:
+* I usually see “at the beginning of a project” many changes happen and keep updated documentation is hard. Those changes happened because the use of agile methodologies in the software industry has become popular a few years ago. Now it is common to have less documentation than before, but diagrams are still important because they help us to get a quick overview. So, how do you keep updated the diagrams in your repository? Do you now about Diagram as code? Here’s how MinJae Kwon defines it:
 
 Diagrams
 Diagrams lets you draw the cloud system architecture using Python code and allows you to track the architecture diagram changes in any version control system.
@@ -69,3 +69,5 @@ Conclusion
 I appreciate this tool because I prefer coding than a draw. We can put it to running in a version control system and generate diagrams in each tag or release. If you have any questions or suggestions, leave a comment or reach out to me.
 
 Thanks for reading!
+
+[Source](https://medium.com/swlh/infrastructure-diagrams-as-code-is-it-possible-b6bbae487f21)
