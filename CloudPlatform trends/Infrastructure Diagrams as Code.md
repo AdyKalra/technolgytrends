@@ -51,9 +51,9 @@ CLUSTER: Likes a group of components or services.
 
 * Using python/Graphviz:
 
-# REQUIREMENT:
-#  - Python >= 3.6
-#  - Graphviz# using pip
+*  REQUIREMENT:
+*   - Python >= 3.6
+*   - Graphviz# using pip
 $ pip install diagramspython diagrams/diagram.py
 
 * Using docker:
@@ -61,17 +61,15 @@ $ pip install diagramspython diagrams/diagram.py
 docker run --rm -t -v ~/diagrams:/data -e DIAGRAM_FILE=diagram.py --name diagrams samuelsantos/generate-diagrams-as-code
 DIAGRAM_FILE — This variable represents the name of the python file that you create. Remember to define a volume :/data, your diagram will be generated inside this volume and your python diagram needs to be inside this folder volume.
 
-After you execute one of the commands above the image will be generated.
+* After you execute one of the commands above the image will be generated.
 
-Image for postImage for postImage for post
-Image for post
-Advice: Use show as false if you are using in a version control system.
+![image](https://miro.medium.com/max/1400/1*RnAsOMWxAzfxn8E6lR4FVw.png)
 
-Now, if you have resources in one of these clouds: AWS | GCP | Azure | Alibaba | IBM, Cloudiscovery can help you create a diagram based on your resources.
+* Advice: Use show as false if you are using in a version control system.
 
-Conclusion
-I appreciate this tool because I prefer coding than a draw. We can put it to running in a version control system and generate diagrams in each tag or release. If you have any questions or suggestions, leave a comment or reach out to me.
+* Now, if you have resources in one of these clouds: AWS | GCP | Azure | Alibaba | IBM, [Cloudiscovery](https://github.com/Cloud-Architects/cloudiscovery) can help you create a diagram based on your resources.
 
-Thanks for reading!
+### Conclusion
+* I appreciate this tool because I prefer coding than a draw. We can put it to running in a version control system and generate diagrams in each tag or release. 
 
 [Source](https://medium.com/swlh/infrastructure-diagrams-as-code-is-it-possible-b6bbae487f21)
