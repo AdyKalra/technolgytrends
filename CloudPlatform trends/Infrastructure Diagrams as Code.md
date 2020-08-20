@@ -2,13 +2,13 @@
 
 * I usually see “at the beginning of a project” many changes happen and keep updated documentation is hard. Those changes happened because the use of agile methodologies in the software industry has become popular a few years ago. Now it is common to have less documentation than before, but diagrams are still important because they help us to get a quick overview. So, how do you keep updated the diagrams in your repository? Do you now about Diagram as code? Here’s how MinJae Kwon defines it:
 
-Diagrams
-Diagrams lets you draw the cloud system architecture using Python code and allows you to track the architecture diagram changes in any version control system.
+### Diagrams
+* **Diagrams lets you draw the cloud system architecture using Python code and allows you to track the architecture diagram changes in any version control system.**
 
-Diagrams currently supports six major providers: AWS, Azure, GCP, Kubernetes, Alibaba Cloud and Oracle Cloud. It now also supports On-Premise nodes as well as Programming Languages and Frameworks.
+* Diagrams currently supports six major providers: **AWS, Azure, GCP, Kubernetes, Alibaba Cloud and Oracle Cloud.** It now also supports On-Premise nodes as well as Programming Languages and Frameworks.
 
-Now, let’s begin!
-The official page has many examples of diagrams, but I decided to create one sample just to experiment and share my experience with you. So, see an example below.
+### Now, let’s begin!
+* The official page has many [examples](https://diagrams.mingrammer.com/docs/getting-started/examples) of diagrams, but I decided to create one sample just to experiment and share my experience with you. So, see an example below.
 
 Now I will explain the parts that make up this tool:
 
