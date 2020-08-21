@@ -54,4 +54,23 @@
 ![slack](https://miro.medium.com/max/676/0*ekggl_Oabo2vJocj)
   * When a problem strikes, it’s essential to have the right information. Our **Slack alerts also start a thread containing only the most relevant context about the incident.** This includes the signals that Telltale identified as unhealthy and the reasons why. The right context provides a better understanding of the application’s current state so the on-call engineer can return it to health. 
 
+* Incidents evolve and have their own lifecycle, so updates are essential. 
+  * Are things getting better or worse? Are there new signals or events to consider? Telltale updates the Slack thread as the current incident unfolds. 
+  * The thread is marked Resolved upon return to healthy state so users know, at a glance, which incidents are ongoing and which have been successfully remediated.
+  * But these Slack threads aren’t just for Telltale. Teams use them to share additional data, observations, theories, and discussion about the incident. Incident data and discussion all in one thread makes for shared understanding, faster resolution, and easier post-incident analysis.
+  * We strive to improve the quality of Telltale alerts. One way to do that is to learn from our users. So we provide feedback buttons right in the Slack message. Users can tell us to suppress future occurrences of an alert. Or provide a reason for why an alert isn’t actionable. Intelligent alerting means alerts our users can trust.
+![alerts](https://miro.medium.com/max/577/0*oXj7Nyz9LZPOmpMZ)
+
+### Why Is My Service Unhealthy?
+* A wide variety of signals, knowledge of the application’s ecosystem, and correlation of signals across multiple services helps Telltale to detect the possible causes of an application’s degraded health. Causes such as an outlier instance, a canary or deployment by a dependent service, an unhealthy database, or just a spike in traffic. Highlighting possible causes saves valuable time during an incident.
+
+### Incident Management
+![incident](https://miro.medium.com/max/700/0*p6sSp5oj_A_mPVVy)
+* When Telltale sends an alert it also creates a snapshot that has references to the unhealthy signals. As new information arrives, it’s added to this snapshot. 
+  * This simplifies the post-incident review process for many teams. 
+  * When it’s time to review past issues, the Application Incident Summary feature shows all aspects of recent issues in a single place including key metrics like total downtime and MTTR (Mean Time To Resolution). 
+  * We want to help our teams see larger patterns of incidents so they can improve overall service availability.
+  
+![patterns](https://miro.medium.com/max/604/0*ZfKPKbIU-PNGF5NN)
+
 [Source](https://netflixtechblog.com/telltale-netflix-application-monitoring-simplified-5c08bfa780ba)
