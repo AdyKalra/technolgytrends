@@ -195,5 +195,6 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [CDN Akamai Cloudfront Imperva](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/CDN%20Incapsula%20Akamai%20Cloudfront.md)
 - [Four Golden Signals](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Golden%20Signals.md)
 - [Setting SLOs](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Setting%20SLOs.md)
+- [Application Monitoring Simplified](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/application%20monitoring%20simplified.md)
 
 [Back to top :arrow_up:](#trends)
