@@ -31,5 +31,22 @@
   * The health of upstream and downstream services.
   * [Client metrics and QoE changes](https://netflixtechblog.com/optimizing-the-netflix-streaming-experience-with-data-science-725f04c3e834)
   * Alerts triggered by our alerting platform.
+  
+* Different signals have different levels of importance to an application’s health. 
+  * For example, a latency increase is less critical than error rate increase and some error codes are less critical than others. 
+  * A canary launch two layers downstream might not be as significant as a deployment immediately upstream. 
+* A regional traffic shift means one region ends up with zero traffic while another region has double. You can imagine the impact that has on metrics. A metric’s meaning determines how we should interpret it. Telltale takes all those factors into consideration when constructing its view of application health. The application health model is the heart of Telltale.
+
+#### Intelligent Monitoring
+
+* Every service operator knows the difficulty of alert tuning. 
+  * Set thresholds too low and you get a deluge of spurious alerts. So you overcompensate and relax the tuning to the point of missing important health warnings. The end result is a lack of trust in alerts.
+  * We make setup and configuration easy for application owners by providing curated and managed signal packs. These packs are combined into application profiles to address most common service types. 
+  * Telltale automatically tracks dependencies between services to build the topology used in the application health model. Signal packs and topology detection keep configuration up-to-date with minimal effort. Those who want a more hands-on approach can still do manual configuration and tuning.
+  * No single algorithm can account for the wide variety of signals we use. So, instead, we employ a mix of algorithms including statistical, rule based, and machine learning. 
+  * **Intelligent monitoring means results our users can trust. It means a faster time to detection and a faster time to resolution during an incident.**
+  
+
+
 
 [Source](https://netflixtechblog.com/telltale-netflix-application-monitoring-simplified-5c08bfa780ba)
