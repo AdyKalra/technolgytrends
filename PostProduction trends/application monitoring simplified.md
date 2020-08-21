@@ -46,7 +46,12 @@
   * No single algorithm can account for the wide variety of signals we use. So, instead, we employ a mix of algorithms including statistical, rule based, and machine learning. 
   * **Intelligent monitoring means results our users can trust. It means a faster time to detection and a faster time to resolution during an incident.**
   
-
-
+#### Intelligent Alerting
+* Intelligent monitoring yields intelligent alerting. 
+  * Telltale creates an issue when it detects a health problem in your application’s ecosystem. 
+  * Teams can opt in to alerting via Slack, email, or PagerDuty (all powered by our internal alerting system). 
+  * If the issue is caused by an upstream or downstream system then Telltale’s context-aware routing alerts that team instead. Intelligent alerting also means a team receives a single notification, alert storms are a thing of the past.
+![slack](https://miro.medium.com/max/676/0*ekggl_Oabo2vJocj)
+  * When a problem strikes, it’s essential to have the right information. Our **Slack alerts also start a thread containing only the most relevant context about the incident.** This includes the signals that Telltale identified as unhealthy and the reasons why. The right context provides a better understanding of the application’s current state so the on-call engineer can return it to health. 
 
 [Source](https://netflixtechblog.com/telltale-netflix-application-monitoring-simplified-5c08bfa780ba)
