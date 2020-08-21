@@ -73,4 +73,10 @@
   
 ![patterns](https://miro.medium.com/max/604/0*ZfKPKbIU-PNGF5NN)
 
+### Deployment Monitoring
+* Telltale’s application health model and intelligent monitoring have proven so powerful that we’re also using it for safer deployments. We start with Spinnaker, our open source delivery platform. 
+  * As Spinnaker slowly rolls out a new build we use Telltale to continuously monitor the health of the instances running the new build.
+  * Continuous monitoring means a deployment stops and rolls back at the first sign of a problem. It means deployment problems have smaller blast radius and a shorter duration.
+![CI](https://miro.medium.com/max/700/0*xyZJrDCJGrcIXbj2)
+
 [Source](https://netflixtechblog.com/telltale-netflix-application-monitoring-simplified-5c08bfa780ba)
