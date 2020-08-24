@@ -110,6 +110,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 [Back to top :arrow_up:](#trends)
 
+<!--- END OF TOPIC--->
+
 #### Engineering trends
 - [Five things all execs should know about technology](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/01%20Five%20things%20all%20execs%20should%20know%20about%20technology.md)
 - [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
@@ -136,6 +138,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 [Back to top :arrow_up:](#trends)
 
+<!--- END OF TOPIC--->
+
 #### Development trends
 - [Jupyter](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Jupyter.md)
 - [Opinionated and automated code formatting using pre commit hooks](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Opinionated%20and%20automated%20code%20formatting%20using%20pre%20commit%20hooks.md)
@@ -161,6 +165,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 [Back to top :arrow_up:](#trends)
 
+<!--- END OF TOPIC--->
+
 #### Testing trends
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
 - [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/LocalStack.md)
@@ -168,10 +174,14 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 [Back to top :arrow_up:](#trends)
 
+<!--- END OF TOPIC--->
+
 #### NonFunctional trends
 - [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/Crypto%20shredding.md)
 
 [Back to top :arrow_up:](#trends)
+
+<!--- END OF TOPIC--->
 
 #### CloudPlatform trends
 - [Infrastructure configuration scanner](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20configuration%20scanner.md)
@@ -190,6 +200,8 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 
 [Back to top :arrow_up:](#trends)
 
+<!--- END OF TOPIC--->
+
 #### PostProduction trends
 - [Chaos Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Chaos%20Engineering.md)
 - [CDN Akamai Cloudfront Imperva](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/CDN%20Incapsula%20Akamai%20Cloudfront.md)
@@ -198,3 +210,5 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Application Monitoring Simplified](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/application%20monitoring%20simplified.md)
 
 [Back to top :arrow_up:](#trends)
+
+<!--- END OF TOPIC--->
