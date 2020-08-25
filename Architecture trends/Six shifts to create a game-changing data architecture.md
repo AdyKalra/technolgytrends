@@ -7,7 +7,7 @@
 * Cloud is probably the most disruptive driver of a radically new data-architecture approach, as it offers companies a way to rapidly scale AI tools and capabilities for competitive advantage. Major global cloud providers such as Amazon (with Amazon Web Services), Google (with the Google Cloud Platform), and Microsoft (with Microsoft Azure) have revolutionized the way organizations of all sizes source, deploy, and run data infrastructure, platforms, and applications at scale.
     * One utility-services company, for example, combined a cloud-based data platform with container technology, which holds microservices such as searching billing data or adding new properties to the account, to modularize application capabilities. This enabled the company to deploy new self-service capabilities to approximately 100,000 business customers in days rather than months, deliver large amounts of real-time inventory and transaction data to end users for analytics, and reduce costs by “buffering” transactions in the cloud rather than on more expensive on-premise legacy systems.
 
-### Enabling concepts and components
+#### Enabling concepts and components
 
 * **Serverless data platforms**, such as Amazon S3 and Google BigQuery, allow organizations to build and operate data-centric applications with infinite scale without the hassle of installing and configuring solutions or managing workloads. Such offerings can lower the expertise required, speed deployment from several weeks to as little as a few minutes, and require virtually no operational overhead.
 
@@ -19,7 +19,7 @@
 
 * Real-time streaming functions, such as a subscription mechanism, allow data consumers, including data marts and data-driven employees, to **subscribe to “topics”** so they can obtain a constant feed of the transactions they need. **A common data lake typically serves as the “brain” for such services, retaining all granular transactions.**
 
-### Enabliing concepts and components
+#### Enabliing concepts and components
 
 * **Messaging platforms** such as Apache Kafka provide **fully scalable, durable, and fault-tolerant publish/subscribe services that can process and store millions of messages every second for immediate or later consumption.** This allows for support of real-time use cases, bypassing existing batch-based solutions, and a much lighter footprint (and cost base) than traditional enterprise messaging queues.
 * **Streaming processing and analytics solutions** such as **Apache Kafka Streaming, Apache Flume, Apache Storm, and Apache Spark** Streaming allow for direct analysis of messages in real time. This analysis can be **rule based or involve advanced analytics to extract events or signals from the data.** Often, analysis integrates historic data to compare patterns, which is especially vital in recommendation and prediction engines.
@@ -31,7 +31,7 @@
 
 * The utility-services company mentioned earlier is transitioning to this approach to rapidly deliver new, data-heavy digital services to millions of customers and to connect cloud-based applications at scale. For example, it offers accurate daily views on customer energy consumption and real-time analytics insights comparing individual consumption with peer groups. The company set up an independent data layer that includes both commercial databases and open-source components. Data is synced with back-end systems via a proprietary enterprise service bus, and microservices hosted in containers run business logic on the data.
 
-### Enabling concepts and components
+#### Enabling concepts and components
 
 * **Data pipeline and API-based interfaces** simplify integration between disparate tools and platforms by shielding data teams from the complexity of the different layers, speeding time to market, and reducing the chance of causing new problems in existing applications. These interfaces also allow for easier replacement of individual components as requirements change.
 * **Analytics workbenches** such as Amazon Sagemaker and Kubeflow simplify building end-to-end solutions in a highly modular architecture. Such tools can connect with a large variety of underlying databases and services and allow highly modular design.
@@ -41,7 +41,7 @@
 
 * One pharmaceutical company, for example, is setting up an internal **“data marketplace”** for all employees via APIs to simplify and standardize access to core data assets rather than relying on proprietary interfaces. The company is gradually—over 18 months—migrating its most valuable existing data feeds to an API-based structure and deploying an API management platform to expose the APIs to users.
 
-### Enabling concepts and components
+#### Enabling concepts and components
 
 * An **API management platform (often called an API gateway)** is necessary to create and publish data-centric APIs, implement usage policies, control access, and measure usage and performance. This platform also allows developers and users to search for existing data interfaces and reuse them rather than build new ones. An API gateway is often embedded as a separate zone within a data hub but can also be developed as a standalone capability outside of the hub.
 
@@ -52,7 +52,7 @@
 
 * One European telecommunications provider used a distributed domain-based architecture so sales and operations staff could expose customer, order, and billing data to data scientists for use in AI models or directly to customers via digital channels. Rather than building one central data platform, the organization deployed logical platforms that are managed by product owners within the company’s sales and operations teams. Product owners are incentivized to promote the use of the data for analytics and are using **digital channels as well as forums and hackathons to drive adoption.**
 
-### Enabling concepts and components
+#### Enabling concepts and components
 
 * **Data infrastructure as a platform** provides common tools and capabilities for storage and management to speed implementation and remove from data producers the burden of building their own data-asset platform.
 * **Data virtualization techniques**, which started in niche areas such as customer data, are now being used across enterprises to organize access to and integrate distributed data assets.
@@ -63,7 +63,7 @@
 
 * To gain greater flexibility and a powerful competitive edge when exploring data or supporting advanced analytics, companies are evolving to **“schema-light” approaches, using denormalized data models**, which have fewer physical tables, to organize data for maximum performance. This approach offers a host of benefits: agile data exploration, greater flexibility in storing structured and unstructured data, and reduced complexity, as data leaders no longer need to introduce additional abstraction layers, such as multiple “joins” between highly normalized tables, to query relational data.
 
-### Enabling concepts and components
+#### Enabling concepts and components
 
 * **Data vault 2.0 techniques, such as data-point modeling**, can ensure that data models are extensible so data elements can be added or removed in the future with limited disruption.
 * **Graph databases, a type of NoSQL database**, have gained attention in recent years. NoSQL databases in general are ideal for digital applications that require massive scalability and real-time capabilities, and for data layers serving AI applications, thanks to their ability to tap into unstructured data. Graph databases, in particular, offer the ability to model relationships within data in a powerful and flexible manner, and many companies are building master data repositories using graph databases to accommodate changing information models.
