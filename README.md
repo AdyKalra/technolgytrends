@@ -162,6 +162,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Data Lake](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Datalake.md)
 - [Auto Scaling](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Auto%20Scaling.md)
 - [Four Golden Signals](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Golden%20Signals.md)
+- [auth0 ForgeRock Okta](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/auth0%20ForgeRock%20Okta.md)
 
 [Back to top :arrow_up:](#trends)
 
