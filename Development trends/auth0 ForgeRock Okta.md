@@ -1,6 +1,8 @@
 ## Problem(s)
 Lack the ability to allow customers to delegate authority to partner systems , allowing them to interact with platform services on their behalf, without requiring a username and password for each interaction.
 
+![Access-Management](https://www.okta.com/sites/default/files/images/analyst-research/inline/Okta-Leader_Gartner-Magic-Quadrant-Access-Management-2019.jpg)
+
 ### Business Drivers
 ||Customer Identity and Access Management|
 |:-:  |:-:  |
@@ -28,3 +30,4 @@ New and/or existing customer and partners ability to utilise Identity and Access
 ### Adaptive Authentication Capabilities
 | # |Capability | Description |
 |:-:  |:-:  |:-:  |
+
