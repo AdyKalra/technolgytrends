@@ -59,3 +59,5 @@ New and/or existing customer and partners ability to utilise Identity and Access
 Passwordless authentication	| Authenticate users via a universal login, which usually incorporates the following steps:Users click login, and the auth SDK redirects them to the login page on the web. Lock Passwordless asks them for a phone number or email, whichever type you chose. The prompt changes to ask them for a code that they will receive by the designated method. Once they enter the code, the transaction will finish and the user will be redirected to your app along with their credentials.|
 
 ### Product Comparison 
+![Comparison](https://user-images.githubusercontent.com/8856857/93276684-9e247080-f803-11ea-88b2-c0f69ed166fb.png)
+![Comparison2](https://user-images.githubusercontent.com/8856857/93276740-c4e2a700-f803-11ea-9d3e-62c937feb0ee.png)
