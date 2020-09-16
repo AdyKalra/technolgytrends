@@ -61,3 +61,6 @@ Passwordless authentication	| Authenticate users via a universal login, which us
 ### Product Comparison 
 ![Comparison](https://user-images.githubusercontent.com/8856857/93276684-9e247080-f803-11ea-88b2-c0f69ed166fb.png)
 ![Comparison2](https://user-images.githubusercontent.com/8856857/93276740-c4e2a700-f803-11ea-9d3e-62c937feb0ee.png)
+
+### Cost Comparsion
+![Cost](https://user-images.githubusercontent.com/8856857/93276796-e8a5ed00-f803-11ea-9f73-81054e7a7c39.png)
