@@ -59,3 +59,60 @@ The following diagram shows the basic flow of messages through Pub/Sub:
 ![pub](https://user-images.githubusercontent.com/8856857/93427768-baa6d280-f901-11ea-804d-9d3c7c9a7af9.png)
 ![sub](https://user-images.githubusercontent.com/8856857/93427863-df02af00-f901-11ea-89d5-72b8dc966223.png)
 ![glossary](https://user-images.githubusercontent.com/8856857/93427930-f80b6000-f901-11ea-877d-4c67d569f48f.png)
+
+### Real world scenario
+
+#### Tennis Australia's challenges
+* The Australian Open’s worldwide audience engage with the event via every digital medium and format imaginable. Tennis Australia positions itself to its global sponsors and partners as the primary source for live scores, streaming videos, profile information, schedules and live commentary: millions of users receiving billions of realtime messages.
+
+* Whilst most people’s devices support **WebSockets, given the sheer quantity of visitors and fans across the globe, Tennis Australia needed to ensure that the lowest common denominator device was supported without WebSocket support.**
+
+* Secondly, it’s very difficult to accurately predict the minute-to-minute demand that a multiple-round tournament like the open generates. Tennis Australia needed a partner who could guarantee uninterrupted performance as demand for the services spiked wildly and quickly. Losing users through poor data delivery was not an option for them. Their advertising revenue was entirely dependent on continuous data delivery for its sponsors and partners.
+
+#### The Ably Solution
+* Only Ably could provide a solution that ensured redundancy across multiple regions. Client devices are intelligently routed to alternative data centres without relying on intervention by engineers or the domain name systems typically needed to route around faults.
+
+* We provided live 24/7 support throughout the Open and actively monitored performance and capacity in case any pre-emptive action was needed — happily, it wasn’t!
+
+* To guarantee performance scalability, Tennis Australia relied on Ably to ensure the latest match scores were made available to a new website visitor the moment the page loaded. This was achieved by looking back at the history of published events for that scoreboard using Ably’s history API.
+
+* Ably’s client library SDKs provided cross-platform support for all visitor devices and browsers regardless of whether they had modern support for WebSockets. **The client library SDKs gracefully fall-back to lowest common denominator transports like HTTP streaming, XHR and JSONP where necessary ensuring all visitors were delivered a realtime experience.**
+
+* As you have seen, there’s a lot involved when implementing support for the WebSocket protocol, not just in terms of client and server implementation details, but also with respect to **fallback transports, or broader concerns, such as authentication and authorization, guaranteed message delivery, reliable message ordering, or historical message retention.**
+
+#### Problem 1: Theoretically limitless and often unpredictable number of bettors receiving live updates
+* Most often a stream of events arrive at the app developer’s servers from a sports data provider (such as Opta or Sportradar), some business logic is applied, and the data then needs to be pushed to every device participating in that game.
+
+* For example, when a goal is scored, you may want every user of your service to receive that update within **200 milliseconds anywhere on earth.** The challenge typically is that you want that **target latency** to be met when you have just one or millions of users, without changing your architecture as the volumes increase.
+
+### Pattern 1# — Pub/Sub
+* This pattern is hardly new, it’s been around since 1987, yet it’s still a good way to approach asynchronous realtime data distribution. The pattern involves two roles, Pub represents the publisher, Sub represents the subscriber. The pattern specifies that the publisher (your server typically) publishes messages without any knowledge of how many subscribers there are. And subscribers register to receive message without any knowledge of the publishers. This ensures the two roles are intentionally decoupled with a middleware broker responsible for receiving messages and fanning out the messages to the subscribers.
+
+#### How does this help?
+* It ensures your apps scale to theoretically limitless subscribers without any changes to the design of your system, thus keeping your stack simple whilst giving you the scale you need. The middleware broker is responsible for providing scale. If you chose a middleware solution that has proven scale, then by adopting the pub/sub pattern, as you scale only one component needs to address that need in a predictable way.
+**
+* At Ably, our customers use Ably’s Pub/Sub feature as the middleware broker which provides limitless scale. Channels are used to provide **topic filtering** such as one channel for each game or player. As Ably’s system is elastic by design and Ably’s roundtrip latencies globally are circa 60ms, developers trust us to look after the scale issues.
+
+#### Problem 2: Data synchronization
+### Problem 1 describes how data, as messages, is distributed to devices, but it does not address how you keep the game data in sync consistently with all devices.
+
+* For example, your app may need to maintain live league tables or penalty stats. As every event occurs during the match, your app needs to reflect that change in real time both in the UI and also within the local storage. The challenge is one of data integrity and bandwidth. If you publish the entire set of events for each penalty issued, it could be hugely inefficient and will result in significant bandwidth load on your users’ devices. Perhaps more importantly this could impair the user experience for people on slower connections or with expensive bandwidth. If however you only send data updates, how do you ensure that the data integrity is maintained i.e. you need all updates arrive reliably and in order?
+
+### Pattern 2.1# — Serial JSON Patches
+* JSON Patch is a standard that defines how you can send only the deltas for a JSON object as it mutates. For example, if you had a table of all players with their stats, and only one player’s stats changed following a goal being scored, then the patch may look something like:
+
+[  { "op": "replace", "path": "/player/bob/goals", "value": "1" },]
+#### How does this help?
+* JSON Patch provides a means to efficiently send deltas for a JSON object thus reducing bandwidth overhead significantly. However, JSON Patch does not provide the complete solution as:
+
+You need to obtain the JSON object at the outset
+The JSON Patches must be applied in the exactly the order they were generated — a missing or out-of-order patch will result in complete loss of data integrity
+Ably, uniquely in the realtime messaging industry, offers reliable data delivery uniquely ensuring that data arrives in the correct order and continuity is assured. We also provide a message history (replay) feature providing a means to obtain historical message published on the channel prior to connecting. Finally, we uniquely offer continuous history ensuring developers can reliably obtain history and receive subsequent realtime updates without any missing messages or duplicates.
+
+A pattern we’ve seen developers use with Ably to solve this problem therefore is:
+
+Configure messages to be persisted
+Publish the original JSON object on the channel, and then subsequently all JSON Patches
+Clients when connecting then obtain the channel history and subscribe to future JSON patches. The history provides a means to build the JSON object from the initial object plus all the patches, and the attached channel ensures live updates continue to be received in order with integrity.
+If a client loses continuity on the channel (this may happen if the client is disconnected for more than two minutes), the app simply repeats the previous step.
+Note: We are in fact driving forward the development of an open standard Open-SDSP (Open Streaming Data Sync Protocol) to help solve these types of synchronization issues. I have previously written thoughts on why this is needed, and how this open standard could benefit the industry.
