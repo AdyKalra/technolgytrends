@@ -38,3 +38,22 @@ The following diagram shows the basic flow of messages through Pub/Sub:
 
 ### Availability
 * In a distributed system, the types and severity of problems can vary greatly. A system’s availability is measured on how well it deals with different types of issues, gracefully failing over in a way that is unnoticeable to end users. Failures can occur in hardware (e.g., disk drives not working or network connectivity problems), in software, and due to load. Failure due to load could happen when a sudden increase in traffic in the service (or in other software components running on the same hardware or in software dependencies) results in resource scarcity. Availability can also degrade due to human error, where one makes mistakes in building or deploying software or configurations.
+
+### Latency
+* Latency is a time-based measure of the performance of a system. A service generally wants to minimize latency wherever possible. For Pub/Sub, the two most important latency metrics are:
+ * The amount of time it takes to acknowledge a published message.
+ * The amount of time it takes to deliver a published message to a subscriber.
+ 
+### Pub/Sub is divided into two primary parts: 
+* the data plane, which handles moving messages between publishers and subscribers, and the control plane, which handles the assignment of publishers and subscribers to servers on the data plane. The servers in the data plane are called forwarders, and the servers in the control plane are called routers. When publishers and subscribers are connected to their assigned forwarders, they do not need any information from the routers (as long as those forwarders remain accessible). Therefore, it is possible to upgrade the control plane of Pub/Sub without affecting any clients that are already connected and sending or receiving messages.
+
+### Data Plane - The Life of a Message
+* The data plane receives messages from publishers and sends them to clients. Perhaps the best way of understanding Pub/Sub’s data plane is by looking at the life of a message, from the moment it is received by the service to the moment it is no longer present in the service. Let us trace the steps of processing a message. For the purposes of this section, we assume that the topic on which the message is published has at least one subscription attached to it. In general, a message goes through these steps:
+1. A publisher sends a message.
+2. The message is written to storage.
+3. Pub/Sub sends an acknowledgement to the publisher that it has received the message and guarantees its delivery to all attached subscriptions.
+4. At the same time as writing the message to storage, Pub/Sub delivers it to subscribers.
+5. Subscribers send an acknowledgement to Pub/Sub that they have processed the message.
+6. Once at least one subscriber for each subscription has acknowledged the message, Pub/Sub deletes the message from storage.
+
+
