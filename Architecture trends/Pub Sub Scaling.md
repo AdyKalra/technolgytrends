@@ -56,4 +56,6 @@ The following diagram shows the basic flow of messages through Pub/Sub:
 5. Subscribers send an acknowledgement to Pub/Sub that they have processed the message.
 6. Once at least one subscriber for each subscription has acknowledged the message, Pub/Sub deletes the message from storage.
 
-
+![pub](https://user-images.githubusercontent.com/8856857/93427768-baa6d280-f901-11ea-804d-9d3c7c9a7af9.png)
+![sub](https://user-images.githubusercontent.com/8856857/93427863-df02af00-f901-11ea-89d5-72b8dc966223.png)
+![glossary](https://user-images.githubusercontent.com/8856857/93427930-f80b6000-f901-11ea-877d-4c67d569f48f.png)
