@@ -105,14 +105,13 @@ The following diagram shows the basic flow of messages through Pub/Sub:
 #### How does this help?
 * JSON Patch provides a means to efficiently send deltas for a JSON object thus reducing bandwidth overhead significantly. However, JSON Patch does not provide the complete solution as:
 
-You need to obtain the JSON object at the outset
-The JSON Patches must be applied in the exactly the order they were generated — a missing or out-of-order patch will result in complete loss of data integrity
+  * You need to obtain the JSON object at the outset
+  * The JSON Patches must be applied in the exactly the order they were generated — a missing or out-of-order patch will result in complete loss of data integrity
 Ably, uniquely in the realtime messaging industry, offers reliable data delivery uniquely ensuring that data arrives in the correct order and continuity is assured. We also provide a message history (replay) feature providing a means to obtain historical message published on the channel prior to connecting. Finally, we uniquely offer continuous history ensuring developers can reliably obtain history and receive subsequent realtime updates without any missing messages or duplicates.
 
-A pattern we’ve seen developers use with Ably to solve this problem therefore is:
-
-Configure messages to be persisted
-Publish the original JSON object on the channel, and then subsequently all JSON Patches
-Clients when connecting then obtain the channel history and subscribe to future JSON patches. The history provides a means to build the JSON object from the initial object plus all the patches, and the attached channel ensures live updates continue to be received in order with integrity.
-If a client loses continuity on the channel (this may happen if the client is disconnected for more than two minutes), the app simply repeats the previous step.
+* A pattern we’ve seen developers use with Ably to solve this problem therefore is:
+ * Configure messages to be persisted
+ * Publish the original JSON object on the channel, and then subsequently all JSON Patches
+ * Clients when connecting then obtain the channel history and subscribe to future JSON patches. The history provides a means to build the JSON object from the initial object plus all the patches, and the attached channel ensures live updates continue to be received in order with integrity.
+ * If a client loses continuity on the channel (this may happen if the client is disconnected for more than two minutes), the app simply repeats the previous step.
 Note: We are in fact driving forward the development of an open standard Open-SDSP (Open Streaming Data Sync Protocol) to help solve these types of synchronization issues. I have previously written thoughts on why this is needed, and how this open standard could benefit the industry.
