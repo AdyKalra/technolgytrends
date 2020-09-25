@@ -115,3 +115,5 @@ Ably, uniquely in the realtime messaging industry, offers reliable data delivery
  * Clients when connecting then obtain the channel history and subscribe to future JSON patches. The history provides a means to build the JSON object from the initial object plus all the patches, and the attached channel ensures live updates continue to be received in order with integrity.
  * If a client loses continuity on the channel (this may happen if the client is disconnected for more than two minutes), the app simply repeats the previous step.
 Note: We are in fact driving forward the development of an open standard Open-SDSP (Open Streaming Data Sync Protocol) to help solve these types of synchronization issues. I have previously written thoughts on why this is needed, and how this open standard could benefit the industry.
+
+[Source](https://www.ably.io/blog/design-patterns-sports-live-events)
