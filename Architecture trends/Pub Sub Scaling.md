@@ -99,7 +99,7 @@ The following diagram shows the basic flow of messages through Pub/Sub:
 * For example, your app may need to maintain live league tables or penalty stats. As every event occurs during the match, your app needs to reflect that change in real time both in the UI and also within the local storage. The challenge is one of data integrity and bandwidth. If you publish the entire set of events for each penalty issued, it could be hugely inefficient and will result in significant bandwidth load on your users’ devices. Perhaps more importantly this could impair the user experience for people on slower connections or with expensive bandwidth. If however you only send data updates, how do you ensure that the data integrity is maintained i.e. you need all updates arrive reliably and in order?
 
 ### Pattern 2.1# — Serial JSON Patches
-* JSON Patch is a standard that defines how you can send only the deltas for a JSON object as it mutates. For example, if you had a table of all players with their stats, and only one player’s stats changed following a goal being scored, then the patch may look something like:
+* [JSON Patch is a standard](https://tools.ietf.org/html/rfc6902) that defines how you can send only the deltas for a JSON object as it mutates. For example, if you had a table of all players with their stats, and only one player’s stats changed following a goal being scored, then the patch may look something like:
 
 [  { "op": "replace", "path": "/player/bob/goals", "value": "1" },]
 #### How does this help?
@@ -107,45 +107,54 @@ The following diagram shows the basic flow of messages through Pub/Sub:
 
   * You need to obtain the JSON object at the outset
   * The JSON Patches must be applied in the exactly the order they were generated — a missing or out-of-order patch will result in complete loss of data integrity
-Ably, uniquely in the realtime messaging industry, offers reliable data delivery uniquely ensuring that data arrives in the correct order and continuity is assured. We also provide a message history (replay) feature providing a means to obtain historical message published on the channel prior to connecting. Finally, we uniquely offer continuous history ensuring developers can reliably obtain history and receive subsequent realtime updates without any missing messages or duplicates.
+
+* Ably, uniquely in the realtime messaging industry, offers reliable data delivery uniquely ensuring that data arrives in the correct order and continuity is assured. We also provide a message history (replay) feature providing a means to obtain historical message published on the channel prior to connecting. Finally, we uniquely offer continuous history ensuring developers can reliably obtain history and receive subsequent realtime updates without any missing messages or duplicates.
 
 * A pattern we’ve seen developers use with Ably to solve this problem therefore is:
- * Configure messages to be persisted
+ * **Configure messages to be persisted**
  * Publish the original JSON object on the channel, and then subsequently all JSON Patches
  * Clients when connecting then obtain the channel history and subscribe to future JSON patches. The history provides a means to build the JSON object from the initial object plus all the patches, and the attached channel ensures live updates continue to be received in order with integrity.
  * If a client loses continuity on the channel (this may happen if the client is disconnected for more than two minutes), the app simply repeats the previous step.
-Note: We are in fact driving forward the development of an open standard Open-SDSP (Open Streaming Data Sync Protocol) to help solve these types of synchronization issues. I have previously written thoughts on why this is needed, and how this open standard could benefit the industry.
 
-Pattern 2.2# — CRDT
-A CRDT is a conflict-free replicated data type. Unlike JSON Patch, it allows multiple parties to concurrently updates the underlying data object. Each update is then distributed to all other parties, and the algorithm ensures that once all updates are applied by all participating parties, the underlying data object will become eventually consistent, regardless of the order the updates are applied.
+* Note: We are in fact driving forward the development of an open standard Open-SDSP [Open Streaming Data Sync Protocol](https://github.com/open-sdsp/spec) to help solve these types of synchronization issues. 
 
-CRDTs provide a very sophisticated way to ensure data is consistent, even when there are multiple parties changing the data at the same time. However, in order to provide the eventual consistency guarantees, there are limited data types with specific restrictions.
+### Pattern 2.2# — CRDT
 
-We find CRDTs are more commonly used in collaborative applications similar to Google Docs, where multiple users can update the content simultaneously. Riak is one of the few database solutions that provides native CRDT support. I will leave it to the reader to consider whether CRDT is appropriate for their use case and how best to implement it.
+* A [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type) is a conflict-free replicated data type. Unlike JSON Patch, it allows multiple parties to concurrently updates the underlying data object. Each update is then distributed to all other parties, and the algorithm ensures that once all updates are applied by all participating parties, the underlying data object will become eventually consistent, regardless of the order the updates are applied.
 
-Problem 3: Upstream game play events
-Problem 1 and 2 addresses the issues of scaling downstream data to your devices. However, participating in live events may have an upstream component i.e. users participating by voting or chatting.
+**CRDTs provide a very sophisticated way to ensure data is consistent, even when there are multiple parties changing the data at the same time. However, in order to provide the eventual consistency guarantees, there are limited data types with specific restrictions.**
 
-Typically this is handled with a simple HTTP request to your servers which in turn run some business logic which may respond synchronously (as part of the response to the HTTP request), or asynchronously (pushed back to the device later as a message).
+We find CRDTs are more commonly used in collaborative applications similar to **Google Docs, where multiple users can update the content simultaneously.** Riak is one of the few database solutions that provides native CRDT support. I will leave it to the reader to consider whether CRDT is appropriate for their use case and how best to implement it.
 
-The problem app developers face are:
+### Problem 3: Upstream game play events
 
-Using an HTTP request in a synchronous fashion increases the likelihood that the operation fails in changing network conditions. For as along as the client is waiting for a response, there is a chance the connection state will change and the underlying TCP connection for the HTTP request will be closed. If a request has failed due to a TCP connection, it may need to be retried, but unless the operation is idempotent, it could result in unexpected behaviour for users (such as placing two identical bets).
-If there is a sudden spike of activity, perhaps due to an unforeseen change in the match such as a player being taken off, then your servers will need to absorb that load immediately. You need to predict the load in advance of each game and ensure you have sufficient service capacity for the spikes.
-HTTP provides no ordering guarantees i.e. a later request may arrive before an earlier request when they are close together.
-Pattern 3# — Message queues, serverless architecture and streams
-Traditional message queues are designed to provide a message-orientated means to communicate between components of the system, specifically the devices and your servers in this instance. Like the pub/sub middleware, the message queue acts as a broker distributing messages to each consumer. If your messaging middleware is scalable and resilient, then decoupling each component in the system ensures failure or overload in one area of the system will not affect any other part of the system.
+* **Problem 1 and 2 addresses the issues of scaling downstream data to your devices. However, participating in live events may have an upstream component** i.e. users participating by voting or chatting.
 
-Please note, unlike the pub/sub pattern where each message is delivered to all subscribers, message queues typically deliver messages only once to one of the consumers (technically AMQP can only provide an at least once guarantee, however in almost all situations it provides exactly once delivery). Messages typically operate with FIFO (first-in-first-out) ensuring that in spite of any backlog that builds up if consumers cannot keep up, the consumers will always be working on the most oldest messages first.
+* Typically this is handled with a simple HTTP request to your servers which in turn run some business logic which may respond synchronously (as part of the response to the HTTP request), or asynchronously (pushed back to the device later as a message).
+
+* The problem app developers face are:
+
+  * Using an HTTP request in a synchronous fashion increases the likelihood that the operation fails in changing network conditions. For as along as the client is waiting for a response, there is a chance the connection state will change and the underlying TCP connection for the HTTP request will be closed. If a request has failed due to a TCP connection, it may need to be retried, but unless the operation is idempotent, it could result in unexpected behaviour for users (such as placing two identical bets).
+  * If there is a sudden spike of activity, perhaps due to an unforeseen change in the match such as a player being taken off, then your servers will need to absorb that load immediately. You need to predict the load in advance of each game and ensure you have sufficient service capacity for the spikes.
+  * HTTP provides no ordering guarantees i.e. a later request may arrive before an earlier request when they are close together.
+
+### Pattern 3# — Message queues, serverless architecture and streams
+* Traditional message queues are designed to provide a message-orientated means to communicate between components of the system, specifically the devices and your servers in this instance. Like the pub/sub middleware, the message queue acts as a broker distributing messages to each consumer. If your messaging middleware is scalable and resilient, then decoupling each component in the system ensures failure or overload in one area of the system will not affect any other part of the system.
+
+* Please note, unlike the pub/sub pattern where each message is delivered to all subscribers, message queues typically deliver messages only once to one of the consumers (technically AMQP can only provide an at least once guarantee, however in almost all situations it provides exactly once delivery). Messages typically operate with FIFO (first-in-first-out) ensuring that in spite of any backlog that builds up if consumers cannot keep up, the consumers will always be working on the most oldest messages first.
 
 
-Diagram illustrating message queues using Ably
-How does this help?
-By decoupling publishers of data (your devices in this instance) from the consumers of the data (your servers), and introducing a message queue middleware broker, you are building a fault tolerant system. For example:
+![Diagram illustrating message queues using Ably](https://files.ably.io/ghost/prod/2020/08/Ably-Sports-Design-Pattern.gif)
 
-Huge spikes of activity may slow down the responsiveness for customers as the workers have to work through the backlog of messages to process, but customers will not experience failures.
-Where the ordering of events from device to server is important, the message queue is able to provide ordering guarantees. The Ably service too provides reliable ordering, so ordering is maintained from publishing to Ably all the way through to the queue.
-Messages from devices are streamed immediately into the queue and the device receives an ACK immediately notifying the device that the message has been received. As a result, if you use Ably for publishing, we can ensure a message is never published twice (i.e. if you publish a message, lose connection before you receive an ACK, and then retry the message once connected, we de-dupe that message).
+#### How does this help?
+
+* By decoupling publishers of data (your devices in this instance) from the consumers of the data (your servers), and introducing a message queue middleware broker, you are building a fault tolerant system. For example:
+
+  * Huge spikes of activity may slow down the responsiveness for customers as the workers have to work through the backlog of messages to process, but customers will not experience failures.
+  * Where the ordering of events from device to server is important, the message queue is able to provide ordering guarantees. The Ably service too provides reliable ordering, so ordering is maintained from publishing to Ably all the way through to the queue.
+  * Messages from devices are streamed immediately into the queue and the device receives an ACK immediately notifying the device that the message has been received. As a result, if you use Ably for publishing, we can ensure a message is never published twice (i.e. if you publish a message, lose connection before you receive an ACK, and then retry the message once connected, we de-dupe that message).
+
+
 Note: Ably provides a number services to ensure scale when processing upstream events:
 
 Reactor Serverless Functions allow a stream of events to trigger serverless functions on AWS, Google or Azure who provide the scale you need,
