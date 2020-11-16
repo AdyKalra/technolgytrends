@@ -13,6 +13,15 @@
 
 ![learnings](https://insights-images.thoughtworks.com/TW20Live20202020Simon20Badley20TW20Livepptx__aaef64cd534e6999c2deae119cc0f327.png)
 
+* “To be better around reacting to unpredictability we need to have a better understanding of what’s happening out in the field, what the data is telling us, and to be able to pivot very quickly to respond to that,” 
+
+* With data playing a more prominent role in organisational strategy, enterprises need to develop the infrastructure and skills to not just gather and store information, but turn it into intelligence worth acting on. 
+
+* “We have been very good at collecting large volumes of data, transforming and sending it out,” “But the ability to collect large data sets and understand how to join them to drive (change) means you have to have very strong data science, analytics and data engineering capabilities.” 
+
+* “One of the strong aspects of leadership in the future is the humility to recognise when you need help,” he said. 
+* “But you need help from the right sort of partners. You need people who are your critical friends.
+
 
 [Source](https://www.thoughtworks.com/insights/blog/key-lessons-from-ThoughtWorks-Live-UK-2020)
 
