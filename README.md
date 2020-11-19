@@ -137,6 +137,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [awesome-AI_ML_Talent_Mangement](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/awesome-AI_ML_Talent_Mangement.md)
 - [Introducing and Scaling a GraphQL BFF](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Introducing%20and%20Scaling%20a%20GraphQL%20BFF.md)
 - [Building Blocks of Capability](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Building%20Blocks%20Of%20Capability%20.md)
+- [Dependency drift fitness function](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Dependency%20drift%20fitness%20function.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
