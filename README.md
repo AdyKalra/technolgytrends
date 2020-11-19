@@ -109,6 +109,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [ADRs](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/ADRs.md)
 
 [Back to top :arrow_up:](#trends)
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 
 <!--- END OF TOPIC--->
 
@@ -138,7 +139,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Building Blocks of Capability](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Building%20Blocks%20Of%20Capability%20.md)
 
 [Back to top :arrow_up:](#trends)
-
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
 
 #### Development trends
@@ -168,7 +169,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Feature Flags as code](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Feature%20Flags%20as%20Code.md)
 
 [Back to top :arrow_up:](#trends)
-
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
 
 #### Testing trends
@@ -177,14 +178,14 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Scaling Automated Tests Beyond a Single Project](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Scaling%20Automated%20Tests%20Beyond%20a%20Single%20Project.md)
 
 [Back to top :arrow_up:](#trends)
-
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
 
 #### NonFunctional trends
 - [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/Crypto%20shredding.md)
 
 [Back to top :arrow_up:](#trends)
-
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
 
 #### CloudPlatform trends
@@ -203,7 +204,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Infrastructure Diagrams as Code](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20Diagrams%20as%20Code.md)
 
 [Back to top :arrow_up:](#trends)
-
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
 
 #### PostProduction trends
@@ -214,5 +215,5 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Application Monitoring Simplified](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/application%20monitoring%20simplified.md)
 
 [Back to top :arrow_up:](#trends)
-
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
