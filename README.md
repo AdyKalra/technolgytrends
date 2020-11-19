@@ -107,6 +107,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [High Level Design / The Big Picture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/High%20Level%20Design.md)
 - [Choreography vs Orchestration in serverless](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Choreography%20vs%20Orchestration%20-%20serverless.md)
 - [ADRs](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/ADRs.md)
+- [Run cost as architecture fitness function](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Run%20cost%20as%20architecture%20fitness%20function.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
