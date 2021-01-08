@@ -24,7 +24,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
   <!-- Build Status -->
   <a href="https://travis-ci.org/choojs/choo">
     <img src="https://img.shields.io/travis/choojs/choo/master.svg?style=flat-square"
-      alt="Build Status" />
+      alt="Build Status" /> 
   </a>
   <!-- Test Coverage -->
   <a href="https://codecov.io/github/choojs/choo">
@@ -104,7 +104,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Kafka v/s Kinesis](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Kafka%20vs%20Kinesis.md)
 - [Six shifts to create a game-changing data architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Six%20shifts%20to%20create%20a%20game-changing%20data%20architecture.md)
 - [Real world architecture examples](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Real%20world%20architecture.md)
-- [High Level Design / The Big Picture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/High%20Level%20Design.md)
+- [High Level Design / The Big Picture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/High%20Level%20Design%20-%20Big%20Picture.md)
 - [Choreography vs Orchestration in serverless](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Choreography%20vs%20Orchestration%20-%20serverless.md)
 - [ADRs](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/ADRs.md)
 - [Run cost as architecture fitness function](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Run%20cost%20as%20architecture%20fitness%20function.md)
