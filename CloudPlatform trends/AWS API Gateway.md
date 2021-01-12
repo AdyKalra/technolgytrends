@@ -1,3 +1,28 @@
+* Implement an API gateway that is the single entry point for all clients. The API gateway handles requests in one of two ways. Some requests are simply proxied/routed to the appropriate service. It handles other requests by fanning out to multiple services.
+* The API gateway might also implement security, e.g. verify that the client is authorized to perform the request
+![APIG](https://microservices.io/i/apigateway.jpg)
+
+### Variation: Backends for frontends
+* A variation of this pattern is the Backends for frontends pattern. It defines a separate API gateway for each kind of client.
+![BFF](https://microservices.io/i/bffe.png)
+
+### Resulting context
+* Using an API gateway has the following benefits:
+  * Insulates the clients from how the application is partitioned into microservices
+  * Insulates the clients from the problem of determining the locations of service instances
+  * Provides the optimal API for each client
+  * Reduces the number of requests/roundtrips. For example, the API gateway enables clients to retrieve data from multiple services with a single round-trip. Fewer requests also means less overhead and improves the user experience. An API gateway is essential for mobile applications.
+  * Simplifies the client by moving logic for calling multiple services from the client to API gateway
+  * Translates from a “standard” public web-friendly API protocol to whatever protocols are used internally
+
+* The API gateway pattern has some drawbacks:
+  * Increased complexity - the API gateway is yet another moving part that must be developed, deployed and managed
+  * Increased response time due to the additional network hop through the API gateway - however, for most applications the cost of an extra roundtrip is insignificant.
+Issues:
+
+How implement the API gateway? An event-driven/reactive approach is best if it must scale to scale to handle high loads. On the JVM, NIO-based libraries such as Netty, Spring Reactor, etc. make sense. NodeJS is another option.
+
+
 * Amazon API Gateway is an AWS service for **creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs at any scale.**
 * An API Gateway is a **server that is the single entry point into the system**. ... The API Gateway is **responsible for request routing, composition, and protocol translation.** All requests from clients first go through the API Gateway. It then routes requests to the appropriate microservice
 
