@@ -1,3 +1,5 @@
+Source: https://github.com/red-hat-people-team/open-decision-framework/edit/master/ODF-community.md
+
 # Open Decision Framework
 =======================
 Community Version 1.0.5
