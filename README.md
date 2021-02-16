@@ -141,6 +141,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Building Blocks of Capability](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Building%20Blocks%20Of%20Capability%20.md)
 - [Dependency drift fitness function](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Dependency%20drift%20fitness%20function.md)
 - [Impact Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Impact%20Mapping.md)
+- [Open Decision Framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Open%20Decision%20Framework.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
