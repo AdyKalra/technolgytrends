@@ -29,3 +29,12 @@ The developer:
 * notes that a previous feature has been approved by reviewers, she moves it into another branch that kicks off a long nightly E2E test suite that is almost always red, managed by a siloed QA team.
 * depends on another team's API, but she cannot find current documentation. So instead she talks to a project manager on the other team, trying to get a query. The ticket to find an answer will take a few days, so this is blocking her current task.
 
+### Developer effectiveness
+* What does being effective mean? 
+    * As a developer, it is delivering the maximum value to your customers. It is being able to apply your energy and innovation in the best ways towards the company’s goals. An effective environment makes it easy to put useful, high-quality software into production; and to operate it so that the developers do not have to deal with unnecessary complexities, frivolous churn or long delays — freeing them to concentrate on value-adding tasks.
+
+#### Change
+* read Accelerate and the State of DevOps report. They know what type of organization they are striving to build. The four key metrics (lead time, deployment frequency, MTTR and change fail percentage) are great measures of DevOps performance.
+
+### Feedback Loops
+The key loops I have identified are:
