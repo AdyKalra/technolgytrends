@@ -108,6 +108,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Choreography vs Orchestration in serverless](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Choreography%20vs%20Orchestration%20-%20serverless.md)
 - [ADRs](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/ADRs.md)
 - [Run cost as architecture fitness function](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Run%20cost%20as%20architecture%20fitness%20function.md)
+- [The Six Hats of the API Architect](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/The%20Six%20Hats%20of%20the%20API%20Architect.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
@@ -174,6 +175,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [auth0 ForgeRock Okta](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/auth0%20ForgeRock%20Okta.md)
 - [Push Notifications iOS Android](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Push%20Notifications%20iOS%20Android.md)
 - [Feature Flags as code](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Feature%20Flags%20as%20Code.md)
+- [the-12-habits-of-highly-effective-software-developers](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/the-12-habits-of-highly-effective-software-developers.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
