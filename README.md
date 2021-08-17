@@ -179,6 +179,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [the-12-habits-of-highly-effective-software-developers](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/the-12-habits-of-highly-effective-software-developers.md)
 - [Draft Pull Requests](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Draft%20Pull%20Requests.md)
 - [Codespaces](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Codespaces.md)
+- [FullStack](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/FullStack.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
