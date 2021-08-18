@@ -182,7 +182,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Codespaces](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Codespaces.md)
 - [FullStack](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/FullStack.md)
 - [ProtoBuf](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/ProtoBuf)
-- [SignalR](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/SignalR)
+- [SignalR](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/SignalR.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
