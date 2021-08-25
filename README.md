@@ -219,6 +219,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Pipelines as Code](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Pipelines%20as%20Code.md)
 - [Infrastructure Diagrams as Code](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20Diagrams%20as%20Code.md)
 - [Cloud Native](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Cloud%20Native.md)
+- [SBOM](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/SBOM.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
