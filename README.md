@@ -147,6 +147,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Open Decision Framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Open%20Decision%20Framework.md)
 - [API expand-contract](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/API%20expand-contract.md)
 - [Design systems](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Design%20systems.md)
+- [ShiftLeft](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/ShiftLeft.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
