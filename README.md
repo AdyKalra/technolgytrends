@@ -111,6 +111,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [The Six Hats of the API Architect](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/The%20Six%20Hats%20of%20the%20API%20Architect.md)
 - [c4 model - architecture lean diagrams](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/C4%20model.md)
 - [Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Gateway.md)
+- [Zero Trust Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Zero%20Trust%20Architecture.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
