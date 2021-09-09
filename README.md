@@ -185,6 +185,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [FullStack](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/FullStack.md)
 - [ProtoBuf](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/ProtoBuf)
 - [SignalR](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/SignalR.md)
+- [Pull Requests - ship show ask](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/PR%20-%20Ship%20Show%20Ask.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
