@@ -47,4 +47,13 @@
 * **Prioritize debt:** Finally, determine which debt is most important to address in terms of what will improve productivity, reduce flow time, and improve quality. Focus on the highest-priority items first, utilizing the capacity determined in the previous step.
 
 ### Summary
-* Tracking and measuring technical debt may seem cumbersome, but left unmonitored, technical debt will gradually impact the flow of value to customer-facing products. Ensure that technical debt is visible and measured so that the business and IT can team up to proactively tackle and manage technical debt. This will help you maintain a healthy product portfolio that can sustain your business.
+* Tracking and measuring technical debt may seem cumbersome, but left unmonitored, technical debt will gradually impact the flow of value to customer-facing products. Ensure that technical debt is visible and measured so that the business and IT can team up to proactively tackle and manage technical debt. This will help you maintain a healthy product portfolio that can sustain your business.'
+
+### Key Takeaways
+- Technical debt impacts the whole company, but it especially affects engineers as more tech debt means more bugs, performance issues, downtime, slow delivery, lack of predictability in sprints, and therefore less time to work on new exciting projects.
+- **Engineers waste seven hours per week on technical debt which is often invisible to stakeholders.** Speaking to non-technical stakeholders using business terms is the best way to make technical debt easily seen.
+- Mess isn’t always bad, just as technical debt doesn’t always mean there’s a problem. The key is to fix the right amount of technical debt at the right time.
+- Companies should aim to proactively and continuously address technical debt. Continuously addressing technical debt gives teams an opportunity to deliver value regularly and empowers engineers to make decisions. 
+- **In the future, technical debt will become less of an engineering problem and more of an important business prerequisite that helps with delivering more value to our customers and the business.**
+
+[reduce-technical-debt](https://www.infoq.com/articles/reduce-technical-debt/)
