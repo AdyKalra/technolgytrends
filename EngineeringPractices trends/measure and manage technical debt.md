@@ -85,3 +85,42 @@ Standardise procedures. Develop a repeatable formula for how your team handles a
 - Test Automation Debt
 - Test Debt
 
+### Here are some of the best metrics to look at:
+
+#### Bugs
+
+At the very least, software developers should be counting and keeping track of their bugs. This includes both fixed and unfixed bugs.
+
+Noting the unfixed bug allows development teams to focus on and fix them during their Agile iterations. Noting the fixed bugs helps teams measure how effective their tech debt management process is.
+
+#### Code Quality
+
+While bugs have a more direct effect on the software’s end-users, code complexity can really damage the development team and the organization as a whole.
+
+Look for code complexity metrics like…
+
+- Cyclomatic complexity
+- Class coupling
+- Lines of code
+- Depth of Inheritance
+- The lower each of these measures, the better.
+
+Keeping an eye on these metrics also helps organisations know exactly which code to rework or refactor in order to reduce complexity and improve the backend side of the software.
+
+#### Code Cohesion
+
+Like code quality, focusing specifically on code cohesion will help the code from getting too complex. A high code cohesion usually means that the code is more maintainable, reusable, and robust. It also minimises the amount of people who need to get involved in the code, which can greatly reduce complexity and decrease the chances of bit rot.
+
+High cohesion is when you have a class that does a well defined job.
+
+#### Code Ownership
+
+More engineers usually means more cruft, and more cruft often leads to greater problems and higher levels of unintentional technical debt. That’s why code ownership is such a valuable metric: it answers the question, “who is focusing on what code?” If something breaks, who do you call?
+
+This metric will give your project management eyes on the amount of people working on various pieces of code. Knowing this information will enable these teams to reduce the amount of people and time dedicated to these efforts. You don’t want one person owning a complete section of code - just in case they get ran over by a bus or, in a better scenario, a new job. Usually, the right level is for teams of engineers to own domains in the codebase.
+
+#### Churn
+
+Code 'churns' when it gets rewritten / replaced. It's a measure of the activity a given piece of code sees. You want to give special attention to code that sees a lot of activity because any problem in there will be exacerbated. Measuring churn, then, helps teams recognise and prioritise what parts of the code require refactoring. If engineers have to constantly address bugs around the same part of the code, that means something is going wrong over there. Watching for that churn will help organisations pinpoint those problems more quickly, allowing them to fix the problem with a permanent solution that keeps tech debt down.
+
+Keeping track of these tech debt metrics will not eliminate all your debt, but it will help you manage it more effectively.
