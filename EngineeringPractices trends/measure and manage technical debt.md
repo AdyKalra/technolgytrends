@@ -57,3 +57,31 @@
 - **In the future, technical debt will become less of an engineering problem and more of an important business prerequisite that helps with delivering more value to our customers and the business.**
 
 [reduce-technical-debt](https://www.infoq.com/articles/reduce-technical-debt/)
+
+## How to manage tech Debt?
+
+- **Prioritise transparency with technical debt.** Transparency, says Wolpers, makes managing technical debt much simpler. He recommends that teams prominently display a visualisation of their technical debt to keep it at as a front-of-mind priority and that they review their tech debt needs during every Sprint meeting.
+- **Track tech debt.** Wolpers suggests counting bugs and using more in-depth code metrics like cyclomatic complexity, code coverage, SQALE-rating, and rule violations if possible.
+- **Pay back debt quickly and regularly.** Like financial debt, technical debt is best managed when teams pay back their loans on a regular basis. Wolpers says that Scrum teams should consider allocating 15-20 percent of their resources to refactoring code and fixing bugs every sprint cycle.
+- **Align product backlog.** Your product backlog should include tasks related to paying back technical debt. Organising your debt into what you want to tackle this sprint will help keep the debt from falling through the cracks and being forgotten about.
+- **Adjust your definition of “done.”** Don’t count something as finished until it meets a set standard for manageable tech debt.
+Standardise procedures. Develop a repeatable formula for how your team handles adding experiments or new features that include the introduction of technical debt.
+
+
+### Types of Debt
+- **Intentional tech debt** (also called deliberate or active) occurs when organisations choose to leave room for improvement in their code for the sake of reducing time-to-market.
+- **Unintentional tech debt** (also called accidental, outdated, passive, or inadvertent) happens when the code quality needs improvement after a period of time. This could be the result of poor production the first time around or simply the natural need for updates as code becomes outdated.
+- Architecture Debt
+- Build Debt
+- Code Debt
+- Defect Debt
+- Design Debt
+- Documentation Debt
+- Infrastructure Debt
+- People Debt
+- Process Debt
+- Requirement Debt
+- Service Debt
+- Test Automation Debt
+- Test Debt
+
