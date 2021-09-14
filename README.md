@@ -150,7 +150,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Design systems](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Design%20systems.md)
 - [ShiftLeft](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/ShiftLeft.md)
 - [Tracing SRE's journey](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tracing%20SRE%E2%80%99s%20journey.md)
-- [Tech Radar - Scaling Contributions to Technology Selection](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tech%20Radar%20-%20Scaling%20Contributions%20to%20Technology%20Selection)
+- [Tech Radar - Scaling Contributions to Technology Selection](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tech%20Radar%20-%20Scaling%20Contributions%20to%20Technology%20Selection.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
