@@ -10,6 +10,9 @@ I write my automation code with the same care, skill and craft as the best produ
 5. I don't simply report issues, I drive quality from the outset
 I am passionate about quality, and I believe that my role as a quality coach starts well before development. Quality is the responsibility of the whole team, and it is my role to help everyone on the team understand and live this.
 
+![image](https://user-images.githubusercontent.com/8856857/135753478-e9059bd5-bea8-4f89-8c08-3cc9d43d4220.png)
+
+
 I am a coder, a tester, a coach, a facilitator, a quality evangelist
 
 [web](https://agile-test-automation.com/manifesto43424174)
