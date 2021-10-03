@@ -11,3 +11,5 @@ I write my automation code with the same care, skill and craft as the best produ
 I am passionate about quality, and I believe that my role as a quality coach starts well before development. Quality is the responsibility of the whole team, and it is my role to help everyone on the team understand and live this.
 
 I am a coder, a tester, a coach, a facilitator, a quality evangelist
+
+[web](https://agile-test-automation.com/manifesto43424174)
