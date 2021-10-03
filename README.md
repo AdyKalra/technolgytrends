@@ -198,6 +198,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [Cypress and Puppeteer](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Cypress%20and%20Puppeteer.md)
 - [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/LocalStack.md)
 - [Scaling Automated Tests Beyond a Single Project](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Scaling%20Automated%20Tests%20Beyond%20a%20Single%20Project.md)
+- [The Agile Test Automation Manifesto](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Agile%20Test%20Automation%20Manifesto.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
