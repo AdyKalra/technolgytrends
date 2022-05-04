@@ -199,6 +199,7 @@ Everything tech - idiosyncratic opinion of a bunch of senior technologists acros
 - [LocalStack](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/LocalStack.md)
 - [Scaling Automated Tests Beyond a Single Project](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Scaling%20Automated%20Tests%20Beyond%20a%20Single%20Project.md)
 - [The Agile Test Automation Manifesto](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Agile%20Test%20Automation%20Manifesto.md)
+- [Testing strategy for serverless applications](https://github.com/AdyKalra/technolgytrends/blob/master/Testing%20trends/Testing%20strategy%20for%20serverless%20applications.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
