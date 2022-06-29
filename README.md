@@ -230,6 +230,8 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [SBOM](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/SBOM.md)
 - [DevSecOps open source projects](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/DevSecOps%20open%20source%20projects.md)
 - [Devops and Cloud 2021 trends](https://github.com/AdyKalra/technolgytrends/tree/master/CloudPlatform%20trends)
+- [Four Steps to Avoiding a Cloud Cost Incident](https://devops.com/four-steps-to-avoiding-a-cloud-cost-incident/?utm_medium=email&_hsmi=217683431&_hsenc=p2ANqtz--ZF9O7dkCqwKU6C-XhmB1I2MTyl4P2H99NuqVJdGESq8kKkffydWx7Oeh8U9gtmzbiUQINbTE4mt6ObRQxLgE53iaZiw&utm_content=217649681&utm_source=hs_email)
+- [State-of-the-Cloud-Report-2022](https://resources.flexera.com/web/pdf/Flexera-State-of-the-Cloud-Report-2022.pdf?elqTrackId=f3bb660986704d2980404386aa003141&elqaid=6925&elqat=2)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
