@@ -153,6 +153,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Tech Radar - Scaling Contributions to Technology Selection](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tech%20Radar%20-%20Scaling%20Contributions%20to%20Technology%20Selection.md)
 - [How to De-Scale your Organization](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DeScaling%20Organisation.md)
 - [Definition of production readiness (DPR)](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/definition%20of%20production%20readiness%20(DPR).md)
+- [DORA's research program](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DORA's%20research%20program.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
