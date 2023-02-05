@@ -91,7 +91,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 |:-:  |:-:  |:-:  |
 | [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [Engineering](#Engineering-trends) |
 | [Development](#Development-trends) 	| [Testing](#testing-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
-| [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	| 
+| [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	|[AI](#AI-trends) 	| 
 
 
 #### Architecture trends
@@ -249,6 +249,14 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Four Golden Signals](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Golden%20Signals.md)
 - [Setting SLOs](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Setting%20SLOs.md)
 - [Application Monitoring Simplified](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/application%20monitoring%20simplified.md)
+
+[Back to top :arrow_up:](#trends)
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
+<!--- END OF TOPIC--->
+
+
+#### AI trends
+- [ChatGPT PromptStacks](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/PromptStacks.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
