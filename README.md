@@ -72,6 +72,10 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
      <a href="https://github.com/AdyKalra/technolgytrends/tree/master/PostProduction%20trends">
       PostProduction  
     </a>
+    <span> | </span>
+     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/AI%20Trends">
+      AI  
+    </a>
     </h3>
 </div>
 
