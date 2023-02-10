@@ -224,7 +224,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Service Mesh](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Service%20mesh.md)
 - [API Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/AWS%20API%20Gateway.md)
 - [NGINX](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Nginx.md)
-- [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/K8s.md)
+- [kubernetes](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/K8s-Kubernetes.md)
 - [Why AWS](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/AWS%20-%20Why.md)
 - [AWS SAM](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/AWS%20SAM.md)
 - [Buildkite](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Buildkite.md)
