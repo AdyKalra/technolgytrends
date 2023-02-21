@@ -195,7 +195,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [ProtoBuf](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/ProtoBuf)
 - [SignalR](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/SignalR.md)
 - [Pull Requests - ship show ask](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/PR%20-%20Ship%20Show%20Ask.md)
-- [In-App Updates](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/In-app%20Updates%20Android)
+- [In-App Updates](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/In-app%20Updates%20Android.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
