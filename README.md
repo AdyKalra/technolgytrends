@@ -158,6 +158,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [How to De-Scale your Organization](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DeScaling%20Organisation.md)
 - [Definition of production readiness (DPR)](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/definition%20of%20production%20readiness%20(DPR).md)
 - [DORA's research program](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DORA's%20research%20program.md)
+- [Developer-Effectiveness](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Developer-Effectiveness.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
