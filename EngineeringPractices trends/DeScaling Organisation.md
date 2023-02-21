@@ -2,7 +2,7 @@
 
 [De-Scale](https://www.linkedin.com/pulse/how-de-scale-your-organization-peter-merel/)
 
-![TOT](https://xscalealliance.org/)
+![TOT](https://media.licdn.com/dms/image/C4E12AQGtH_RW_dixTQ/article-inline_image-shrink_1000_1488/0/1520192004703?e=1681948800&v=beta&t=q1R7iov65vHWdNJjZfuOzS-WQpd33-wLTI6KbEsmijA)
 
 ### Maximum Meeting Size (MMS), Minimum Feedback Frequency (MFF) and Delegation/Collaboration Ratio (DCR).
 - MMS is the largest number of people you need to put in a room to get any decision made across your organization.
