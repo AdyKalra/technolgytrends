@@ -160,6 +160,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [DORA's research program](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DORA's%20research%20program.md)
 - [Developer-Effectiveness](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Developer-Effectiveness.md)
 - [Platform Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Platform%20Engineering.md)
+- [Scaling Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Engineering.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
