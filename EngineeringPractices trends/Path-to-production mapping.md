@@ -31,3 +31,23 @@ I have used Path to Production on many technical inceptions, but, at times, I us
 Now let’s look at a software delivery process of a team that uses a hybrid of agile and waterfall methodologies:
 ![P2P](https://content.cdntwrk.com/files/aHViPTYzOTc1JmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzYwZGRmZWQ3YTQ4YTAuanBlZyZ2ZXJzaW9uPTAwMDAmc2lnPTg5OGVhYzNhMTkyZWRmMWNjNDIyYmRjYzgzZWMxZTA0)
 
+**Path-to-production analysis allows IT leaders to identify opportunities for shipping better software, faster. It is best to optimize the process using an iterative approach, to both reduce any organizational resistance and allow the team to assess the impact before any further changes are made.**
+
+
+#### Here’s how such a path-to-production session will look in practice:
+
+* Have your entire team present. Please note that it is of paramount importance that your Product Owner and Team Leads are there, not just the team. 
+* Prepare a blank wall or a large piece of paper where you can put sticky notes. From experience, you should have about 4 meters of usable space available
+* Have sticky notes in four colors ready, one color each for people, media, deliverables, and security controls
+* Start with the groups of people where input for your product comes from. This might be marketing, sales, expert groups. steering bodies, etc.. Then focus on who acts on the deliverables these groups produce, and where that information flows. These groups will be numerous, however many people in your team will be hearing about them for the first time.
+* When you are confident that you have captured those groups, move subsequently closer to where your team is becoming involved. Typically, there will be some kind of refinement meetings where the functional requirements are worked out, and possibly architecture groups that define cross-functional requirements for the software produced by the company’s teams.
+* Then, move on to capture the steps on you kanban board: When is a story going into development? How is that prioritized and picked up?
+* Subsequently, capture what happens in your continuous integration/deployment pipelines
+* Finally, how are your systems brought and kept operational? Is there a “firefighting team” for live support? Are there any logging or monitoring solutions you use
+* How do you feed information about your live systems behavior back into development? Is there a bug tracking workflow?
+
+**P2Ps create a shared responsibility in the entire team and create a common understanding and empathy for the work of other team members which are crucial for shared ownership of security. Security work starts with the first discussions of features, long before a story appears on the kanban board.**
+
+## Secure P2P
+[Secure P2P](https://www.thoughtworks.com/insights/articles/towards-a-secure-path-to-production)
+
