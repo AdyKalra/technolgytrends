@@ -162,6 +162,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Platform Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Platform%20Engineering.md)
 - [Scaling Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Engineering.md)
 - [Path-to-production Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Path-to-production%20mapping.md)
+- [Team Cognitive Load](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Team%20Cognitive%20Load.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
