@@ -7,3 +7,7 @@
 * We continue to be impressed by the positive impact of applying this book's concepts when communicating to clients and redesigning organizations.
 * The authors recommend a simple but powerful approach to organizational design, identifying just four types of teams and three modes of interaction; this helps reduce ambiguity within the organization and provides a common vocabulary for teams, stakeholders and leadership to describe and design a team's work. 
 * To implement an org design change, we design the ideal to-be team topologies structure, apply any technical/staffing constraints (i.e., not enough employees) and then end up with the final to-be structure. That allows us to better advise clients and anticipate whether we're indeed improving cognitive load by comparing the as-is/to-be team structures.
+
+Industry Examples:
+
+https://teamtopologies.com/industry-examples/tag/Team+Cognitive+Load
