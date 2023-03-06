@@ -116,6 +116,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [c4 model - architecture lean diagrams](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/C4%20model.md)
 - [Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Gateway.md)
 - [Zero Trust Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Zero%20Trust%20Architecture.md)
+- [Design Tokens](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Tokens.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
