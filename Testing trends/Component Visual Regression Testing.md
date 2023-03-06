@@ -1,1 +1,4 @@
+## Component Visual Regression Testing
 
+* Visual regression testing is a useful and powerful tool to have in your toolbox, but it has a significant cost given it's done for the entire page. **With the rise of component-based frameworks such as React and Vue, we've also seen the rise of component visual regression testing. This technique strikes a good balance between value and cost to ensure that no undesired visuals have been added to the application.**
+* In our experience, component visual regression testing presents fewer false positives and promotes a good architectural style. By using it with tools such as [Vite](https://github.com/vitejs/vite) and the webpack feature Hot Module Replacement [HMR](https://webpack.js.org/guides/hot-module-replacement/), it could be seen as a paradigm shift for applying test-driven development to front-end development.
