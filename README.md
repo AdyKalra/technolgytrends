@@ -204,6 +204,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Pull Requests - ship show ask](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/PR%20-%20Ship%20Show%20Ask.md)
 - [In-App Updates](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/In-app%20Updates%20Android.md)
 - [Threat Modelling](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Threat%20Modelling.md)
+- [CUPID](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/CUPID.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
