@@ -265,6 +265,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Application Monitoring Simplified](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/application%20monitoring%20simplified.md)
 - [Grafana On-Call](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Grafana%20On%20Call.md)
 - [Metrics Store](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/Metrics%20store.md)
+- [SLIs and SLOs as Code](https://github.com/AdyKalra/technolgytrends/blob/master/PostProduction%20trends/SLIs%20and%20SLOs%20as%20Code.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
