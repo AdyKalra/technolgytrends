@@ -165,6 +165,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Path-to-production Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Path-to-production%20mapping.md)
 - [Team Cognitive Load](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Team%20Cognitive%20Load.md)
 - [Incremental Developer Platform](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Incremental%20Developer%20Platform.md)
+- [Depenedency Pruning](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Depenedency%20Pruning.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
