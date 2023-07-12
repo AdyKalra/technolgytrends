@@ -166,7 +166,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Team Cognitive Load](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Team%20Cognitive%20Load.md)
 - [Incremental Developer Platform](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Incremental%20Developer%20Platform.md)
 - [Depenedency Pruning](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Depenedency%20Pruning.md)
-
+- [Adaptive, Socio-Technical Systems with Architecture for Flow: Wardley Maps, DDD, and Team Topologies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Wardley%20Maps-DDD-and-Team%20Topologies.md)
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
