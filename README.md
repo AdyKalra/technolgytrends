@@ -1,5 +1,5 @@
 # technolgytrends
-Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technologists across the globe. Covering - Architecture , CloudPlatform , Development , Testing , EngineeringPractices , NonFunctional , PostProduction
+Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technologists across the globe. Covering - Architecture , CloudPlatform , Development , Testing , EngineeringPractices , NonFunctional , Production and PostProduction end to end.
 
 <h1 align="center">Tech Trends</h1>
 
