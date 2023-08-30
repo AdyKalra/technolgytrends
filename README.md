@@ -77,7 +77,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
       AI  
     </a>
     <span> | </span>
-     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/TechStrategy%20Trends">
+     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/TechStrategy%20trends">
       Tech Strategy  
     </a>
     </h3>
