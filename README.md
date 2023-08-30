@@ -99,7 +99,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 | [TechStrategy](#TechStrategy-trends) 	| 	| 	| 
 
 #### TechStrategy trends
-- [Five things all execs should know about technology]([https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/01%20Five%20things%20all%20execs%20should%20know%20about%20technology.md])
+- [Five things all execs should know about technology]([https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/01%20Five%20things%20all%20execs%20should%20know%20about%20technology.md)
 - [Martin Fowler Shenanigans](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Martin%20Fowler%20Shenanigans.md)
 - [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Four%20Key%20Metrics.md)
