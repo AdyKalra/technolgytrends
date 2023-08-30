@@ -76,6 +76,10 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
      <a href="https://github.com/AdyKalra/technolgytrends/tree/master/AI%20Trends">
       AI  
     </a>
+    <span> | </span>
+     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/TechStrategy%20Trends">
+      Tech Strategy  
+    </a>
     </h3>
 </div>
 
@@ -92,7 +96,42 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 | [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [Engineering](#Engineering-trends) |
 | [Development](#Development-trends) 	| [Testing](#testing-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
 | [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	|[AI](#AI-trends) 	| 
+| [TechStrategy](#TechStrategy-trends) 	| 	| 	| 
 
+#### TechStrategy trends
+- [Five things all execs should know about technology](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/01%20Five%20things%20all%20execs%20should%20know%20about%20technology.md)
+- [Martin Fowler Shenanigans](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Martin%20Fowler%20Shenanigans.md)
+- [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
+- [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
+- [Scaling Microservices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Microservices.md)
+- [Devops vs SRE](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DevOps%20Versus%20SRE.md)
+- [Adaptive IT: Transformational framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Adaptive%20IT:%20Transformational%20framework.md)
+- [Scaling Serverless Applications](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Serverless%20Applications.md)
+- [Data Driven Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Data%20Driven%20Engineering.md)
+- [DoD Enterprise DevSecOps Reference Design](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DoD%20Enterprise%20DevSecOps%20Reference%20Design.md)
+- [auxiliary-engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Auxillary%20Engineering.md)
+- [measure – and manage – technical debt](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/measure%20and%20manage%20technical%20debt.md)
+- [Building Blocks of Capability](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Building%20Blocks%20Of%20Capability%20.md)
+- [Design systems](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Design%20systems.md)
+- [ShiftLeft](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/ShiftLeft.md)
+- [Adaptive, Socio-Technical Systems with Architecture for Flow: Wardley Maps, DDD, and Team Topologies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Wardley%20Maps-DDD-and-Team%20Topologies.md)
+- [Tracing SRE's journey](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tracing%20SRE%E2%80%99s%20journey.md)
+- [Tech Radar - Scaling Contributions to Technology Selection](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tech%20Radar%20-%20Scaling%20Contributions%20to%20Technology%20Selection.md)
+- [How to De-Scale your Organization](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DeScaling%20Organisation.md)
+- [Definition of production readiness (DPR)](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/definition%20of%20production%20readiness%20(DPR).md)
+- [DORA's research program](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DORA's%20research%20program.md)
+- [Developer-Effectiveness](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Developer-Effectiveness.md)
+- [Platform Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Platform%20Engineering.md)
+- [Scaling Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Engineering.md)
+- [Path-to-production Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Path-to-production%20mapping.md)
+- [Team Cognitive Load](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Team%20Cognitive%20Load.md)
+- [Incremental Developer Platform](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Incremental%20Developer%20Platform.md)
+- [Impact Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Impact%20Mapping.md)
+  
+[Back to top :arrow_up:](#trends)
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
+
+<!--- END OF TOPIC--->
 
 #### Architecture trends
 - [Microservices Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Microservice%20Architecture.md)
@@ -124,49 +163,22 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 <!--- END OF TOPIC--->
 
 #### Engineering trends
-- [Five things all execs should know about technology](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/01%20Five%20things%20all%20execs%20should%20know%20about%20technology.md)
-- [Martin Fowler Shenanigans](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Martin%20Fowler%20Shenanigans.md)
-- [Digital transformation - tests to gauge customer focus](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Digital%20transformation%20-%20tests%20to%20gauge%20customer%20focus.md)
-- [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Four%20Key%20Metrics.md)
 - [Deployment Strategies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Deployment-Strategies.md)
-- [Scaling Microservices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Microservices.md)
-- [Devops vs SRE](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DevOps%20Versus%20SRE.md)
 - [Serverless](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Serverless.md)
-- [Adaptive IT: Transformational framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Adaptive%20IT:%20Transformational%20framework.md)
 - [Analytics Lens](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Analytics%20Lens.md)
-- [Scaling Serverless Applications](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Serverless%20Applications.md)
 - [Orchestrating CI CD Pipelines](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Orchestrating%20CI%20CD%20Pipelines.md)
-- [Data Driven Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Data%20Driven%20Engineering.md)
-- [DoD Enterprise DevSecOps Reference Design](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DoD%20Enterprise%20DevSecOps%20Reference%20Design.md)
-- [auxiliary-engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Auxillary%20Engineering.md)
 - [APIs as Digital Factories](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/APIs%20as%20Digital%20Factories.md)
 - [GoLD Stack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/GoLD%20Stack.md)
-- [measure – and manage – technical debt](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/measure%20and%20manage%20technical%20debt.md)
 - [Coordinating code deploys and continuous integration in Slack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Coordinating%20code%20deploys%20and%20continuous%20integration%20in%20Slack.md)
 - [Code Deployment best practices](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Code%20Deployment%20best%20practices.md)
 - [Coordinating pull requests and code reviews in Slack](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Coordinating%20pull%20requests%20and%20code%20reviews%20in%20Slack.md)
 - [awesome-AI_ML_Talent_Mangement](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/awesome-AI_ML_Talent_Mangement.md)
 - [Introducing and Scaling a GraphQL BFF](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Introducing%20and%20Scaling%20a%20GraphQL%20BFF.md)
-- [Building Blocks of Capability](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Building%20Blocks%20Of%20Capability%20.md)
 - [Dependency drift fitness function](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Dependency%20drift%20fitness%20function.md)
-- [Impact Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Impact%20Mapping.md)
 - [Open Decision Framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Open%20Decision%20Framework.md)
 - [API expand-contract](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/API%20expand-contract.md)
-- [Design systems](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Design%20systems.md)
-- [ShiftLeft](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/ShiftLeft.md)
-- [Tracing SRE's journey](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tracing%20SRE%E2%80%99s%20journey.md)
-- [Tech Radar - Scaling Contributions to Technology Selection](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Tech%20Radar%20-%20Scaling%20Contributions%20to%20Technology%20Selection.md)
-- [How to De-Scale your Organization](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DeScaling%20Organisation.md)
-- [Definition of production readiness (DPR)](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/definition%20of%20production%20readiness%20(DPR).md)
-- [DORA's research program](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/DORA's%20research%20program.md)
-- [Developer-Effectiveness](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Developer-Effectiveness.md)
-- [Platform Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Platform%20Engineering.md)
-- [Scaling Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Scaling%20Engineering.md)
-- [Path-to-production Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Path-to-production%20mapping.md)
-- [Team Cognitive Load](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Team%20Cognitive%20Load.md)
-- [Incremental Developer Platform](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Incremental%20Developer%20Platform.md)
 - [Depenedency Pruning](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Depenedency%20Pruning.md)
-- [Adaptive, Socio-Technical Systems with Architecture for Flow: Wardley Maps, DDD, and Team Topologies](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Wardley%20Maps-DDD-and-Team%20Topologies.md)
+  
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
