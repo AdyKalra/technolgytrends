@@ -76,6 +76,10 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
      <a href="https://github.com/AdyKalra/technolgytrends/tree/master/AI%20Trends">
       AI  
     </a>
+    <span> | </span>
+     <a href="https://github.com/AdyKalra/technolgytrends/tree/master/TechStrategy%20Trends">
+      Tech Strategy  
+    </a>
     </h3>
 </div>
 
@@ -92,7 +96,15 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 | [#](#-trends) 	| [Architecture](#Architecture-trends) 	| [Engineering](#Engineering-trends) |
 | [Development](#Development-trends) 	| [Testing](#testing-trends) 	| [NonFunctional](#NonFunctional-trends) 	| 
 | [CloudPlatform](#CloudPlatform-trends) 	| [PostProduction](#PostProduction-trends) 	|[AI](#AI-trends) 	| 
+| [TechStrategy](#TechStrategy-trends) 	| 	| 	| 
 
+#### TechStrategy trends
+- []()
+
+[Back to top :arrow_up:](#trends)
+[Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
+
+<!--- END OF TOPIC--->
 
 #### Architecture trends
 - [Microservices Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Microservice%20Architecture.md)
