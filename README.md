@@ -127,6 +127,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Team Cognitive Load](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Team%20Cognitive%20Load.md)
 - [Incremental Developer Platform](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Incremental%20Developer%20Platform.md)
 - [Impact Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Impact%20Mapping.md)
+- [Technical Review or Due Diligence](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Technical%20Review%20or%20Due%20Diligence.md)
   
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
