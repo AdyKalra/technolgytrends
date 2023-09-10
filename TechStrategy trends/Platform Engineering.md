@@ -40,3 +40,6 @@ StackShare helps teams establish self-service with stack standardizing and stack
 A hallmark of platform engineering readiness is establishing a central knowledge base for your tech stack. But it’s not enough to have visibility of your tools – teams need to be able to collaborate and track tech decisions.
 
 The knowledge base should also include organizational experience, recommendations, and expertise. By setting this precedence of collaboration between teams, proper tech stack intelligence preps the whole organization for the work that a platform engineer will execute.
+
+[watch this](https://youtu.be/WCyiUWIB1wU)
+
