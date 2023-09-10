@@ -180,6 +180,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Open Decision Framework](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Open%20Decision%20Framework.md)
 - [API expand-contract](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/API%20expand-contract.md)
 - [Depenedency Pruning](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Depenedency%20Pruning.md)
+- [Demo frontends for API-only products](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/demo%20frontends%20for%20API%20only%20products.md)
   
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
