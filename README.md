@@ -128,6 +128,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Incremental Developer Platform](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Incremental%20Developer%20Platform.md)
 - [Impact Mapping](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Impact%20Mapping.md)
 - [Technical Review or Due Diligence](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Technical%20Review%20or%20Due%20Diligence.md)
+- [Software delivery metrics for the C-Suite](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Software%20delivery%20metrics%20for%20the%20CSuite.md)
   
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
