@@ -269,6 +269,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [State-of-the-Cloud-Report-2022](https://resources.flexera.com/web/pdf/Flexera-State-of-the-Cloud-Report-2022.pdf?elqTrackId=f3bb660986704d2980404386aa003141&elqaid=6925&elqat=2)
 - [Infrastructure Automation Maturity Model](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20Automation%20Maturity%20Model.md)
 - [Infrastructure as Apps](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20As%20Apps.md)
+- [Akeyless - Unified Secrets Management Platform](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Akeyless.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
