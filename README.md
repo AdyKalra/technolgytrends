@@ -221,6 +221,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [In-App Updates](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/In-app%20Updates%20Android.md)
 - [Threat Modelling](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Threat%20Modelling.md)
 - [CUPID](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/CUPID.md)
+- [Apicurio Registry - High performance, runtime registry for API designs and schemas](https://github.com/AdyKalra/technolgytrends/blob/master/Development%20trends/Apicurio%20Registry.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
