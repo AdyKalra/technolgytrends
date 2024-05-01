@@ -13,4 +13,4 @@ Since 1.0 was published, DORA has released [Accelerate State of DevOps Report 20
 ![image](https://github.com/AdyKalra/technolgytrends/assets/8856857/7c535936-6bd0-4627-8c3a-0abf243b6328)
 
 
-[Source[](https://docs.google.com/presentation/d/1sPt1ItTkGiPNbTx6rjKWW5tEHKYk9dAXffkkZ2R-xSU/edit#slide=id.g1f7ccbd4f70_0_125)
+[Source](https://docs.google.com/presentation/d/1sPt1ItTkGiPNbTx6rjKWW5tEHKYk9dAXffkkZ2R-xSU/edit#slide=id.g1f7ccbd4f70_0_125)
