@@ -183,6 +183,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Depenedency Pruning](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Depenedency%20Pruning.md)
 - [Demo frontends for API-only products](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/demo%20frontends%20for%20API%20only%20products.md)
 - [Dev Productivity Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Dev%20Productivity%20Metrics.md)
+- [Backstage Automated entity descriptors](https://github.com/AdyKalra/technolgytrends/blob/master/EngineeringPractices%20trends/Backstage%20Entity%20Descriptors.md)
   
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
