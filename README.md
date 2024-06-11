@@ -298,6 +298,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 
 #### AI trends
 - [ChatGPT PromptStacks](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/PromptStacks.md)
+- [LLM-backed ChatOps](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/LLM-backed%20ChatOps.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
