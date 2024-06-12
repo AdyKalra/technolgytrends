@@ -248,6 +248,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Crypto shredding](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/Crypto%20shredding.md)
 - [SLSA](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/SLSA.md)
 - [SBOM](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/SBOM.md)
+- [Vulnerability Impact Scoring System](https://github.com/AdyKalra/technolgytrends/blob/master/NonFunctional%20trends/Vulnerability%20Impact%20Scoring%20System.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
