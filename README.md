@@ -277,6 +277,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Infrastructure Automation Maturity Model](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20Automation%20Maturity%20Model.md)
 - [Infrastructure as Apps](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Infrastructure%20As%20Apps.md)
 - [Akeyless - Unified Secrets Management Platform](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/Akeyless.md)
+- [Arm in the cloud](https://github.com/AdyKalra/technolgytrends/blob/master/CloudPlatform%20trends/arm%20in%20the%20cloud.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
