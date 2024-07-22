@@ -130,6 +130,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Technical Review or Due Diligence](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Technical%20Review%20or%20Due%20Diligence.md)
 - [Software delivery metrics for the C-Suite](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Software%20delivery%20metrics%20for%20the%20CSuite.md)
 - [DORA 2.0](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/DORA%202.0.md)
+- [CUDOS](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/CUDOS.md)
   
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
