@@ -1,1 +1,6 @@
-
+- One of the fundamental capabilities of Kubernetes is horizontal autoscaling: its ability to launch new pods when additional capacity is needed and shut them down when loads decrease.
+- However, this only works if the nodes needed to host the pods already exist.
+- [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) can do some rudimentary cluster expansion triggered by pod failures, but it has limited flexibility;
+- [Karpenter](https://karpenter.sh/), however, is a smarter, open-source [Kubernetes Operator](https://www.thoughtworks.com/radar/tools/kubernetes-operators) node autoscaler: it analyzes current workloads and pod scheduling constraints, selects an appropriate instance type and then starts or stops it as needed.
+- Karpenter is an operator in the spirit of tools such as [Crossplane](https://www.thoughtworks.com/radar/tools/crossplane) that can provision cloud resources outside the cluster.
+- Even though Karpenter was originally developed by AWS for EKS, it’s becoming the default node autoprovisioner across all cloud Kubernetes service providers, and Azure recently started supporting Karpenter with [AKS Karpenter Provider](https://github.com/Azure/karpenter-provider-azure).
