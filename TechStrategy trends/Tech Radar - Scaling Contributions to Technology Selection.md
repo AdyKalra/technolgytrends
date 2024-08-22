@@ -30,6 +30,8 @@ With the re-scoring, we moved a few technologies to ADOPT, confirming our invest
 ### Tech Radar changes moving forward and future focus
 The re-scoring exercise described in this post was a house-keeping exercise supported by clarifying the purpose of the Tech Radar, long-term ownership, and the contribution model. The amount of upcoming changes will of course depend on contributions from our Engineering Community and our appetite for trying out new technologies. While changes to ADOPT/HOLD are going to be evaluated on a quarterly basis, we have a steady stream of ongoing assessments and trials.
 
+[How to use a Radar within the org/personal use](https://www.youtube.com/watch?v=w_u8mQpTuhc)
+
 - The Principal Engineering Community focuses on:
   - supporting and guiding contributions from the Engineering Community,
   - identifying promising technologies to invest in,
