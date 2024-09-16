@@ -5,6 +5,10 @@
 
 Use the full power of Visual Studio Code, including the editor, terminal, debugger, GitHub Copilot, version control, settings sync, and the entire ecosystem of extensions. Work in the browser or hand off to your desktop.
 
+A talk at Black Hat has demonstrated that Microsoft Copilot bots are insecure because of inadequate defaults and other problems that leave them open to attack. Many of these issues have been fixed since the talk, but changes only affect new installations.
+
+https://www.theregister.com/2024/08/08/copilot_black_hat_vulns/
+
 ### Faster than your laptop
 
 * Spin up new dev environment for any sized project in seconds with prebuilt images. GitHub’s own 35GB dev image starts in under 10 seconds. Scale your cloud VMs up to 32 cores and 64GB of RAM. And with low-latency connections across four regions, you won’t even remember it’s not your local machine.
