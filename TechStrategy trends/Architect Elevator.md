@@ -21,4 +21,10 @@
 - IT architects can have many specializations: you’ll have network architects, security architects, software architects, solution architects, enterprise architects, and many more.
 - For example, living in a house with great architecture in a poorly planned city with endless traffic jams but few public facilities is going to be equally frustrating as living in a house with poor architecture in a well-functioning city.
 - architects deal with nonrequirements. This term doesn’t indicate things that aren’t required; rather, it refers to requirements that aren’t stated anywhere. This includes context, tacit assumptions, hidden dependencies, and other things that were never spelled out.
-- “connect the dots”, see trade-offs,look beyond products, articulate strategy, fight complexity, 
+- “connect the dots”, see trade-offs,look beyond products, articulate strategy, fight complexity,
+- Flat organizations might not need the elevator at all—a few flights of stairs are sufficient. This also means that the up-and-down role of an architect might be less critical: if management is keenly aware of the technical reality at the necessary level of detail and technical staff have direct access to senior management, fewer “enterprise” architects are needed.
+- The value of the architects in the elevator metaphor shouldn’t be measured by how “high” they travel but by how many floors they span.
+- Invariably you will meet folks who ride the elevator, but only once to the top and never back down. They enjoy the good view from the penthouse too much and feel that they didn’t work so hard to still be visiting the grimy engine room.
+
+- **You might also encounter folks who ride the elevator down merely to pick up buzzwords to sell as their own ideas in the penthouse. We don’t call these people architects. People who ride the elevator but don’t get out are commonly called lift boys.**
+- 
