@@ -26,5 +26,9 @@
 - The value of the architects in the elevator metaphor shouldn’t be measured by how “high” they travel but by how many floors they span.
 - Invariably you will meet folks who ride the elevator, but only once to the top and never back down. They enjoy the good view from the penthouse too much and feel that they didn’t work so hard to still be visiting the grimy engine room.
 
+#### Lift Boy
 - **You might also encounter folks who ride the elevator down merely to pick up buzzwords to sell as their own ideas in the penthouse. We don’t call these people architects. People who ride the elevator but don’t get out are commonly called lift boys.**
+-  They benefit from the ignorance in the penthouse to pursue a “technical” career without touching actual technology. You might be able to convert some of these folks by getting them genuinely interested in what’s going on in the engine room.
+-  Surprisingly, such architects can encounter resistance. Both the penthouse and the engine room might actually have grown quite content with being disconnected: the company leadership is under the false impression that the digital transformation is proceeding nicely, whereas the folks in the engine room enjoy the freedom to try out new technologies without much supervision. Such a disconnect between penthouse and engine room resembles a cruise ship heading for an iceberg with the engines running at full speed ahead: by the time the leadership realizes what’s going on, it’s likely too late.
+  
 - 
