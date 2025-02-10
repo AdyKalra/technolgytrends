@@ -105,7 +105,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Four Key Metrics](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Four%20Key%20Metrics.md)
 - [Scaling Microservices](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Scaling%20Microservices.md)
 - [Devops vs SRE](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/DevOps%20Versus%20SRE.md)
-- [Adaptive IT: Transformational framework](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Adaptive%20IT:%20Transformational%20framework.md)
+- [Adaptive IT: Transformational framework](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Adaptive%20IT%20-%20Transformational%20framework.md)
 - [Scaling Serverless Applications](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Scaling%20Serverless%20Applications.md)
 - [Data Driven Engineering](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Data%20Driven%20Engineering.md)
 - [DoD Enterprise DevSecOps Reference Design](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/DoD%20Enterprise%20DevSecOps%20Reference%20Design.md)
