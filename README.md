@@ -21,11 +21,6 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
     <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
       alt="API stability" />
   </a>  
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/choojs/choo">
-    <img src="https://img.shields.io/travis/choojs/choo/master.svg?style=flat-square"
-      alt="Build Status" /> 
-  </a>
   <!-- Test Coverage -->
   <a href="https://codecov.io/github/choojs/choo">
     <img src="https://img.shields.io/codecov/c/github/choojs/choo/master.svg?style=flat-square"
