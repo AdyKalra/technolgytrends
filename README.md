@@ -128,6 +128,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [CUDOS](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/CUDOS.md)
 - [Classic Build v/s Buy](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Classic%20Build%20versus%20Buy.md)
 - [Engineering effectiveness to business objectives](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Engineering%20effectiveness%20to%20business%20objectives.md)
+- [Buzzword Driven Development](https://github.com/AdyKalra/technolgytrends/blob/master/TechStrategy%20trends/Buzzword%20Driven%20Development.md)
   
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
