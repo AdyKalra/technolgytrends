@@ -159,6 +159,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [Gateway](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Gateway.md)
 - [Zero Trust Architecture](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Zero%20Trust%20Architecture.md)
 - [Design Tokens](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/Design%20Tokens.md)
+- [System Design Blueprint - Cheatsheet](https://github.com/AdyKalra/technolgytrends/blob/master/Architecture%20trends/System%20Design%20Blueprint%20-%20Cheatsheet.md)
 
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
