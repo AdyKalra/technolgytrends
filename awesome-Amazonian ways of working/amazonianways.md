@@ -1,5 +1,7 @@
 ## amazonian ways ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
+Shenanigans from working Bsackwards(secrets of Amazon) and follwoing ppl who have been there, done that!
+
 ### Culture of writing and being prepped
 1. **Writing is thinking, reading is understanding**
 Forcing myself to organize ideas in writing before presenting them has made an enormous difference. It exposes weak reasoning, sharpens priorities, and leads to clearer conversations. What feels like extra work upfront usually saves time later — and improves the quality of decisions. I realized I had to relearn how to read and **deliberately set aside time to write** — and that made a significant difference.
@@ -68,3 +70,29 @@ e. **Making them chase decisions**
 5. I looked for patterns in my own work
 ↳ If I was repeating the same task, escalation, or doc flow every week…
 ↳ I’d ask: What would solve this once and for all?
+
+## The habits that made high performance sustainable…not just possible.
+1. **Writing before speaking**
+↳ Before every major meeting or proposal, I write it out
+↳ One-pagers. Docs. Pre-reads.
+↳ Amazon taught me that clarity lives in writing…not in decks or brainstorms
+
+2. **Weekly operating rhythm**
+↳ I track what I moved, what’s blocked, and what’s next…every Friday
+↳ This turns into status updates, promo docs, and reflection time
+↳ If you don’t write it down, your impact disappears
+
+3. **Default to ownership, not job description**
+↳ If it’s broken, I raise it
+↳ If no one owns it, I take it
+↳ Amazon made ownership a reflex…and I kept it
+
+4. **Clear escalations with tradeoffs**
+↳ I never escalate just to raise awareness
+↳ I bring options, tradeoffs, and a recommendation
+↳ That habit still makes leaders trust me faster than anything else
+
+5. **Forwardable communication**
+↳ My updates are structured so my manager can copy-paste them into a VP thread
+↳ Outcome-driven, clear, actionable
+↳ Visibility is earned when people don’t have to translate your work
