@@ -1,5 +1,6 @@
 ## amazonian ways ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
+### Culture of writing and being prepped
 1. **Writing is thinking, reading is understanding**
 Forcing myself to organize ideas in writing before presenting them has made an enormous difference. It exposes weak reasoning, sharpens priorities, and leads to clearer conversations. What feels like extra work upfront usually saves time later — and improves the quality of decisions. I realized I had to relearn how to read and **deliberately set aside time to write** — and that made a significant difference.
 
@@ -12,6 +13,8 @@ At first, demanding the highest standards while maintaining a strong bias for ac
 4. **What Pissed Amazon Executives Off the Most**
 It wasn’t missed deadlines that got execs fired up. It wasn’t even bad news. It was something quieter…and way more dangerous:
 **Being unprepared, unclear, or unaware when it mattered.**
+
+### Have a clear plan, always have a point of view and signal rather than perfection!
 
 Here’s what consistently triggered the most frustration at the highest levels:
 
@@ -36,3 +39,32 @@ e. **Making them chase decisions**
 ↳ “Who owns it?”
 ↳ If you don’t have an answer, they’ll assume no one does
 **The execs who lead fast-moving orgs don’t expect perfection…they expect signal.**
+
+### How you Generate Ideas
+
+- **Good ideas move fast.**
+↳ Great ideas come with a plan.
+↳ And bad ideas?
+   ↳ They rarely survive the doc review.
+
+1. start with problems, not brainstorms
+↳ “What’s painful, repeated, or slowing people down?”
+↳ Every strong idea I had started with friction — not a whiteboard prompt
+
+2. mined old tickets, postmortems, and stakeholder comments
+↳ Feedback that gets logged and forgotten? That’s where ideas live
+↳ I’d scan Jira, docs, Slack threads…and look for what hadn’t been solved yet
+
+3. I asked 3 simple questions in every meeting
+↳ “What’s not working?”
+↳ “What are we assuming?”
+↳ “What’s still manual?”
+↳ The answers were gold
+
+4.  I sketched rough solutions before pitching anything
+↳ A diagram, a v0 workflow, a 5-line write-up
+↳ If people can see it, they can build on it…or help me kill it quickly
+
+5. I looked for patterns in my own work
+↳ If I was repeating the same task, escalation, or doc flow every week…
+↳ I’d ask: What would solve this once and for all?
