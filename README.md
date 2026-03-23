@@ -304,6 +304,8 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [ChatGPT PromptStacks](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/PromptStacks.md)
 - [LLM-backed ChatOps / LLMOps](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/LLM-backed%20ChatOps.md)
 - [GenAI to understand legacy codebases](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/GenAI%20to%20understand%20legacy%20codebase.md)
+- [GenAI genuine use cases](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/GenAI%20genuine%20use%20cases.md)
+-  [Curated shared instructions for software teams](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/Curated%20shared%20instructions.md)
 [Back to top :arrow_up:](#trends)
 [Edit this file](https://github.com/AdyKalra/technolgytrends/edit/master/README.md)
 <!--- END OF TOPIC--->
