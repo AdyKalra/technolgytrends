@@ -17,3 +17,8 @@ Add sections that help an agent work effectively with your project. Popular choi
 
 **Large monorepo? Use nested AGENTS.md files for subprojects**
 - Place another AGENTS.md inside each package. Agents automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can ship tailored instructions. For example, at time of writing the main OpenAI repo has 88 AGENTS.md files.
+
+
+**Context engineering** is the systematic design and optimization of the information provided to a large language model during inference to reliably produce the desired output. It involves structuring, selecting and sequencing contextual elements — such as prompts, retrieved data, memory, instructions and environmental signals — so the model’s internal layers operate in an optimal state. Unlike prompt engineering, which focuses only on the wording of prompts, context engineering considers the entire configuration of context: how relevant knowledge, instructions and prior context are organized and delivered to achieve the most effective results.
+
+Today, engineers use a range of discrete techniques that can be grouped into three areas: Context setup covers curation tactics such as using minimal system prompts, canonical few-shot examples and token-efficient tools for decisive action. Context management for long-horizon tasks addresses finite context windows through context summarization , structured note-taking to persist external memories and sub-agent architectures to isolate and summarize complex sub-tasks. Dynamic information retrieval relies on just-in-time (JIT) context retrieval, where agents autonomously load external data only when immediately relevant, maximizing efficiency and precision.
