@@ -148,3 +148,20 @@ Humans should never be the first ones finding basic failures.
 🔴 Challenge:
 If testing is still a phase or team, agents will generate defects faster than humans can catch them.
 
+
+**Step 5:** Human Approval Based on Risk, Not Effort
+**Humans approve:**
+
+- Directional correctness
+- Risk exposure
+- Edge cases
+- Business alignment
+
+**They do NOT:**
+
+- Re‑test manually
+- Reconstruct intent
+- Re‑read code line‑by‑line by default
+
+Approvals become risk gates, not quality labour.
+
