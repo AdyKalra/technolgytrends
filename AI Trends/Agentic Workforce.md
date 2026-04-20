@@ -79,6 +79,7 @@ Declares:
 
 ✅ FAANG behaviour
 Amazon and Meta explicitly separate “what problem” from “how it’s solved”.
+
 🔴 Challenge:
 Do your leaders still write solutions instead of intent?
 If yes agents will be bottlenecked immediately.
