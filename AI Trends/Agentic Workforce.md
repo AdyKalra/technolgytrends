@@ -20,3 +20,9 @@ Anything else is still “copilot mode”.
 - “Agents assist stages of the SDLC”
 
 Those are productivity tools. Not a workforce.
+
+## ✅ What an agentic workforce ACTUALLY is
+
+A system where agents own bounded work units end‑to‑end from intent → change → validation  and humans operate as directors, reviewers, and risk owners.
+
+
