@@ -165,3 +165,79 @@ If testing is still a phase or team, agents will generate defects faster than hu
 
 Approvals become risk gates, not quality labour.
 
+🔴 Challenge:
+Are your approvers rewarded for reducing risk or for finding issues late?
+
+**Step 6:** Agents Execute Deployment & Observe
+**Agents:**
+
+- Deploy behind flags / canaries
+- Observe live metrics
+- Detect anomalies
+- Auto‑rollback if thresholds breach
+
+**Humans:**
+
+- Review outcome metrics
+- Decide whether to expand, roll back permanently, or iterate
+
+This closes the loop.
+
+## Who Does What in an Agentic Workforce (Explicitly)
+**Humans are responsible for:**
+
+- Intent
+- Trade‑offs
+- Risk acceptance
+- Ethics & compliance
+- Escalation decisions
+
+**Agents are responsible for:**
+
+- Execution
+- Context preservation
+- Validation
+- Pattern reuse
+- Speed
+
+If both do everything → chaos.
+If agents only assist → stagnation.
+
+## The Hard Challenges You Can’t Avoid
+
+**Challenge 1: Trust**
+
+Are you prepared to let agents change real production code?
+
+If not you’re still piloting.
+
+**Challenge 2: Ownership**
+
+When an agent causes an incident, who owns it?
+
+If the answer is “the AI”  you’ll never scale this.
+
+**Challenge 3: Reduction, Not Addition**
+
+What roles, artefacts, and ceremonies are you willing to kill?
+
+FAANG didn’t add agents on top  they removed layers.
+
+**Challenge 4: Measurement**
+
+What tells you an agentic squad is better than a traditional one?
+
+If you can’t name:
+
+- cycle time,
+- defect escape rate,
+- blast radius,
+- decision latency,
+
+…you’ll argue by anecdote forever.
+
+**And the sharpest test:**
+
+If you removed agents for a week, delivery would grind to a halt.
+
+If that wouldn’t happen — they were never actually shipping work.
