@@ -129,3 +129,22 @@ Meta’s internal agents already operate across multi‑repo, multi‑day workfl
 - Do your repos, access model, and CI/CD allow any actor to do this safely today?
 - If not, agentic work will be artificially constrained.
 
+**Step 4:** Agents Validate Their Own Work
+This is non‑optional.
+
+**Agents must:**
+
+- Run unit, contract, and integration tests
+- Spin ephemeral environments
+- Validate non‑functional requirements
+- Compare results against baseline
+
+They must produce:
+
+A confidence report, not just “tests passed”
+
+Humans should never be the first ones finding basic failures.
+
+🔴 Challenge:
+If testing is still a phase or team, agents will generate defects faster than humans can catch them.
+
