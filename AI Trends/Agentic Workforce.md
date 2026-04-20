@@ -25,4 +25,38 @@ Those are productivity tools. Not a workforce.
 
 A system where agents own bounded work units end‑to‑end from intent → change → validation  and humans operate as directors, reviewers, and risk owners.
 
+### Key test
+If an agent cannot:
+
+- propose a change,
+- implement it across systems,
+- validate it against real constraints,
+- surface risks,
+- and submit it for approval…
+
+…it is not shipping work. It’s assisting.
+
+## The Smallest Unit of Shippable Work (This Is Critical)
+Before roles or tools, define this.
+### ✅ In an agentic model, the unit of work is:
+
+**An Intent Package**
+
+An Intent Package contains:
+
+- Problem statement (customer / business intent)
+- Constraints (security, data, performance, compliance)
+- Target outcome (measurable)
+- Guardrails (what must NOT change)
+
+This replaces:
+
+- PRDs
+- Jira tickets
+- Design handoffs
+- “Verbal context”
+
+🔴 Challenge:
+If intent still lives in decks, Slack, or meetings — agents will not ship safely.
+
 
