@@ -57,6 +57,29 @@ This replaces:
 - “Verbal context”
 
 🔴 Challenge:
-If intent still lives in decks, Slack, or meetings — agents will not ship safely.
+If intent still lives in decks, Slack, or meetings, Agents will not ship safely.
 
+
+## How Work Actually Ships (Step‑by‑Step)
+**Step 1:** Human Sets Direction (Not Tasks)
+**Human role:**
+
+Product / Tech lead defines intent, not solution
+Declares:
+
+- Outcome
+- Constraints
+- Risk tolerance
+
+**Agent role**
+
+- Interprets intent
+- Decomposes into executable changes
+- Identifies affected systems, APIs, tests, data
+
+✅ FAANG behaviour
+Amazon and Meta explicitly separate “what problem” from “how it’s solved”.
+🔴 Challenge:
+Do your leaders still write solutions instead of intent?
+If yes agents will be bottlenecked immediately.
 
