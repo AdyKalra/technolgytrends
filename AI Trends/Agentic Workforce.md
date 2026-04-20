@@ -84,3 +84,29 @@ Amazon and Meta explicitly separate “what problem” from “how it’s solved
 Do your leaders still write solutions instead of intent?
 If yes agents will be bottlenecked immediately.
 
+**Step 2:** Agents Propose a Change Plan
+Agent responsibilities
+An agent must:
+
+Produce a change plan covering:
+
+- Code changes
+- Integration impacts
+- Required tests
+- Rollout approach
+
+**Call out:**
+
+- Unknowns
+- Risk areas
+- Data dependencies
+
+This plan is machine‑generated but human‑readable.
+**Human check**
+
+- “Is this the change we want?”
+- Not: “Did you write it right?”
+
+🔴 Challenge:
+If humans are still decomposing work into Jira tasks, you haven’t crossed the agentic threshold.
+
