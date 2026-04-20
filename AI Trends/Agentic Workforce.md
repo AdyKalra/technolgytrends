@@ -110,3 +110,22 @@ This plan is machine‑generated but human‑readable.
 🔴 Challenge:
 If humans are still decomposing work into Jira tasks, you haven’t crossed the agentic threshold.
 
+**Step 3:** Agents Implement Changes Across the LC
+
+**Agents now:**
+
+- Generate code across repositories
+- Update contracts and schemas
+- Create or modify tests
+- Update monitoring / alerts
+
+**Important:** Agents are allowed to touch multiple systems within pre‑approved boundaries.
+
+This is where enterprises usually flinch.
+✅ FAANG reality
+Meta’s internal agents already operate across multi‑repo, multi‑day workflows with guardrails and checkpoints.
+
+🔴 Challenge:
+- Do your repos, access model, and CI/CD allow any actor to do this safely today?
+- If not, agentic work will be artificially constrained.
+
