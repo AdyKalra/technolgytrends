@@ -241,3 +241,11 @@ If you can’t name:
 If you removed agents for a week, delivery would grind to a halt.
 
 If that wouldn’t happen — they were never actually shipping work.
+
+
+**Real‑World Agentic Delivery & Platform Patterns**
+|Netflix / Metaflow |https://github.com/Netflix/metaflow|
+|GitHub Agentic Workflows|https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/|
+|Agentic Platform Engineering|https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/|
+|AutoGen (Microsoft)|https://github.com/microsoft/autogen|
+|||
