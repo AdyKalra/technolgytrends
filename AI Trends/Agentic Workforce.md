@@ -251,4 +251,8 @@ If that wouldn’t happen — they were never actually shipping work.
 |GitHub Agentic Workflows|https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/|
 |Agentic Platform Engineering|https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/|
 |AutoGen (Microsoft)|https://github.com/microsoft/autogen|
-|||
+|Ruflo|https://github.com/topics/agentic-engineering|
+|Agentic DevOps|https://github.com/agenticsorg/devops|
+|Agentic Repos (Best mental model)|https://victornava.dev/2026/02/24/agentic-repos-the-new-ci-cd-is-ci-cd-tasks/|
+|Awesome AI Agents|https://github.com/jim-schwoebel/awesome_ai_agents|
+
