@@ -244,6 +244,9 @@ If that wouldn’t happen — they were never actually shipping work.
 
 
 **Real‑World Agentic Delivery & Platform Patterns**
+|     |     |        
+|:-:  |:-:  |
+|UseCase|Link|
 |Netflix / Metaflow |https://github.com/Netflix/metaflow|
 |GitHub Agentic Workflows|https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/|
 |Agentic Platform Engineering|https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/|
