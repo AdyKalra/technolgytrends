@@ -143,6 +143,7 @@ Everything tech - idiosyncratic opinion of a bunch of feeds , radars and technol
 - [GenAI genuine use cases](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/GenAI%20genuine%20use%20cases.md)
 -  [Curated shared instructions for software teams](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/Curated%20shared%20instructions.md)
 - [Srongest organisations and individuals to study](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/strongest%20organisations%20and%20individuals%20to%20study.md)
+- [An update from Amazon engineering leadership on the role of the developer in the age of AI](https://github.com/AdyKalra/technolgytrends/blob/master/AI%20Trends/Update%20from%20Amazon%20engineering%20leadership%20on%20the%20role%20of%20the%20developer%20in%20the%20age%20of%20AI.md)
 
 [Back to top :arrow_up:](#trends)
 
